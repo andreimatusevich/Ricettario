@@ -1,0 +1,46 @@
+﻿@using System.Linq
+@model Ricettario.Controllers.ScheduleEmailModel
+
+@{
+    ViewBag.Title = "Menu - Week of " + Model.Name;
+    Layout = "";
+}
+
+<table style="width: 400px; border-collapse: collapse;">
+    @foreach (var day in Model.Days)
+    {
+        <tr><td style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; vertical-align: top; border: 1px solid #98bf21; padding: 5px 7px 4px 7px; font-size: 1.2em; text-align: left; background-color: #A7C942; color:white">@day.Name</td></tr>
+        foreach (var meal in day.Meals)
+        {
+            <tr>
+                <td style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; vertical-align: top; font-size: 1.0em; border: 1px solid #98bf21; padding: 3px 7px 2px 7px; background-color:white; color:black">
+                    @if (meal.Entries.Any())
+                    {
+                        <ul style="margin: 0; padding: 0 0 0 18px">
+                            @foreach (var entry in meal.Entries)
+                            {
+                                <li>
+                                    <span>@entry.Name</span>
+                                    <span style="float: right; text-align: right; font-size: 0.875em;">
+                                        @if (@entry.IsUrl)
+                                        {
+                                            <a href="@entry.Reference">@entry.ReferenceTitle</a>
+                                        }
+                                        else
+                                        {
+                                            @entry.ReferenceTitle
+                                        }
+                                    </span>
+                                </li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+                        <span>--//--</span>
+                    }
+                </td>
+            </tr>
+        }
+    }
+</table>

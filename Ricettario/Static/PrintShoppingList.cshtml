@@ -1,0 +1,28 @@
+﻿@if (Model.Items != null && Model.Items.Any() && !String.IsNullOrEmpty(Model.Items.First().Product))
+{
+    <table style="width: 400px; border-collapse: collapse;">
+        <tr>
+            <th style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; vertical-align: top; border: 1px solid #98bf21; padding: 5px 7px 4px 7px; font-size: 1.2em; text-align: left; background-color: #A7C942; color:white">Department</th>
+            <th style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; vertical-align: top; border: 1px solid #98bf21; padding: 5px 7px 4px 7px; font-size: 1.2em; text-align: left; background-color: #A7C942; color:white">Description</th>
+            <th style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; vertical-align: top; border: 1px solid #98bf21; padding: 5px 7px 4px 7px; font-size: 1.2em; text-align: left; background-color: #A7C942; color:white">Product</th>
+        </tr>
+
+        @foreach (var item in Model.Items)
+        {
+            <tr>
+                <td style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; vertical-align: top; font-size: 1.2em; border: 1px solid #98bf21; padding: 3px 7px 2px 7px; background-color:white; color:black">@item.Department</td>
+                <td style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; vertical-align: top; font-size: 1.0em; border: 1px solid #98bf21; padding: 3px 7px 2px 7px; background-color:white; color:black">
+                    <pre style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; vertical-align: top; font-size: 1.0em; padding: 0px 0px 0px 0px; background-color:white; color:black">@item.Name</pre>
+                </td>
+                <td style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; vertical-align: top; font-size: 1.2em; border: 1px solid #98bf21; padding: 3px 7px 2px 7px; background-color:white; color:black">@item.Product</td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <h3>No items to buy</h3>
+}
+
+
+

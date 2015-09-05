@@ -1,0 +1,209 @@
+﻿@{
+    ViewBag.Title = "Recipes";
+}
+<style>
+    .btn-lg {
+        padding: 0px;
+        font-size: 1.3em;
+        border-radius: 0px;
+    }
+
+    .pull-down {
+        float: none;
+        display: table-cell;
+        vertical-align: bottom;
+    }
+</style>
+
+<script>
+    var childsUrl = '@Url.Action("Ingredients", "Main")?parentId='
+</script>
+
+<script type="text/html" id="templateRecipeView">
+    <tr>
+        <td data-bind="text: item.Id"></td>
+        <td data-bind="text: item.Name"></td>
+        <!-- ko if: (item.Reference() != null && item.Reference().toLowerCase().startsWith('http')) -->
+        <td><a data-bind="text: item.Description() || item.Reference().getHostname(), attr: { href: item.Reference(), title: item.Reference() }"></a></td>
+        <!-- /ko -->
+        <!-- ko if: (item.Reference() != null && !item.Reference().toLowerCase().startsWith('http')) -->
+        <td data-bind="text: item.Reference() || item.Description()"></td>
+        <!-- /ko -->
+        <!-- ko if: item.Reference() == null -->
+        <td></td>
+        <!-- /ko -->
+        <td data-bind="text: item.Tags"></td>
+        <td><a data-bind="text: 'Ingredients ' + item.Ingredients().length, attr: { href: childsUrl + item.Id() }"></a></td>
+        <td>
+            <button class="show-on-hover btn btn-default btn-xs" type="button"><span class="glyphicon glyphicon-edit" data-bind="click: $root.beginEdit"></span></button>
+        </td>
+    </tr>
+</script>
+
+<script type="text/html" id="editTemplateRecipeView">
+    <tr>
+        <td data-bind="text: item.Id"></td>
+        <td><input class="form-control" data-bind="textInput: item.Name" /></td>
+        <td>
+            Reference: <input class="form-control" data-bind="textInput: item.Reference" />
+            Description: <input class="form-control" data-bind="textInput: item.Description" />
+        </td>
+        <td><input class="form-control" data-bind="textInput: item.Tags" /></td>
+        <td></td>
+        <td>
+            <button class="btn btn-success btn-xs" type="button"><span class="glyphicon glyphicon-save green" data-bind="click: $root.save"></span></button>
+            <button class="btn btn-danger btn-xs" type="button"><span class="glyphicon glyphicon-remove" data-bind="click: $root.delete"></span></button>
+            <button class="btn btn-default btn-xs" type="button"><span class="glyphicon glyphicon-new-window" data-bind="click: $root.cancelEdit"></span></button>
+        </td>
+    </tr>
+</script>
+
+<div id="RecipeView">
+    <p data-bind="messageSlide: errorMessage, messageSlideDuration: 5000"></p>
+
+    <h2>
+        <span data-bind="text: $root.items().length"></span>&nbsp;<span>@ViewBag.Title</span>
+        <a class="btn btn-default btn-xs" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+        </a>
+    </h2>
+    
+    <div class="collapse" id="collapseExample">
+        <div class="well">
+            <form role="form" data-bind="with: newRecipe">
+                <div class="form-group row">
+                    <div class="col-xs-6">
+                        <label for="Name">Name</label>
+                        <input type="text" name="Name" id="Name" data-bind="textInput: Name" class="form-control" placeholder="Name">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-xs-6">
+                        <label for="Reference">Reference</label>
+                        <input type="text" name="Reference" id="Reference" data-bind="textInput: Reference" class="form-control" placeholder="Reference or Url">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-xs-6">
+                        <label for="Description">Description</label>
+                        <input type="text" name="Description" id="Description" data-bind="textInput: Description" class="form-control" placeholder="Description">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-xs-6">
+                        <label for="Tags">Tags</label>
+                        <input type="text" name="Tags" id="Tags" data-bind="textInput: Tags" class="form-control" placeholder="Tags">
+                        <p></p>
+                        <div class="btn-group" data-toggle="buttons">
+                            <!-- ko foreach:  { data: $root.tags, as: 'tag' } -->
+                            <label class="btn btn-default btn-xs" type="button">
+                                <input type="radio" />
+                                <span data-bind="text: tag, click: $root.setTags"></span>
+                            </label>
+                            <!-- /ko -->
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-xs-6">
+                        <label for="Ingredients">Ingredients</label>
+                        <textarea name="Ingredients" id="Ingredients" rows="14" cols="38" data-bind="textInput: Ingredients" class="form-control" style="width: 100%" placeholder="Ingredients"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-xs-2 pull-down">
+                        <button class="btn btn-success" type="button">
+                            <span data-bind="click: $root.addRecipe">Add Recipe</span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <p></p>
+
+    <div class="row">
+        <div class="btn-group" data-toggle="buttons">
+            <label class="btn btn-default btn-xs active" type="button">
+                <input type="radio" checked="checked" />
+                <span data-bind="text: 'All', click: function(data, event) { $root.filterBy(''); }"></span>
+            </label>
+            <!-- ko foreach:  { data: tags, as: 'tag' } -->
+            <label class="btn btn-default btn-xs" type="button">
+                <input type="radio" />
+                <span data-bind="text: tag, click: $root.filterBy"></span>
+            </label>
+            <!-- /ko -->
+        </div>
+    </div>
+
+    <table class="dataTable table table-metro-header table-left-thead-align table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Reference</th>
+                <th>Tags</th>
+                <th>Ingredients</th>
+                <th>Action&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            </tr>
+            <tr data-bind="foreach: { data: search, as: 'item' }">
+                <td><input class="form-control" data-bind="textInput: item.Id" /></td>
+                <td><input class="form-control" data-bind="textInput: item.Name" /></td>
+                <td><input class="form-control" data-bind="textInput: item.Reference" /></td>
+                <td><input class="form-control" data-bind="textInput: item.Tags" /></td>
+                <td></td>
+                <td>
+                    <button class="btn btn-primary btn-xs" type="button"><span class="glyphicon glyphicon-search" data-bind="click: $root.load"></span></button>
+                    <button class="btn btn-success btn-xs" type="button"><span class="glyphicon glyphicon-plus" data-bind="click: $root.add"></span></button>
+                </td>
+            </tr>
+        </thead>
+        <tbody data-bind="template: { name: $root.getTemplateName, foreach: items, as: 'item' }"></tbody>
+    </table>
+</div>
+
+<script>
+    var model;
+    $(function () {
+        var view = 'RecipeView';
+        var recipeModel = new RestBackedViewModel({
+            viewName: view,
+            baseUrl: '@Url.Content("~/Recipe")',
+            search: { Id: '@Model.id', Name: '@Model.name', Reference: '', Tags: '' }
+        });
+
+        recipeModel.newRecipe = ko.mapping.fromJS({ Name: '', Reference: '', Description: '', Tags: '', Ingredients: '' });
+
+        recipeModel.tags = ko.observable([]);
+        $.getJSON('@Url.Content("~/Reference/Tags")', function (array) {
+            recipeModel.tags(array);
+        }).fail(function (error) {
+            alert(error);
+        });
+
+        recipeModel.filterBy = function (tag) {
+            recipeModel.search()[0].Tags(tag);
+            recipeModel.reload();
+        };
+
+        recipeModel.setTags = function (tag) {
+            var newRecipe = recipeModel.newRecipe;
+            if (newRecipe.Tags() !== '') {
+                newRecipe.Tags(newRecipe.Tags() + ',' + tag);
+            } else {
+                newRecipe.Tags(tag);
+            }
+        };
+        
+        recipeModel.addRecipe = function () {
+            recipeModel.ajax("POST", '@Url.Content("~/Recipe/Add")', ko.mapping.toJS(recipeModel.newRecipe)).then(recipeModel.reload);
+        };
+
+        ko.applyBindings(recipeModel, document.getElementById(view));
+
+        model = recipeModel;
+    });
+</script>
+

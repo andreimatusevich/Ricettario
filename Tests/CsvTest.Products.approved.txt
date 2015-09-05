@@ -1,0 +1,2834 @@
+﻿[
+  {
+    "Id": 0,
+    "Name": "",
+    "Synonyms": [],
+    "WhereToBuy": {
+      "StoreId": 0,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": false
+  },
+  {
+    "Id": 1,
+    "Name": "alaska pollock",
+    "Synonyms": [
+      "минтай"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 11
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 2,
+    "Name": "almonds",
+    "Synonyms": [
+      "миндаль"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 3,
+    "Name": "almonds flour",
+    "Synonyms": [
+      "миндальная мука"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 26
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 4,
+    "Name": "apple juice",
+    "Synonyms": [
+      "яблочный сок"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 5,
+    "Name": "apples",
+    "Synonyms": [
+      "яблоки"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 17
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 6,
+    "Name": "applesauce",
+    "Synonyms": [
+      "яблочное пюре"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 7,
+    "Name": "arugula",
+    "Synonyms": [
+      "руккола"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 1
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 8,
+    "Name": "asparagus",
+    "Synonyms": [
+      "спаржа"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 4
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 9,
+    "Name": "avocado",
+    "Synonyms": [
+      "авокадо"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 10,
+    "Name": "backweet",
+    "Synonyms": [
+      "гречка"
+    ],
+    "WhereToBuy": {
+      "StoreId": 7,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 11,
+    "Name": "bacon",
+    "Synonyms": [
+      "бекон"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 30
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 12,
+    "Name": "baking powder",
+    "Synonyms": [
+      "пекарский порошок"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 21
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 13,
+    "Name": "baking soda",
+    "Synonyms": [
+      "пищевая сода"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 21
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 14,
+    "Name": "balsamic vinegar",
+    "Synonyms": [
+      "бальзамический уксус"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 25
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 15,
+    "Name": "banana",
+    "Synonyms": [
+      "банан"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 8
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 16,
+    "Name": "barley",
+    "Synonyms": [
+      "ячмень"
+    ],
+    "WhereToBuy": {
+      "StoreId": 7,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 17,
+    "Name": "basil",
+    "Synonyms": [
+      "базилик"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 5
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 18,
+    "Name": "bay leaf",
+    "Synonyms": [
+      "лавровый лист"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 19,
+    "Name": "beef",
+    "Synonyms": [
+      "говядина"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 20,
+    "Name": "beer",
+    "Synonyms": [
+      "пиво"
+    ],
+    "WhereToBuy": {
+      "StoreId": 9,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 21,
+    "Name": "beet",
+    "Synonyms": [
+      "свекла"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 8
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 22,
+    "Name": "black olives",
+    "Synonyms": [
+      "оливки черные"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 23,
+    "Name": "black pepper in a mill",
+    "Synonyms": [
+      "перец черный в мельнице"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 24,
+    "Name": "blueberries",
+    "Synonyms": [
+      "черника"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 17
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 25,
+    "Name": "bologna",
+    "Synonyms": [
+      "вареная колбаса"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 18
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 26,
+    "Name": "boston lettuce",
+    "Synonyms": [
+      "бостонский салат"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 1
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 27,
+    "Name": "bouillon cubes",
+    "Synonyms": [
+      "бульонные кубики"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 28,
+    "Name": "brandy",
+    "Synonyms": [
+      "бренди"
+    ],
+    "WhereToBuy": {
+      "StoreId": 9,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 29,
+    "Name": "breadcrumbs",
+    "Synonyms": [
+      "панировочные сухари"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 30,
+    "Name": "broccoli",
+    "Synonyms": [
+      "брокколи"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 17
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 31,
+    "Name": "brown rice",
+    "Synonyms": [
+      "рис коричневый"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 32,
+    "Name": "buffalo hot sauce",
+    "Synonyms": [
+      "острый соус"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 33,
+    "Name": "bunburgers",
+    "Synonyms": [
+      "булочки для гамбургеров"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 9
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 34,
+    "Name": "butter",
+    "Synonyms": [
+      "масло сливочное"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 35,
+    "Name": "cabbage",
+    "Synonyms": [
+      "капуста"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 4
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 36,
+    "Name": "cacao",
+    "Synonyms": [
+      "какао"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 37,
+    "Name": "canned beans",
+    "Synonyms": [
+      "консервированные бобы"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 20
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 38,
+    "Name": "canned tuna",
+    "Synonyms": [
+      "консервированный тунец"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 18
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 39,
+    "Name": "cappers",
+    "Synonyms": [
+      "каперсы"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 15
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 40,
+    "Name": "carrots",
+    "Synonyms": [
+      "морковь"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 6
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 41,
+    "Name": "cauliflower",
+    "Synonyms": [
+      "цветная капуста"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 17
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 42,
+    "Name": "celery",
+    "Synonyms": [
+      "сельдерей"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 17
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 43,
+    "Name": "cheese sticks",
+    "Synonyms": [
+      "сырные палочки"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 44,
+    "Name": "chicken breasts",
+    "Synonyms": [
+      "куриные грудки"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 23
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 45,
+    "Name": "chicken broth",
+    "Synonyms": [
+      "куриный бульон"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 46,
+    "Name": "chicken egg",
+    "Synonyms": [
+      "яйцо куриное"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 8
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 47,
+    "Name": "chicken legs",
+    "Synonyms": [
+      "куриные окорочка"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 23
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 48,
+    "Name": "chicken meatballs",
+    "Synonyms": [
+      "куриные тефтели"
+    ],
+    "WhereToBuy": {
+      "StoreId": 6,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 49,
+    "Name": "chicken sausages",
+    "Synonyms": [
+      "куриные сосиски"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 50,
+    "Name": "chicken whole",
+    "Synonyms": [
+      "курица"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 23
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 51,
+    "Name": "chicken wings",
+    "Synonyms": [
+      "куриные крылышки"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 23
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 52,
+    "Name": "chick-pea",
+    "Synonyms": [
+      "нут"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 10
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 53,
+    "Name": "chili pepper",
+    "Synonyms": [
+      "перец чили"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 1
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 54,
+    "Name": "chives",
+    "Synonyms": [
+      "лук шнитт"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 3
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 55,
+    "Name": "cilantro",
+    "Synonyms": [
+      "кинза"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 8
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 56,
+    "Name": "cinnamon",
+    "Synonyms": [
+      "корица"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 22
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 57,
+    "Name": "cinnamon stick",
+    "Synonyms": [
+      "палочка корицы"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 58,
+    "Name": "coffee",
+    "Synonyms": [
+      "кофе"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 2
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 59,
+    "Name": "cookies for demos",
+    "Synonyms": [
+      "печенье для демы"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 7
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 60,
+    "Name": "corn canned",
+    "Synonyms": [
+      "кукуруза консервированная"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 13
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 61,
+    "Name": "corn tortilas",
+    "Synonyms": [
+      "кукурузные лепешки"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 12
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 62,
+    "Name": "cornsratch",
+    "Synonyms": [
+      "кукурузный крахмал"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 21
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 63,
+    "Name": "couscous",
+    "Synonyms": [
+      "кус-кус"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 64,
+    "Name": "crab meat",
+    "Synonyms": [
+      "крабовое мясо"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 14
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 65,
+    "Name": "cress salad",
+    "Synonyms": [
+      "кресс салат"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 1
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 66,
+    "Name": "cucumber",
+    "Synonyms": [
+      "огурец"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 17
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 67,
+    "Name": "dark chocolate",
+    "Synonyms": [
+      "темный шоколад"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 21
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 68,
+    "Name": "dijon mustard",
+    "Synonyms": [
+      "дижонская горчица"
+    ],
+    "WhereToBuy": {
+      "StoreId": 5,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 69,
+    "Name": "dill",
+    "Synonyms": [
+      "укроп"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 8
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 70,
+    "Name": "dried apricots",
+    "Synonyms": [
+      "курага"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 9
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 71,
+    "Name": "dried parsley",
+    "Synonyms": [
+      "петрушка сушеная"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 72,
+    "Name": "dried small white beans",
+    "Synonyms": [
+      "сушеные маленькие белые бобы"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 17
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 73,
+    "Name": "dry basil",
+    "Synonyms": [
+      "сушеный базилик"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 74,
+    "Name": "dry taragone",
+    "Synonyms": [
+      "сухой тарагон"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 22
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 75,
+    "Name": "endive",
+    "Synonyms": [
+      "эндивий"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 1
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 76,
+    "Name": "farro",
+    "Synonyms": [
+      "фарро"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 26
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 77,
+    "Name": "fennel",
+    "Synonyms": [
+      "фенхель"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 2
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 78,
+    "Name": "feta cheese",
+    "Synonyms": [
+      "сыр фета"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 3
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 79,
+    "Name": "fillet of salmon",
+    "Synonyms": [
+      "филе красной рыбы"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 28
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 80,
+    "Name": "fish",
+    "Synonyms": [
+      "рыба"
+    ],
+    "WhereToBuy": {
+      "StoreId": 1,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 81,
+    "Name": "flakes of garlic",
+    "Synonyms": [
+      "хлопья чеснока"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 82,
+    "Name": "flour",
+    "Synonyms": [
+      "мука"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 83,
+    "Name": "frozen berry",
+    "Synonyms": [
+      "замороженные ягоды"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 14
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 84,
+    "Name": "frozen flounder",
+    "Synonyms": [
+      "замороженные камбала"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 12
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 85,
+    "Name": "frozen salmon",
+    "Synonyms": [
+      "замороженный лосось"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 13
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 86,
+    "Name": "frozen tilapia",
+    "Synonyms": [
+      "замороженная тилапия"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 12
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 87,
+    "Name": "frozen vegetables",
+    "Synonyms": [
+      "замороженные овощи"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 15
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 88,
+    "Name": "frozen veggies",
+    "Synonyms": [
+      "замороженные овощи"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 14
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 89,
+    "Name": "fruits for damian",
+    "Synonyms": [
+      "фрукты для дамиана"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 20
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 90,
+    "Name": "garlic",
+    "Synonyms": [
+      "чеснок"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 10
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 91,
+    "Name": "garlic powder",
+    "Synonyms": [
+      "чеснок порошок"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 22
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 92,
+    "Name": "ginger",
+    "Synonyms": [
+      "имбирь"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 7
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 93,
+    "Name": "goat cheese",
+    "Synonyms": [
+      "козий сыр"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 5
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 94,
+    "Name": "grape",
+    "Synonyms": [
+      "виноград"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 24
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 95,
+    "Name": "green beans",
+    "Synonyms": [
+      "зеленая фасоль"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 31
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 96,
+    "Name": "green onion",
+    "Synonyms": [
+      "лук зеленый"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 2
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 97,
+    "Name": "green peas",
+    "Synonyms": [
+      "зеленый горошек"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 23
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 98,
+    "Name": "green peas, canned",
+    "Synonyms": [
+      "зеленый горошек, консервированные"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 13
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 99,
+    "Name": "green salad",
+    "Synonyms": [
+      "зеленый салат"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 1
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 100,
+    "Name": "ham",
+    "Synonyms": [
+      "ветчина"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": false
+  },
+  {
+    "Id": 101,
+    "Name": "heavy cream",
+    "Synonyms": [
+      "жирных сливок"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 30
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 102,
+    "Name": "herbs",
+    "Synonyms": [
+      "травы"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 1
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 103,
+    "Name": "honey",
+    "Synonyms": [
+      "мед"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 104,
+    "Name": "honey mustard dressing",
+    "Synonyms": [
+      "медово горчичная заправка"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 105,
+    "Name": "hot red pepper",
+    "Synonyms": [
+      "красный перец"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 1
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 106,
+    "Name": "hummus",
+    "Synonyms": [
+      "хумус"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 18
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 107,
+    "Name": "italian seasoning",
+    "Synonyms": [
+      "приправа итальянская"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 108,
+    "Name": "jerusalem artichoke linguine",
+    "Synonyms": [
+      "паста из иерусалимского артишока"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 26
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 109,
+    "Name": "kefir",
+    "Synonyms": [
+      "кефир"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 110,
+    "Name": "ketchup",
+    "Synonyms": [
+      "кетчуп"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 111,
+    "Name": "lamb",
+    "Synonyms": [
+      "баран"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 24
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 112,
+    "Name": "leek",
+    "Synonyms": [
+      "лук порей"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 9
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 113,
+    "Name": "lemon",
+    "Synonyms": [
+      "лимон"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 11
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 114,
+    "Name": "lemon-pepper flakes",
+    "Synonyms": [
+      "лимонно-перечные хлопья"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 22
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 115,
+    "Name": "lentils",
+    "Synonyms": [
+      "чечевица"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 116,
+    "Name": "lettuce",
+    "Synonyms": [
+      "салат-латук"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 1
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 117,
+    "Name": "lime",
+    "Synonyms": [
+      "лайм"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 11
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 118,
+    "Name": "liver",
+    "Synonyms": [
+      "печень"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 24
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 119,
+    "Name": "mayonnaise",
+    "Synonyms": [
+      "майонез"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 16
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 120,
+    "Name": "milk",
+    "Synonyms": [
+      "молоко"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 8
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 121,
+    "Name": "mineral water",
+    "Synonyms": [
+      "минеральная вода"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 21
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 122,
+    "Name": "mineral watter",
+    "Synonyms": [
+      "миниралка"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 1
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 123,
+    "Name": "mint",
+    "Synonyms": [
+      "мята"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 1
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 124,
+    "Name": "mozzarella",
+    "Synonyms": [
+      "моцарелла"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 30
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 125,
+    "Name": "mushrooms",
+    "Synonyms": [
+      "грибы"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 17
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 126,
+    "Name": "nutmeg",
+    "Synonyms": [
+      "мускатный орех"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 22
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 127,
+    "Name": "oatmeal",
+    "Synonyms": [
+      "овсянка"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 26
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 128,
+    "Name": "oil safflower",
+    "Synonyms": [
+      "сафлоровое масло"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 129,
+    "Name": "olive oil extra virgin",
+    "Synonyms": [
+      "оливковое масло экстра первого"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 130,
+    "Name": "olive oil light",
+    "Synonyms": [
+      "оливковое масло легкое"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 10
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 131,
+    "Name": "onion",
+    "Synonyms": [
+      "лук"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 10
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 132,
+    "Name": "onion powder",
+    "Synonyms": [
+      "лук порошок"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 22
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 133,
+    "Name": "orange",
+    "Synonyms": [
+      "апельсин"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 11
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 134,
+    "Name": "orange juice",
+    "Synonyms": [
+      "сок апельсиновый"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 135,
+    "Name": "oregano",
+    "Synonyms": [
+      "орегано"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 3
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 136,
+    "Name": "pampers",
+    "Synonyms": [
+      "памперсы"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 137,
+    "Name": "paprika",
+    "Synonyms": [
+      "паприка"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 17
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 138,
+    "Name": "paprika green",
+    "Synonyms": [
+      "паприка зеленый"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 17
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 139,
+    "Name": "paprika red",
+    "Synonyms": [
+      "паприка красная"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 17
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 140,
+    "Name": "parmesan",
+    "Synonyms": [
+      "пармезан"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 30
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 141,
+    "Name": "parsley",
+    "Synonyms": [
+      "петрушка"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 8
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 142,
+    "Name": "parsnip",
+    "Synonyms": [
+      "пастернак"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 143,
+    "Name": "pasta",
+    "Synonyms": [
+      "макаронные изделия"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 144,
+    "Name": "pasta with raisins",
+    "Synonyms": [
+      "маркароны звездочки с изюмом"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 145,
+    "Name": "pickles",
+    "Synonyms": [
+      "соленые огурчики"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 18
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 146,
+    "Name": "pizza",
+    "Synonyms": [
+      "пица"
+    ],
+    "WhereToBuy": {
+      "StoreId": 4,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 147,
+    "Name": "plum",
+    "Synonyms": [
+      "слива"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 11
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 148,
+    "Name": "pork",
+    "Synonyms": [
+      "свинина"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 24
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 149,
+    "Name": "potato",
+    "Synonyms": [
+      "картофель"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 10
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 150,
+    "Name": "prunes",
+    "Synonyms": [
+      "чернослив"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 9
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 151,
+    "Name": "puff pastry",
+    "Synonyms": [
+      "слоеное тесто"
+    ],
+    "WhereToBuy": {
+      "StoreId": 1,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 152,
+    "Name": "pumpkin",
+    "Synonyms": [
+      "тыква"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 10
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 153,
+    "Name": "radicchio",
+    "Synonyms": [
+      "радиччио"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 2
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 154,
+    "Name": "radish",
+    "Synonyms": [
+      "редис"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 2
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 155,
+    "Name": "raisin",
+    "Synonyms": [
+      "изюм"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 26
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 156,
+    "Name": "raspberries",
+    "Synonyms": [
+      "малина"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 157,
+    "Name": "red onion",
+    "Synonyms": [
+      "красный лук"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 10
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 158,
+    "Name": "red wine",
+    "Synonyms": [
+      "красное вино"
+    ],
+    "WhereToBuy": {
+      "StoreId": 5,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 159,
+    "Name": "rice",
+    "Synonyms": [
+      "рис"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": false
+  },
+  {
+    "Id": 160,
+    "Name": "rice mixed with wild",
+    "Synonyms": [
+      "рис смешанный с диким"
+    ],
+    "WhereToBuy": {
+      "StoreId": 2,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 161,
+    "Name": "rice wine",
+    "Synonyms": [
+      "рисовое вино"
+    ],
+    "WhereToBuy": {
+      "StoreId": 9,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 162,
+    "Name": "ricotta",
+    "Synonyms": [
+      "рикотта"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 6
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 163,
+    "Name": "romaine lettuce",
+    "Synonyms": [
+      "салат ромэн"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 1
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 164,
+    "Name": "rosemary",
+    "Synonyms": [
+      "размарин"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 3
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 165,
+    "Name": "rucola",
+    "Synonyms": [
+      "рукола"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 1
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 166,
+    "Name": "saffron",
+    "Synonyms": [
+      "шафран"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 22
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 167,
+    "Name": "sake",
+    "Synonyms": [
+      "сакэ"
+    ],
+    "WhereToBuy": {
+      "StoreId": 9,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 168,
+    "Name": "salad",
+    "Synonyms": [
+      "салат"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 1
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 169,
+    "Name": "salmon",
+    "Synonyms": [
+      "лосось"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 170,
+    "Name": "salmon - fresh",
+    "Synonyms": [
+      "лосось - свежий"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 22
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 171,
+    "Name": "salmon fillet",
+    "Synonyms": [
+      "филе лосося"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 12
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 172,
+    "Name": "salt",
+    "Synonyms": [
+      "соль"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 173,
+    "Name": "salted herring",
+    "Synonyms": [
+      "сельдь соленая"
+    ],
+    "WhereToBuy": {
+      "StoreId": 7,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 174,
+    "Name": "savoy cabbage",
+    "Synonyms": [
+      "савойская капуста"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 4
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 175,
+    "Name": "semolina",
+    "Synonyms": [
+      "манная крупа"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 26
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 176,
+    "Name": "serrano chiles",
+    "Synonyms": [
+      "серрано чили"
+    ],
+    "WhereToBuy": {
+      "StoreId": 6,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 177,
+    "Name": "sesame",
+    "Synonyms": [
+      "кунжут"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 178,
+    "Name": "shallot",
+    "Synonyms": [
+      "шалот"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 10
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 179,
+    "Name": "shitake mushrooms",
+    "Synonyms": [
+      "шиитаке"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 17
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 180,
+    "Name": "shrimp",
+    "Synonyms": [
+      "креветка"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 14
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 181,
+    "Name": "smoked salmon",
+    "Synonyms": [
+      "копченый лосось"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 4
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 182,
+    "Name": "sour cream",
+    "Synonyms": [
+      "сметана"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 30
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 183,
+    "Name": "soy sauce",
+    "Synonyms": [
+      "соевый соус"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 184,
+    "Name": "spices",
+    "Synonyms": [
+      "специи"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 22
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 185,
+    "Name": "spinach",
+    "Synonyms": [
+      "шпинат"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 17
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 186,
+    "Name": "squash",
+    "Synonyms": [
+      "сквош"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 10
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 187,
+    "Name": "star anice",
+    "Synonyms": [
+      "звездный анис"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 22
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 188,
+    "Name": "strawberry",
+    "Synonyms": [
+      "клубника"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 189,
+    "Name": "sugar",
+    "Synonyms": [
+      "сахар"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 18
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 190,
+    "Name": "sunflower oil",
+    "Synonyms": [
+      "масло подсолнечное"
+    ],
+    "WhereToBuy": {
+      "StoreId": 7,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 191,
+    "Name": "sweet onion",
+    "Synonyms": [
+      "сладкий лук"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 10
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 192,
+    "Name": "swiss chard",
+    "Synonyms": [
+      "швейцарский мангольд"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 9
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 193,
+    "Name": "thyme",
+    "Synonyms": [
+      "тимьян"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 3
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 194,
+    "Name": "tilapia",
+    "Synonyms": [
+      "телапия"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 195,
+    "Name": "tofu",
+    "Synonyms": [
+      "тофу"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 7
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 196,
+    "Name": "tomato",
+    "Synonyms": [
+      "помидор"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 9
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 197,
+    "Name": "tomatoes",
+    "Synonyms": [
+      "помидоры"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 16
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 198,
+    "Name": "tomatoes juice",
+    "Synonyms": [
+      "томатный сок"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 19
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 199,
+    "Name": "tortillas chips",
+    "Synonyms": [
+      "чипсы"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 200,
+    "Name": "tuna frozen",
+    "Synonyms": [
+      "тунец заморожены"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 14
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 201,
+    "Name": "tuna steak",
+    "Synonyms": [
+      "стейк из тунца"
+    ],
+    "WhereToBuy": {
+      "StoreId": 1,
+      "DepartmentId": 1
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 202,
+    "Name": "unsalted cheese",
+    "Synonyms": [
+      "творог несоленый"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 30
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 203,
+    "Name": "vanilla sugar",
+    "Synonyms": [
+      "сахар ванильный"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 204,
+    "Name": "vinegar",
+    "Synonyms": [
+      "уксус"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 0
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 205,
+    "Name": "walnut",
+    "Synonyms": [
+      "грецкий орех"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 0
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 206,
+    "Name": "wasa",
+    "Synonyms": [
+      "васа"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 30
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 207,
+    "Name": "watermelon",
+    "Synonyms": [
+      "арбуз"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 10
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 208,
+    "Name": "white dry wine",
+    "Synonyms": [
+      "белое сухое вино"
+    ],
+    "WhereToBuy": {
+      "StoreId": 9,
+      "DepartmentId": 1
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 209,
+    "Name": "white fish fillets",
+    "Synonyms": [
+      "филе белой рыбы"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 29
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 210,
+    "Name": "white turnips",
+    "Synonyms": [
+      "белая репа"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 8
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 211,
+    "Name": "whole black pepper",
+    "Synonyms": [
+      "черный перец"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 19
+    },
+    "Buy": false,
+    "Skip": true
+  },
+  {
+    "Id": 212,
+    "Name": "whole wheat flour",
+    "Synonyms": [
+      "цельнозерновая мука пшеничная"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 21
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 213,
+    "Name": "yogurt",
+    "Synonyms": [
+      "йогурт"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 27
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 214,
+    "Name": "yogurt fat free",
+    "Synonyms": [
+      "йогурт обезжиренный"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 8
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 215,
+    "Name": "yogurt greek",
+    "Synonyms": [
+      "йогурт греческий"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 27
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 216,
+    "Name": "yogurt low fat",
+    "Synonyms": [
+      "йогурт с низким содержанием жира"
+    ],
+    "WhereToBuy": {
+      "StoreId": 8,
+      "DepartmentId": 27
+    },
+    "Buy": true,
+    "Skip": false
+  },
+  {
+    "Id": 217,
+    "Name": "zucchini",
+    "Synonyms": [
+      "цуккини"
+    ],
+    "WhereToBuy": {
+      "StoreId": 3,
+      "DepartmentId": 17
+    },
+    "Buy": true,
+    "Skip": false
+  }
+]

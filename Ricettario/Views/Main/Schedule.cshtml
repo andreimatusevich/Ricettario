@@ -1,0 +1,408 @@
+﻿@{
+    ViewBag.Title = "Schedule";
+}
+
+<link href="~/Content/Schedule.css" rel="stylesheet" />
+
+<script>
+    ko.bindingHandlers.flagBinding = {
+        init: function (element, valueAccessor, allBindingsAccessor, data, context) {
+            var meta = valueAccessor();
+            var name = meta.name;
+
+            var observable = ko.observable(meta.value);
+            data[name] = observable;
+            data['turnon' + name] = function () {
+                observable(true);
+            };
+            data['turnoff' + name] = function () {
+                observable(false);
+            };
+        },
+    };
+</script>
+
+<div id="ScheduleView">
+    <div class="container-fluid">
+
+        <!-- Week Navigation -->
+        <div class="row">
+            <nav>
+                <ul class="pager">
+                    <li class="previous">
+                        <a href="#" data-bind="click: function() { getWeekData(previousWeek().weekNumber) }">
+                            <span aria-hidden="true">&larr;&nbsp;</span>
+                            <span data-bind="text: previousWeek().weekName"></span>
+                        </a>
+                    </li>
+                    <li style="font-size: 2em" data-bind="text: '@ViewBag.Title for ' + schedule().Name"></li>
+                    <li class="next">
+                        <a href="#" data-bind="click: function() { getWeekData(nextWeek().weekNumber) }">
+                            <span data-bind="text: nextWeek().weekName"></span>
+                            <span aria-hidden="true">&nbsp;&rarr;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Schedule -->
+        <div class="row">
+            @*<div class="col-xs-16">
+                    <h2 data-bind="text: '@ViewBag.Title for ' + schedule().Name"></h2>
+                </div>*@
+            <div class="row">
+                <!-- ko foreach: { data: schedule().Days, as: 'day' } -->
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="list-group">
+                        <div class="list-group-item box-header" data-bind="text: day.Name"></div>
+                        <!-- ko foreach: { data: day.Meals, as: 'meal' } -->
+                        <a href="#" class="list-group-item" data-bind="click: function() { $root.onMealClick(day.Index, meal.Index); }, css: { 'box-header': $root.isSelectedMeal(day.Index, meal.Index) }">
+                            <!-- ko if: meal.Entries && meal.Entries.length == 0 -->
+                            <span data-bind="click: function() { $root.onRecipeClick(-1); }">----</span>
+                            <!-- /ko -->
+                            <!-- ko foreach: { data: meal.Entries, as: 'entry' }   -->
+                            <div>
+                                <!-- ko if: $root.isSelectedMeal(day.Index, meal.Index) -->
+                                <span class="glyphicon glyphicon-remove" data-bind="click: function() { $root.removeRecipeFromMeal(day.Index, meal.Index, entry.RecipeId); }"></span>
+                                <!-- /ko -->
+                                <span data-bind="text: entry.Name, click: function() { $root.onRecipeClick(entry.RecipeId); }"></span>
+                            </div>
+                            <!-- /ko -->
+                        </a>
+                        <!-- /ko -->
+                    </div>
+                </div>
+                <!-- ko if: $index() > 0 && ($index()+1) % 5 == 0 -->
+                <div class="clearfix visible-md-block"></div>
+                <!-- /ko -->
+                <!-- /ko -->
+            </div>
+            <!-- ko if:$root.schedule().Products && $root.schedule().Products.length > 0 -->
+            <div class="row">
+                <label class="col-xs-1">Additional Products</label>
+                <div class="col-xs-15">
+                    <ul data-bind="foreach:  { data: $root.schedule().Products, as: 'product' }">
+                        <li data-bind="text: product.Name"></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /ko -->
+        </div>
+
+        <!-- Day Navigation -->
+        <div class="row">
+            <div class="col-xs-16">
+                <nav>
+                    <ul class="pager">
+                        <li class="previous">
+                            <a href="#" data-bind="click: function() { toPreviousMeal($root.selectedMeal) }">
+                                <span aria-hidden="true">&larr;</span><span data-bind="text: whatIsPreviousMealName($root.selectedMeal(), $root.schedule())"></span>
+                            </a>
+                        </li>
+                        <li style="font-size: 1.5em" data-bind="text: 'Adding entries for ' + whatIsMealName($root.selectedMeal(), $root.schedule())"></li>
+                        <li class="next">
+                            <a href="#" data-bind="click: function() { toNextMeal($root.selectedMeal) }">
+                                <span data-bind="text: whatIsNextMealName($root.selectedMeal(), $root.schedule())"></span><span aria-hidden="true">&rarr;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-16">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <div class="col-sm-1">
+                            <label>Tags</label>
+                        </div>
+                        <div class="col-sm-15">
+                            <div class="btn-group" data-toggle="buttons">
+                                <label class="btn btn-default active" type="button">
+                                    <input type="radio" checked="checked" />
+                                    <span data-bind="text: 'None', click: function(data, event) { $root.filterRecipesByTag(); }"></span>
+                                </label>
+                                <label class="btn btn-default" type="button">
+                                    <input type="radio" />
+                                    <span data-bind="text: 'All', click: function(data, event) { $root.filterRecipesByTag(''); }"></span>
+                                </label>
+                                <!-- ko foreach:  { data: tags, as: 'tag' } -->
+                                <label class="btn btn-default" type="button">
+                                    <input type="radio" />
+                                    <span data-bind="text: tag, click: $root.filterRecipesByTag"></span>
+                                </label>
+                                <!-- /ko -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ko if: $root.showRecipesFilteredByTag() -->
+                    <div class="form-group">
+                        <label class="col-sm-1"></label>
+                        <div class="col-sm-15">
+                            <ul>
+                                <!-- ko foreach:  { data: $root.recipesFilteredByTag, as: 'recipe' } -->
+                                <li class="col-xs-4" data-bind="text: recipe.Name, click: function() { $root.onRecipeClick(recipe.Id); }">
+                                </li>
+                                <!-- /ko -->
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /ko -->
+
+                    <div class="form-group">
+                        <label for="inputRecipe" class="col-sm-1">Recipes and Products</label>
+                        <div class="col-sm-15">
+                            <input id="inputRecipe" type="text" placeholder="Enter recipe" class="form-control" data-bind="typeahead: recipes, typeaheadOptions: { displayKey: 'Name', onSelect: onRecipeLookup }" />
+                            <label for="inputProduct">&nbsp;or&nbsp;</label>
+                            <input id="inputProduct" type="text" placeholder="Enter product" class="form-control" data-bind="typeahead: products, typeaheadOptions: { displayKey: 'Name', onSelect: onProductLookup }" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-1">Selected</label>
+                        <div class="col-sm-15">
+                            <div>
+                                <!-- ko foreach:  { data: recipesToBeAdded, as: 'recipe' } -->
+                                <button class="btn btn-default" type="button">
+                                    <span data-bind="text: recipe.Name"></span>
+                                    <span class="glyphicon glyphicon-remove" data-bind="click: $root.removeRecipeFromToBeAdded"></span>
+                                </button>
+                                <!-- /ko -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-1 col-sm-15">
+                            <button class="btn btn-default" type="button" data-bind="click: $root.addRecipes">Add</button>
+                            <script>
+                                var shoppingListUrl = '@Url.Content("~/ShoppingList")' + '?weekNumber=';
+                            </script>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-1 col-sm-3">
+                            <nav class="navbar navbar-default">
+                                <div class="container-fluid">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <ul class="nav navbar-nav">
+                                        <li><a data-bind="attr: { href: shoppingListUrl + schedule().Id }">To Shopping List</a></li>
+                                        <li><a data-bind="attr: { href: shoppingListUrl + schedule().Id + '&update=true' }">Update Shopping List</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+        <!-- ko foreach: { data: selectedRecipes, as: 'recipe' } -->
+        <div class="row">
+            <div class="col-xs-16">
+                <div class="bs-callout" id="callout-formgroup-inputgroup">
+                    <!-- ko if: (recipe.Reference != null && recipe.Reference.toLowerCase().startsWith('http')) -->
+                    <h4><a data-bind="text: recipe.Name, attr: { href: recipe.Reference, title: recipe.Reference }"></a>&nbsp;<small data-bind="text: recipe.Description"></small></h4>
+                    <!-- /ko -->
+                    <!-- ko if: (recipe.Reference == null) || (recipe.Reference != null && !recipe.Reference.toLowerCase().startsWith('http')) -->
+                    <h4><span data-bind="text: recipe.Name"></span>&nbsp;<small data-bind="text: recipe.Description"></small></h4>
+                    <!-- /ko -->
+                    <ul data-bind="foreach: { data: recipe.Ingredients, as: 'ingredient' }">
+                        <li data-bind="text: ingredient.Description"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /ko -->
+    </div>
+</div>
+<script>
+    function whatIsMealName(selectedMeal, schedule) {
+        var day = schedule.Days[selectedMeal.dayIndex];
+        var meal = day.Meals[selectedMeal.mealIndex];
+        return day.Name + ' ' + meal.Name;
+    }
+
+    function toNextMeal(selectedMeal) {
+        var meal = whatIsNextMeal(selectedMeal());
+        selectedMeal(meal);
+        return false;
+    }
+
+    function toPreviousMeal(selectedMeal) {
+        var meal = whatIsPreviousMeal(selectedMeal());
+        selectedMeal(meal);
+        return false;
+    }
+
+    function whatIsNextMealName(selectedMeal, schedule) {
+        var meal = whatIsNextMeal(selectedMeal);
+        return whatIsMealName(meal, schedule);
+    }
+
+    function whatIsPreviousMealName(selectedMeal, schedule) {
+        var meal = whatIsPreviousMeal(selectedMeal);
+        return whatIsMealName(meal, schedule);
+    }
+
+    function whatIsNextMeal(meal) {
+        if (meal.mealIndex < 2) {
+            return { dayIndex: meal.dayIndex, mealIndex: meal.mealIndex + 1 };
+        }
+        if (meal.dayIndex < 7) {
+            return { dayIndex: meal.dayIndex + 1, mealIndex: 0 };
+        }
+        return meal;
+    }
+
+    function whatIsPreviousMeal(meal) {
+        if (meal.mealIndex > 0) {
+            return { dayIndex: meal.dayIndex, mealIndex: meal.mealIndex - 1 };
+        }
+        if (meal.dayIndex > 0) {
+            return { dayIndex: meal.dayIndex - 1, mealIndex: 2 };
+        }
+        return meal;
+    }
+
+    var model;
+    $(function() {
+        var view = 'ScheduleView';
+        model = {};
+        model.schedule = ko.observable({ Name: '', Days: [{ Name: '', Meals: [{ Name: '', Entries: [] }, {}, {}] }, {}, {}, {}, {}, {}, {}, {}] });
+
+        model.nextWeek = ko.observable({ weekNumber: '', weekName: '' });
+        model.previousWeek = ko.observable({ weekNumber: '', weekName: '' });
+
+        model.selectedMeal = ko.observable({ weekNumber: 0, dayIndex: 0, mealIndex: 0 });
+
+        model.selectedRecipes = ko.observable([]);
+
+        model.debug = ko.observable();
+
+        model.isSelectedMeal = function (dayIndex, mealIndex) {
+            return model.selectedMeal().dayIndex == dayIndex && model.selectedMeal().mealIndex == mealIndex;
+        };
+
+        model.onMealClick = function (dayIndex, mealIndex) {
+            model.selectedMeal({ weekNumber: model.schedule().Id, dayIndex: dayIndex, mealIndex: mealIndex });
+        };
+
+        model.onRecipeClick = function (recipeId) {
+            if (recipeId == -1) {
+                model.selectedRecipes([]);
+            }
+            var request = { Id: recipeId };
+            $.getJSON('@Url.Content("~/Recipe/Get")', request, function (data) {
+                model.selectedRecipes(data);
+            });
+        };
+
+        model.getWeekData = function (weekNumber) {
+            var request = typeof weekNumber != "undefined" ? { weekNumber: weekNumber } : {};
+            $.getJSON('@Url.Content("~/Schedule/WeekData")', request, function (data) {
+                model.schedule(data.week);
+                model.nextWeek(data.next);
+                model.previousWeek(data.previous);
+                model.selectedMeal().weekNumber = data.week.Id;
+            }).fail(function (error) {
+                alert(error);
+            });
+        };
+        model.getWeekData();
+
+        model.tags = ko.observableArray([]);
+        $.getJSON('@Url.Content("~/Reference/Tags")', function (array) {
+            model.tags(array);
+        }).fail(function (error) {
+            alert(error);
+        });
+
+        //region add recipe part
+        model.recipesToBeAdded = ko.observableArray([]);
+        model.showRecipesFilteredByTag = ko.observable(false);
+
+        model.recipes = ko.observableArray([]);
+        $.getJSON('@Url.Content("~/Recipe/Get")', function (array) {
+            model.recipes(array);
+        }).fail(function(error) {
+            alert(error);
+        });
+        
+        model.recipesFilteredByTag = ko.observableArray([]);
+
+        model.filterRecipesByTag = function (tag) {
+            if (typeof (tag) === 'undefined') {
+                model.showRecipesFilteredByTag(false);
+                model.recipesFilteredByTag([]);
+            } else {
+                model.showRecipesFilteredByTag(true);
+                model.recipesFilteredByTag(model.recipes().filter(function (item) {
+                    return item.Tags.indexOf(tag) > -1;
+                }));
+            }
+        };
+
+        model.onRecipeLookup = function (event, item, dataset) {
+            model.recipesToBeAdded.push(item);
+            $(event.target).typeahead('val', '');
+            //event.target.value = "";
+        };
+
+        model.removeRecipeFromToBeAdded = function (item) {
+            model.recipesToBeAdded.remove(item);
+        };
+
+        model.addRecipes = function () {
+            var selectedMeal = model.selectedMeal();
+            
+            var selectedProduct = model.selectedProduct();
+            if (selectedProduct) {
+                $.post('@Url.Content("~/Schedule/AddProduct")', { weekNumber: selectedMeal.weekNumber, id: selectedProduct.Id, name: selectedProduct.Name }, function () {
+                    model.getWeekData(selectedMeal.weekNumber);
+                    $('#inputProduct').typeahead('val', '');
+                    model.selectedProduct({});
+                });
+            }
+            
+            var recipesToBeAdded = model.recipesToBeAdded();
+            if (recipesToBeAdded.length > 0) {
+                var req = { weekNumber: selectedMeal.weekNumber, day: selectedMeal.dayIndex, meal: selectedMeal.mealIndex };
+                req.recipes = recipesToBeAdded.map(function (r) { return r.Id; });
+                $.post('@Url.Content("~/Schedule/AddRecipes")', req, function () {
+                    model.getWeekData(selectedMeal.weekNumber);
+                    model.recipesToBeAdded([]);
+                });
+            }
+        };
+
+        model.removeRecipeFromMeal = function (dayIndex, mealIndex, recipeId) {
+            var weekNumber = model.selectedMeal().weekNumber;
+            var req = { weekNumber: weekNumber, day: dayIndex, meal: mealIndex, recipe: recipeId };
+            $.post('@Url.Content("~/Schedule/RemoveRecipe")', req, function () {
+                model.getWeekData(weekNumber);
+            });
+        };
+
+        model.selectedProduct = ko.observable({});
+        model.products = ko.observableArray([]);
+        $.getJSON('@Url.Content("~/Product/Get")', function (array) {
+            model.products(array.map(function(item) {
+                return { Id: item.Id, Name: item.Name };
+            }));
+        }).fail(function (error) {
+            alert(error);
+        });
+
+        model.onProductLookup = function (event, item, dataset) {
+            model.selectedProduct(item);
+        };
+
+        ko.applyBindings(model, document.getElementById(view));
+    });
+</script>

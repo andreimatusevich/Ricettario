@@ -1,0 +1,75 @@
+﻿@{
+    ViewBag.Title = "Stores";
+}
+
+<script>
+    var childsUrl = '@Url.Action("Departments", "Main")?parentId='
+</script>
+
+<script type="text/html" id="templateStoreView">
+    <tr>
+        <td data-bind="text: item.Id"></td>
+        <td data-bind="text: item.Name"></td>
+        <td><a data-bind="text: 'Departments ' + item.Departments().length, attr: { href: childsUrl + item.Id() }"></a></td>
+        <td>
+            <button class="show-on-hover btn btn-default btn-xs" type="button"><span class="glyphicon glyphicon-edit" data-bind="click: $root.beginEdit"></span></button>
+        </td>
+    </tr>
+</script>
+
+<script type="text/html" id="editTemplateStoreView">
+    <tr>
+        <td data-bind="text: item.Id"></td>
+        <td><input class="form-control" data-bind="textInput: item.Name" /></td>
+        <td></td>
+        <td>
+            <button class="btn btn-success btn-xs" type="button"><span class="glyphicon glyphicon-save green" data-bind="click: $root.save"></span></button>
+            <button class="btn btn-danger btn-xs" type="button"><span class="glyphicon glyphicon-remove" data-bind="click: $root.delete"></span></button>
+            <button class="btn btn-default btn-xs" type="button"><span class="glyphicon glyphicon-new-window" data-bind="click: $root.cancelEdit"></span></button>
+        </td>
+    </tr>
+</script>
+
+<div id="StoreView">
+    <p data-bind="messageSlide: errorMessage, messageSlideDuration: 5000"></p>
+    
+    <h2><span data-bind="text: $root.items().length"></span> @ViewBag.Title </h2>
+
+    <table class="dataTable table table-metro-header table-left-thead-align table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Departments</th>
+                <th>Action&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            </tr>
+            <tr data-bind="foreach: { data: search, as: 'item' }">
+                <td><input class="form-control" data-bind="textInput: item.Id" /></td>
+                <td><input class="form-control" data-bind="textInput: item.Name" /></td>
+                <td></td>
+                <td>
+                    <button class="btn btn-primary btn-xs" type="button"><span class="glyphicon glyphicon-search" data-bind="click: $root.load"></span></button>
+                    <button class="btn btn-success btn-xs" type="button"><span class="glyphicon glyphicon-plus" data-bind="click: $root.add"></span></button>
+                </td>
+            </tr>
+        </thead>
+        <tbody data-bind="template: { name: $root.getTemplateName, foreach: items, as: 'item' }"></tbody>
+    </table>
+</div>
+
+<script>
+    var model;
+    $(function() {
+        var view = 'StoreView';
+        var storeModel = new RestBackedViewModel({
+            viewName: view,
+            baseUrl: '@Url.Content("~/Store")',
+            search: { Id: '', Name: '' }
+        });
+
+        ko.applyBindings(storeModel, document.getElementById(view));
+
+        model = storeModel;
+    });
+</script>
+

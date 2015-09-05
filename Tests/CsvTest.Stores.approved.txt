@@ -1,0 +1,397 @@
+﻿[
+  {
+    "Id": 0,
+    "Name": "",
+    "Departments": [
+      {
+        "Id": 0,
+        "Name": "",
+        "OrderHelper": null
+      }
+    ]
+  },
+  {
+    "Id": 1,
+    "Name": "A&P",
+    "Departments": [
+      {
+        "Id": 0,
+        "Name": "",
+        "OrderHelper": null
+      },
+      {
+        "Id": 1,
+        "Name": "Fish",
+        "OrderHelper": null
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "Amazon",
+    "Departments": [
+      {
+        "Id": 0,
+        "Name": "",
+        "OrderHelper": null
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "BJs",
+    "Departments": [
+      {
+        "Id": 0,
+        "Name": "",
+        "OrderHelper": null
+      },
+      {
+        "Id": 1,
+        "Name": "2 drinks",
+        "OrderHelper": null
+      },
+      {
+        "Id": 2,
+        "Name": "2 rows",
+        "OrderHelper": null
+      },
+      {
+        "Id": 3,
+        "Name": "3 cheese",
+        "OrderHelper": null
+      },
+      {
+        "Id": 4,
+        "Name": "3 frozen rows",
+        "OrderHelper": null
+      },
+      {
+        "Id": 5,
+        "Name": "4 dairy",
+        "OrderHelper": null
+      },
+      {
+        "Id": 6,
+        "Name": "4 Grocery",
+        "OrderHelper": null
+      },
+      {
+        "Id": 7,
+        "Name": "4 rows",
+        "OrderHelper": null
+      },
+      {
+        "Id": 8,
+        "Name": "5 dairy",
+        "OrderHelper": null
+      },
+      {
+        "Id": 9,
+        "Name": "5 rows",
+        "OrderHelper": null
+      },
+      {
+        "Id": 10,
+        "Name": "6 dairy",
+        "OrderHelper": null
+      },
+      {
+        "Id": 11,
+        "Name": "6 fish",
+        "OrderHelper": null
+      },
+      {
+        "Id": 12,
+        "Name": "6 Fish",
+        "OrderHelper": null
+      },
+      {
+        "Id": 13,
+        "Name": "6 frozen fish",
+        "OrderHelper": null
+      },
+      {
+        "Id": 14,
+        "Name": "6 frozen rows",
+        "OrderHelper": null
+      },
+      {
+        "Id": 15,
+        "Name": "6 frozen vegies",
+        "OrderHelper": null
+      },
+      {
+        "Id": 16,
+        "Name": "6 grocery",
+        "OrderHelper": null
+      },
+      {
+        "Id": 17,
+        "Name": "7 grocery",
+        "OrderHelper": null
+      },
+      {
+        "Id": 18,
+        "Name": "8 rows",
+        "OrderHelper": null
+      },
+      {
+        "Id": 19,
+        "Name": "8 spices row",
+        "OrderHelper": null
+      },
+      {
+        "Id": 20,
+        "Name": "9 rows",
+        "OrderHelper": null
+      },
+      {
+        "Id": 21,
+        "Name": "drinks",
+        "OrderHelper": null
+      },
+      {
+        "Id": 22,
+        "Name": "fish",
+        "OrderHelper": null
+      },
+      {
+        "Id": 23,
+        "Name": "frozen grocery",
+        "OrderHelper": null
+      },
+      {
+        "Id": 24,
+        "Name": "grocery",
+        "OrderHelper": null
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Name": "Farmer's market",
+    "Departments": [
+      {
+        "Id": 0,
+        "Name": "",
+        "OrderHelper": null
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Name": "French",
+    "Departments": [
+      {
+        "Id": 0,
+        "Name": "",
+        "OrderHelper": null
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "Name": "Grocery",
+    "Departments": [
+      {
+        "Id": 0,
+        "Name": "",
+        "OrderHelper": null
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "Name": "NetCost",
+    "Departments": [
+      {
+        "Id": 0,
+        "Name": "",
+        "OrderHelper": null
+      }
+    ]
+  },
+  {
+    "Id": 8,
+    "Name": "ShopRite",
+    "Departments": [
+      {
+        "Id": 0,
+        "Name": "",
+        "OrderHelper": null
+      },
+      {
+        "Id": 1,
+        "Name": "11 grocery salads",
+        "OrderHelper": null
+      },
+      {
+        "Id": 2,
+        "Name": "12 grocery fennel",
+        "OrderHelper": null
+      },
+      {
+        "Id": 3,
+        "Name": "13 grocery herbs",
+        "OrderHelper": null
+      },
+      {
+        "Id": 4,
+        "Name": "15 grocery broccoli - pepper",
+        "OrderHelper": null
+      },
+      {
+        "Id": 5,
+        "Name": "18 grocery - basil",
+        "OrderHelper": null
+      },
+      {
+        "Id": 6,
+        "Name": "19 grocery - carrot",
+        "OrderHelper": null
+      },
+      {
+        "Id": 7,
+        "Name": "20 grocery - tofu",
+        "OrderHelper": null
+      },
+      {
+        "Id": 8,
+        "Name": "21 grocery - parsley",
+        "OrderHelper": null
+      },
+      {
+        "Id": 9,
+        "Name": "22 grocery - swiss chard",
+        "OrderHelper": null
+      },
+      {
+        "Id": 10,
+        "Name": "23 grocery - onion",
+        "OrderHelper": null
+      },
+      {
+        "Id": 11,
+        "Name": "24 grocery - lemon",
+        "OrderHelper": null
+      },
+      {
+        "Id": 12,
+        "Name": "25 1 tortilas",
+        "OrderHelper": null
+      },
+      {
+        "Id": 13,
+        "Name": "25 15 row",
+        "OrderHelper": null
+      },
+      {
+        "Id": 14,
+        "Name": "25 2 frozen fish",
+        "OrderHelper": null
+      },
+      {
+        "Id": 15,
+        "Name": "25 21 rows",
+        "OrderHelper": null
+      },
+      {
+        "Id": 16,
+        "Name": "25 23-24 rows",
+        "OrderHelper": null
+      },
+      {
+        "Id": 17,
+        "Name": "25 4 rows goya",
+        "OrderHelper": null
+      },
+      {
+        "Id": 18,
+        "Name": "25 5 hummus",
+        "OrderHelper": null
+      },
+      {
+        "Id": 19,
+        "Name": "25 6 row b",
+        "OrderHelper": null
+      },
+      {
+        "Id": 20,
+        "Name": "25 8 rows b-e",
+        "OrderHelper": null
+      },
+      {
+        "Id": 21,
+        "Name": "29 baking row",
+        "OrderHelper": null
+      },
+      {
+        "Id": 22,
+        "Name": "29 spices row",
+        "OrderHelper": null
+      },
+      {
+        "Id": 23,
+        "Name": "40 chicken",
+        "OrderHelper": null
+      },
+      {
+        "Id": 24,
+        "Name": "45 meats",
+        "OrderHelper": null
+      },
+      {
+        "Id": 25,
+        "Name": "46 rows",
+        "OrderHelper": null
+      },
+      {
+        "Id": 26,
+        "Name": "50 organic row",
+        "OrderHelper": null
+      },
+      {
+        "Id": 27,
+        "Name": "55 dairy yougurts",
+        "OrderHelper": null
+      },
+      {
+        "Id": 28,
+        "Name": "6 Fish",
+        "OrderHelper": null
+      },
+      {
+        "Id": 29,
+        "Name": "6 frozen rows",
+        "OrderHelper": null
+      },
+      {
+        "Id": 30,
+        "Name": "65 dairy sour cream",
+        "OrderHelper": null
+      },
+      {
+        "Id": 31,
+        "Name": "75 frozen grocery",
+        "OrderHelper": null
+      }
+    ]
+  },
+  {
+    "Id": 9,
+    "Name": "Spirits",
+    "Departments": [
+      {
+        "Id": 0,
+        "Name": "",
+        "OrderHelper": null
+      },
+      {
+        "Id": 1,
+        "Name": "french shop",
+        "OrderHelper": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,4948 @@
+﻿[
+  {
+    "Id": 0,
+    "Name": "",
+    "Reference": "",
+    "Description": "",
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 0,
+        "Description": ""
+      }
+    ],
+    "Tags": []
+  },
+  {
+    "Id": 1,
+    "Name": "Angel hair pasta with tuna",
+    "Reference": "Pagano: 199\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 143,
+        "Description": "1 box jerusalem Artichoke angel hair pasta"
+      },
+      {
+        "Id": 1,
+        "ProductId": 90,
+        "Description": "2 tablespoons garlic, minced"
+      },
+      {
+        "Id": 2,
+        "ProductId": 131,
+        "Description": "4 tablespoons onions, finely chopped"
+      },
+      {
+        "Id": 3,
+        "ProductId": 141,
+        "Description": "4 tablespoons parsley, finely chopped"
+      },
+      {
+        "Id": 4,
+        "ProductId": 107,
+        "Description": "1/2 teaspoon ltalian seasoning"
+      },
+      {
+        "Id": 5,
+        "ProductId": 114,
+        "Description": "1/2 teaspoon lemon-pepper powder"
+      },
+      {
+        "Id": 6,
+        "ProductId": 91,
+        "Description": "1/2 teaspoon garlic powder"
+      },
+      {
+        "Id": 7,
+        "ProductId": 132,
+        "Description": "1/2 teaspoon onion powder"
+      },
+      {
+        "Id": 8,
+        "ProductId": 201,
+        "Description": "4 Fresh Tuna steaks"
+      }
+    ],
+    "Tags": [
+      "Рыба"
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "Apple Cider Lamb Stew",
+    "Reference": "Pagano: 293\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 111,
+        "Description": "3 1/2 pounds boned leg of lamb"
+      },
+      {
+        "Id": 1,
+        "ProductId": 4,
+        "Description": "4 cups apple cider, divided"
+      },
+      {
+        "Id": 2,
+        "ProductId": 82,
+        "Description": "1/2 cup whole wheat flour"
+      },
+      {
+        "Id": 3,
+        "ProductId": 130,
+        "Description": "2 tablespoons olive oil"
+      },
+      {
+        "Id": 4,
+        "ProductId": 131,
+        "Description": "1 small onion, finely chopped"
+      },
+      {
+        "Id": 5,
+        "ProductId": 90,
+        "Description": "3 garlic cloves, minced"
+      },
+      {
+        "Id": 6,
+        "ProductId": 45,
+        "Description": "1 1/4 cups nonfat, low sodium chicken broth"
+      },
+      {
+        "Id": 7,
+        "ProductId": 208,
+        "Description": "1/2 cup dry white wine"
+      },
+      {
+        "Id": 8,
+        "ProductId": 172,
+        "Description": "1/2 teaspoon salt"
+      },
+      {
+        "Id": 9,
+        "ProductId": 23,
+        "Description": "1/2 teaspoon black pepper"
+      },
+      {
+        "Id": 10,
+        "ProductId": 113,
+        "Description": "4 lemon rind strips"
+      },
+      {
+        "Id": 11,
+        "ProductId": 18,
+        "Description": "3 bay leaves"
+      },
+      {
+        "Id": 12,
+        "ProductId": 57,
+        "Description": "1 cinnamon stick"
+      },
+      {
+        "Id": 13,
+        "ProductId": 142,
+        "Description": "3 cups parsnips, cut into 1\" pieces"
+      },
+      {
+        "Id": 14,
+        "ProductId": 40,
+        "Description": "1 1/4 cups sliced carrots"
+      },
+      {
+        "Id": 15,
+        "ProductId": 217,
+        "Description": "1 1/4 cups sliced green zucchini"
+      },
+      {
+        "Id": 16,
+        "ProductId": 30,
+        "Description": "1 1/4 cups broccoli florets, divided"
+      }
+    ],
+    "Tags": [
+      "Мясо"
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "Baby Banana Bread",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 15,
+        "Description": "3 large, very ripe, organic bananas"
+      },
+      {
+        "Id": 1,
+        "ProductId": 6,
+        "Description": "1/2 cup organic unsweetened applesauce"
+      },
+      {
+        "Id": 2,
+        "ProductId": 127,
+        "Description": "2 cups old fashioned rolled oats"
+      },
+      {
+        "Id": 3,
+        "ProductId": 34,
+        "Description": "1/4 cup unsalted butter, melted"
+      },
+      {
+        "Id": 4,
+        "ProductId": 13,
+        "Description": "1 teaspoon baking soda"
+      },
+      {
+        "Id": 5,
+        "ProductId": 12,
+        "Description": "1 teaspoon baking powder"
+      },
+      {
+        "Id": 6,
+        "ProductId": 172,
+        "Description": "1/2 teaspoon salt"
+      },
+      {
+        "Id": 7,
+        "ProductId": 56,
+        "Description": "1/2 teaspoon ground cinnamon"
+      },
+      {
+        "Id": 8,
+        "ProductId": 126,
+        "Description": "1/4 teaspoon ground nutmeg"
+      }
+    ],
+    "Tags": [
+      "Десерт"
+    ]
+  },
+  {
+    "Id": 4,
+    "Name": "Baked Flounder",
+    "Reference": "Pagano: 202\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 84,
+        "Description": "Филе флаундер"
+      },
+      {
+        "Id": 1,
+        "ProductId": 74,
+        "Description": "Сухой тарагон"
+      },
+      {
+        "Id": 2,
+        "ProductId": 141,
+        "Description": "Петрушка"
+      },
+      {
+        "Id": 3,
+        "ProductId": 81,
+        "Description": "Хлопья чеснока"
+      },
+      {
+        "Id": 4,
+        "ProductId": 113,
+        "Description": "Лимонный сок"
+      },
+      {
+        "Id": 5,
+        "ProductId": 129,
+        "Description": "Olive oil extra virgin"
+      },
+      {
+        "Id": 6,
+        "ProductId": 23,
+        "Description": "Перец"
+      }
+    ],
+    "Tags": [
+      "Рыба"
+    ]
+  },
+  {
+    "Id": 5,
+    "Name": "Barley Soup",
+    "Reference": "Pagano: 94\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 16,
+        "Description": "1 cup barley"
+      },
+      {
+        "Id": 1,
+        "ProductId": 131,
+        "Description": "1 medium onion, chopped"
+      },
+      {
+        "Id": 2,
+        "ProductId": 40,
+        "Description": "2 cups chopped carrots"
+      },
+      {
+        "Id": 3,
+        "ProductId": 44,
+        "Description": "2 cups chopped boiled chicken breast"
+      },
+      {
+        "Id": 4,
+        "ProductId": 27,
+        "Description": "2 low sodium chicken bouillon cubes"
+      }
+    ],
+    "Tags": [
+      "Суп"
+    ]
+  },
+  {
+    "Id": 6,
+    "Name": "Borsch",
+    "Reference": "Pagano: 95\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 21,
+        "Description": "3 medium beets"
+      },
+      {
+        "Id": 1,
+        "ProductId": 45,
+        "Description": "6 cups fat-free, low sodium chiken broth"
+      },
+      {
+        "Id": 2,
+        "ProductId": 113,
+        "Description": "1/4 cup plus 2 tablespoons fresh lemon juice"
+      },
+      {
+        "Id": 3,
+        "ProductId": 125,
+        "Description": "3 large mushrooms, cut into small sticks"
+      },
+      {
+        "Id": 4,
+        "ProductId": 172,
+        "Description": "Pinch sea salt"
+      },
+      {
+        "Id": 5,
+        "ProductId": 182,
+        "Description": "Сметана"
+      }
+    ],
+    "Tags": [
+      "Суп"
+    ]
+  },
+  {
+    "Id": 7,
+    "Name": "Broccoli with olives",
+    "Reference": "Pagano: 357\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 90,
+        "Description": "2 cloves garlic, crushed"
+      },
+      {
+        "Id": 1,
+        "ProductId": 129,
+        "Description": "1/4 cup olive oil"
+      },
+      {
+        "Id": 2,
+        "ProductId": 22,
+        "Description": "1/2 cup finely chopped pitted black olives"
+      },
+      {
+        "Id": 3,
+        "ProductId": 113,
+        "Description": "1-2 teaspoons lemon juice"
+      },
+      {
+        "Id": 4,
+        "ProductId": 172,
+        "Description": "1/2 teaspoon salt"
+      },
+      {
+        "Id": 5,
+        "ProductId": 23,
+        "Description": "1/4 teaspoon pepper"
+      },
+      {
+        "Id": 6,
+        "ProductId": 30,
+        "Description": "1 bunch broccoli"
+      }
+    ],
+    "Tags": [
+      "Vegetarian"
+    ]
+  },
+  {
+    "Id": 8,
+    "Name": "Broiled Chicken with Musbroom Sauce",
+    "Reference": "Pagano: 243\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 44,
+        "Description": "3 skinless, boneles chicken breasts, halved"
+      },
+      {
+        "Id": 1,
+        "ProductId": 129,
+        "Description": "4 tablespoons olive oil"
+      },
+      {
+        "Id": 2,
+        "ProductId": 102,
+        "Description": "Pinch tarragon"
+      },
+      {
+        "Id": 3,
+        "ProductId": 125,
+        "Description": "1  1/2 tablespoon mushrooms. Sliced"
+      },
+      {
+        "Id": 4,
+        "ProductId": 129,
+        "Description": "1 1/2 tablespoons olive oil"
+      },
+      {
+        "Id": 5,
+        "ProductId": 178,
+        "Description": "2 tablespoons shallots, chopped"
+      },
+      {
+        "Id": 6,
+        "ProductId": 102,
+        "Description": "1/2 reaspoon tarragon"
+      },
+      {
+        "Id": 7,
+        "ProductId": 45,
+        "Description": "1 cup no fat, low sodium chicken broth"
+      },
+      {
+        "Id": 8,
+        "ProductId": 62,
+        "Description": "1 teaspoon cornsratch or arrowroot"
+      }
+    ],
+    "Tags": [
+      "Курица"
+    ]
+  },
+  {
+    "Id": 9,
+    "Name": "Broiled Flounder Fillets",
+    "Reference": "Pagano: 210\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 84,
+        "Description": "12 flounders fillets"
+      },
+      {
+        "Id": 1,
+        "ProductId": 184,
+        "Description": "White pepper"
+      },
+      {
+        "Id": 2,
+        "ProductId": 130,
+        "Description": "2 tablespoon corn oil"
+      },
+      {
+        "Id": 3,
+        "ProductId": 68,
+        "Description": "2 tablespoon dijon mustard"
+      },
+      {
+        "Id": 4,
+        "ProductId": 113,
+        "Description": "2 teaspoon fresh lemon juice"
+      },
+      {
+        "Id": 5,
+        "ProductId": 71,
+        "Description": "1/2 teaspoon ried parsley flakes"
+      },
+      {
+        "Id": 6,
+        "ProductId": 113,
+        "Description": "8 lemon wedges"
+      }
+    ],
+    "Tags": [
+      "Рыба"
+    ]
+  },
+  {
+    "Id": 10,
+    "Name": "Brown Rice with Lentils",
+    "Reference": "Pagano: 320\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 31,
+        "Description": "2 cups brown rice"
+      },
+      {
+        "Id": 1,
+        "ProductId": 115,
+        "Description": "1/2 cup brown lentils"
+      },
+      {
+        "Id": 2,
+        "ProductId": 131,
+        "Description": "1 large onion chopped"
+      },
+      {
+        "Id": 3,
+        "ProductId": 128,
+        "Description": "3 tablespoons safflower oil"
+      }
+    ],
+    "Tags": [
+      "Vegetarian"
+    ]
+  },
+  {
+    "Id": 11,
+    "Name": "Cauliflower with Garlic",
+    "Reference": "Pagano: 359\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 41,
+        "Description": "Large cauliflower, trimmed and divided into florets"
+      },
+      {
+        "Id": 1,
+        "ProductId": 81,
+        "Description": "Garlic clove, chopped very fine"
+      },
+      {
+        "Id": 2,
+        "ProductId": 113,
+        "Description": "Tablespoons fresh lemon juice"
+      },
+      {
+        "Id": 3,
+        "ProductId": 130,
+        "Description": "Tablespoons olive oil"
+      },
+      {
+        "Id": 4,
+        "ProductId": 172,
+        "Description": "Pinch sea salt"
+      }
+    ],
+    "Tags": [
+      "Гарнир"
+    ]
+  },
+  {
+    "Id": 12,
+    "Name": "Celery soup",
+    "Reference": "Pagano: 107\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 42,
+        "Description": "Сельдерей"
+      },
+      {
+        "Id": 1,
+        "ProductId": 45,
+        "Description": "Бульон"
+      },
+      {
+        "Id": 2,
+        "ProductId": 210,
+        "Description": "Репа белая"
+      },
+      {
+        "Id": 3,
+        "ProductId": 141,
+        "Description": "Петрушка"
+      },
+      {
+        "Id": 4,
+        "ProductId": 34,
+        "Description": "Масло сливочное"
+      },
+      {
+        "Id": 5,
+        "ProductId": 130,
+        "Description": "Olive oil light"
+      },
+      {
+        "Id": 6,
+        "ProductId": 131,
+        "Description": "Лук"
+      }
+    ],
+    "Tags": [
+      "Суп"
+    ]
+  },
+  {
+    "Id": 13,
+    "Name": "Chicken Broth",
+    "Reference": "http://belonika.livejournal.com/246181.html\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 50,
+        "Description": "1 домашняя крупная курица"
+      },
+      {
+        "Id": 1,
+        "ProductId": 102,
+        "Description": "эстрагон свежий, небольшой пучок"
+      },
+      {
+        "Id": 2,
+        "ProductId": 90,
+        "Description": "1 головка чеснока"
+      },
+      {
+        "Id": 3,
+        "ProductId": 112,
+        "Description": "1 порей"
+      },
+      {
+        "Id": 4,
+        "ProductId": 42,
+        "Description": "пару стеблей сельдерея"
+      },
+      {
+        "Id": 5,
+        "ProductId": 131,
+        "Description": "4 шалота или крупная белая луковица"
+      },
+      {
+        "Id": 6,
+        "ProductId": 102,
+        "Description": "свежий тимьян и розмарин, по паре веточек"
+      },
+      {
+        "Id": 7,
+        "ProductId": 211,
+        "Description": "перец (черный горошком и молотый)"
+      },
+      {
+        "Id": 8,
+        "ProductId": 184,
+        "Description": "гвоздика"
+      },
+      {
+        "Id": 9,
+        "ProductId": 184,
+        "Description": "бадьян (star anise)"
+      }
+    ],
+    "Tags": [
+      "Суп"
+    ]
+  },
+  {
+    "Id": 14,
+    "Name": "Chicken Nuggets",
+    "Reference": "For Damian: 182\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 130,
+        "Description": "1 tablespoon (15 ml) olive oil, or more as needed"
+      },
+      {
+        "Id": 1,
+        "ProductId": 46,
+        "Description": "1 egg"
+      },
+      {
+        "Id": 2,
+        "ProductId": 120,
+        "Description": "1 tablespoon (15 ml) whole milk"
+      },
+      {
+        "Id": 3,
+        "ProductId": 29,
+        "Description": "1/4 cup (30 g) seasonedbread crumbs"
+      },
+      {
+        "Id": 4,
+        "ProductId": 44,
+        "Description": "3 boneless and skinless chicken breasts, cut into nugget-size pieces"
+      }
+    ],
+    "Tags": [
+      "Dema"
+    ]
+  },
+  {
+    "Id": 15,
+    "Name": "Chicken Soup",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 50,
+        "Description": "Курица целая"
+      },
+      {
+        "Id": 1,
+        "ProductId": 42,
+        "Description": "Сельдерей"
+      },
+      {
+        "Id": 2,
+        "ProductId": 40,
+        "Description": "Морковь"
+      },
+      {
+        "Id": 3,
+        "ProductId": 143,
+        "Description": "Макароны рожки"
+      },
+      {
+        "Id": 4,
+        "ProductId": 131,
+        "Description": "Лук"
+      },
+      {
+        "Id": 5,
+        "ProductId": 23,
+        "Description": "Перец черный горошком"
+      }
+    ],
+    "Tags": [
+      "Суп"
+    ]
+  },
+  {
+    "Id": 16,
+    "Name": "Chicken with almonds",
+    "Reference": "Pagano: 239\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 44,
+        "Description": "2 skinless, boneless chiken breasts, sliced"
+      },
+      {
+        "Id": 1,
+        "ProductId": 2,
+        "Description": "2/3 cup finely ground raw almonds"
+      },
+      {
+        "Id": 2,
+        "ProductId": 140,
+        "Description": "1/3 cup grated Parmesan cheese"
+      },
+      {
+        "Id": 3,
+        "ProductId": 214,
+        "Description": "1 cup lowfat plain yogurt"
+      },
+      {
+        "Id": 4,
+        "ProductId": 141,
+        "Description": "1/2 cup parsley flakes"
+      },
+      {
+        "Id": 5,
+        "ProductId": 23,
+        "Description": "Dash ground black pepper (optional)"
+      }
+    ],
+    "Tags": [
+      "Курица"
+    ]
+  },
+  {
+    "Id": 17,
+    "Name": "Chicken with rosemary",
+    "Reference": "Pagano: 255\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 44,
+        "Description": "2 chicken breasts"
+      },
+      {
+        "Id": 1,
+        "ProductId": 90,
+        "Description": "2 large garlic loves"
+      },
+      {
+        "Id": 2,
+        "ProductId": 130,
+        "Description": "1 tablespoon olive oil"
+      },
+      {
+        "Id": 3,
+        "ProductId": 164,
+        "Description": "1 tablespoon fresh rosemary"
+      },
+      {
+        "Id": 4,
+        "ProductId": 113,
+        "Description": "1 teaspoo fresh lemon juice"
+      }
+    ],
+    "Tags": [
+      "Курица"
+    ]
+  },
+  {
+    "Id": 18,
+    "Name": "Classic Rack of Lamb",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 111,
+        "Description": "1 or more Frenched* lamb rib racks with 7 to 8 ribs each (1 1/2 to 2 pounds for each rack, figure each rack feeds 2-3 people)"
+      },
+      {
+        "Id": 1,
+        "ProductId": 164,
+        "Description": "2 teaspoons chopped fresh rosemary"
+      },
+      {
+        "Id": 2,
+        "ProductId": 193,
+        "Description": "1 teaspoon chopped fresh thyme"
+      },
+      {
+        "Id": 3,
+        "ProductId": 90,
+        "Description": "2 cloves garlic, minced"
+      },
+      {
+        "Id": 4,
+        "ProductId": 172,
+        "Description": "Salt"
+      },
+      {
+        "Id": 5,
+        "ProductId": 23,
+        "Description": "Pepper"
+      },
+      {
+        "Id": 6,
+        "ProductId": 130,
+        "Description": "2 Tbsp olive oil"
+      }
+    ],
+    "Tags": [
+      "Мясо"
+    ]
+  },
+  {
+    "Id": 19,
+    "Name": "Cool Cucumber Soup",
+    "Reference": "Pagano: 103\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 34,
+        "Description": "1  tablespoon butter"
+      },
+      {
+        "Id": 1,
+        "ProductId": 190,
+        "Description": "1  tablespoon safflower oil"
+      },
+      {
+        "Id": 2,
+        "ProductId": 131,
+        "Description": "1/2  cup onions chopped"
+      },
+      {
+        "Id": 3,
+        "ProductId": 66,
+        "Description": "4 cups cucumber, seeded and diced"
+      },
+      {
+        "Id": 4,
+        "ProductId": 65,
+        "Description": "1/2 cups watercress leaves"
+      },
+      {
+        "Id": 5,
+        "ProductId": 210,
+        "Description": "1 cup white turnip, diced"
+      },
+      {
+        "Id": 6,
+        "ProductId": 69,
+        "Description": "1 teaspoon dill"
+      },
+      {
+        "Id": 7,
+        "ProductId": 45,
+        "Description": "5 cups fat-free, low sodium chicken broth"
+      },
+      {
+        "Id": 8,
+        "ProductId": 172,
+        "Description": "1/4 teaspoon sea Salt"
+      },
+      {
+        "Id": 9,
+        "ProductId": 23,
+        "Description": "1/4 teaspoon black pepper"
+      },
+      {
+        "Id": 10,
+        "ProductId": 214,
+        "Description": "1/2 cup low fat plain yogurt"
+      },
+      {
+        "Id": 11,
+        "ProductId": 141,
+        "Description": "Chives or parsley for garnish"
+      }
+    ],
+    "Tags": [
+      "Суп"
+    ]
+  },
+  {
+    "Id": 20,
+    "Name": "Cucumber Dill Dressing",
+    "Reference": "Pagano: 188\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 66,
+        "Description": "1 medium cucumber"
+      },
+      {
+        "Id": 1,
+        "ProductId": 216,
+        "Description": "1 cup plain lowfat yogurt"
+      },
+      {
+        "Id": 2,
+        "ProductId": 130,
+        "Description": "1 tbsp olive oil"
+      },
+      {
+        "Id": 3,
+        "ProductId": 113,
+        "Description": "1 tsp fresh lemon juice"
+      },
+      {
+        "Id": 4,
+        "ProductId": 172,
+        "Description": "1/4 tsp sea solt"
+      },
+      {
+        "Id": 5,
+        "ProductId": 90,
+        "Description": "1 large garlic clove"
+      },
+      {
+        "Id": 6,
+        "ProductId": 69,
+        "Description": "1 tbsp fresh dill"
+      }
+    ],
+    "Tags": [
+      "Соус"
+    ]
+  },
+  {
+    "Id": 21,
+    "Name": "Eight Vegetable soup",
+    "Reference": "Pagano: 109\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 34,
+        "Description": "1 1/2 tablespoons butter"
+      },
+      {
+        "Id": 1,
+        "ProductId": 40,
+        "Description": "2 carrots, chopped"
+      },
+      {
+        "Id": 2,
+        "ProductId": 210,
+        "Description": "1 white turnip, chopped"
+      },
+      {
+        "Id": 3,
+        "ProductId": 112,
+        "Description": "2 leeks, washed well and chopped"
+      },
+      {
+        "Id": 4,
+        "ProductId": 174,
+        "Description": "1/4 head Savoy cabbage, shredded"
+      },
+      {
+        "Id": 5,
+        "ProductId": 45,
+        "Description": "2 guarts fat free, low sodium chicken broth"
+      },
+      {
+        "Id": 6,
+        "ProductId": 97,
+        "Description": "1/2 cup peas, frozen"
+      },
+      {
+        "Id": 7,
+        "ProductId": 42,
+        "Description": "1/2 cup celery, chopped"
+      },
+      {
+        "Id": 8,
+        "ProductId": 95,
+        "Description": "1/2 cup green beans, chopped"
+      },
+      {
+        "Id": 9,
+        "ProductId": 26,
+        "Description": "1 Boston lettuce"
+      },
+      {
+        "Id": 10,
+        "ProductId": 102,
+        "Description": "1/4 teaspoon thyme (to taste)"
+      },
+      {
+        "Id": 11,
+        "ProductId": 141,
+        "Description": "1/4 cup fresh parsley, chopped"
+      },
+      {
+        "Id": 12,
+        "ProductId": 172,
+        "Description": "Salt to taste"
+      },
+      {
+        "Id": 13,
+        "ProductId": 23,
+        "Description": "Black pepper to taste"
+      }
+    ],
+    "Tags": [
+      "Суп"
+    ]
+  },
+  {
+    "Id": 22,
+    "Name": "Farro c грибами",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 76,
+        "Description": "Farro"
+      },
+      {
+        "Id": 1,
+        "ProductId": 125,
+        "Description": "Грибы"
+      },
+      {
+        "Id": 2,
+        "ProductId": 131,
+        "Description": "Лук"
+      }
+    ],
+    "Tags": [
+      "Каши"
+    ]
+  },
+  {
+    "Id": 23,
+    "Name": "Farro salad",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 76,
+        "Description": "12 oz's of farro"
+      },
+      {
+        "Id": 1,
+        "ProductId": 196,
+        "Description": "1 pound sweet cherry tomatoes chopped"
+      },
+      {
+        "Id": 2,
+        "ProductId": 131,
+        "Description": "1/2 sweet onion chopped"
+      },
+      {
+        "Id": 3,
+        "ProductId": 54,
+        "Description": "1/4 cup diced chives"
+      },
+      {
+        "Id": 4,
+        "ProductId": 141,
+        "Description": "1/4 cup finely chopped fresh parsley"
+      },
+      {
+        "Id": 5,
+        "ProductId": 90,
+        "Description": "1 large garlic clove diced"
+      },
+      {
+        "Id": 6,
+        "ProductId": 14,
+        "Description": "2 tbsp balsamic vinegar or lemion juice"
+      },
+      {
+        "Id": 7,
+        "ProductId": 184,
+        "Description": "Fresh ground pepper to taste"
+      },
+      {
+        "Id": 8,
+        "ProductId": 129,
+        "Description": "1/4 cup extra virgin olive oil"
+      }
+    ],
+    "Tags": [
+      "Vegetarian"
+    ]
+  },
+  {
+    "Id": 24,
+    "Name": "Flounder with almonds",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 84,
+        "Description": "2-3 Orca Bay Flounder Fillets"
+      },
+      {
+        "Id": 1,
+        "ProductId": 172,
+        "Description": "1/4 teaspoon salt"
+      },
+      {
+        "Id": 2,
+        "ProductId": 23,
+        "Description": "1/4 teaspoon pepper"
+      },
+      {
+        "Id": 3,
+        "ProductId": 117,
+        "Description": "2 limes"
+      },
+      {
+        "Id": 4,
+        "ProductId": 90,
+        "Description": "1 clove garlic"
+      },
+      {
+        "Id": 5,
+        "ProductId": 96,
+        "Description": "Green onion"
+      },
+      {
+        "Id": 6,
+        "ProductId": 130,
+        "Description": "1/8 cup olive oil"
+      },
+      {
+        "Id": 7,
+        "ProductId": 2,
+        "Description": "1/4 cup sliced almonds"
+      },
+      {
+        "Id": 8,
+        "ProductId": 34,
+        "Description": "1 tablespoon butter"
+      }
+    ],
+    "Tags": [
+      "Рыба"
+    ]
+  },
+  {
+    "Id": 25,
+    "Name": "Golden Grilled Cbiken",
+    "Reference": "Pagano: 251\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 47,
+        "Description": "12 chicken legs with thighs"
+      },
+      {
+        "Id": 1,
+        "ProductId": 183,
+        "Description": "1/2 cup low sodium soy sauce"
+      },
+      {
+        "Id": 2,
+        "ProductId": 130,
+        "Description": "1/4 cup olive oil"
+      },
+      {
+        "Id": 3,
+        "ProductId": 90,
+        "Description": "2 garlic cloves, finely chopped"
+      },
+      {
+        "Id": 4,
+        "ProductId": 161,
+        "Description": "1/4 cup dry sherry or rice wine"
+      },
+      {
+        "Id": 5,
+        "ProductId": 92,
+        "Description": "2 tablespoons fresh ginger, grated"
+      },
+      {
+        "Id": 6,
+        "ProductId": 133,
+        "Description": "1  tablespoons orange rind, finely shredded"
+      }
+    ],
+    "Tags": [
+      "Курица"
+    ]
+  },
+  {
+    "Id": 26,
+    "Name": "Greek salad",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 168,
+        "Description": "Salad"
+      },
+      {
+        "Id": 1,
+        "ProductId": 138,
+        "Description": "2 red or green peppers"
+      },
+      {
+        "Id": 2,
+        "ProductId": 78,
+        "Description": "150 g or Feta cheese"
+      },
+      {
+        "Id": 3,
+        "ProductId": 22,
+        "Description": "some black olives"
+      },
+      {
+        "Id": 4,
+        "ProductId": 129,
+        "Description": "Olive oil extra virgin"
+      }
+    ],
+    "Tags": [
+      "Vegetarian",
+      "Гарнир"
+    ]
+  },
+  {
+    "Id": 27,
+    "Name": "Green Vegetables Casserole",
+    "Reference": "Pagano: 331\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 112,
+        "Description": "2 cups leek, finely chopped"
+      },
+      {
+        "Id": 1,
+        "ProductId": 185,
+        "Description": "2 cups spinach, finely chopped"
+      },
+      {
+        "Id": 2,
+        "ProductId": 163,
+        "Description": "1 cup Romaine lettuce, finely chopped"
+      },
+      {
+        "Id": 3,
+        "ProductId": 141,
+        "Description": "1 cup fresh parsley, finely chopped"
+      },
+      {
+        "Id": 4,
+        "ProductId": 96,
+        "Description": "1 cup scallions, finely chopped"
+      },
+      {
+        "Id": 5,
+        "ProductId": 82,
+        "Description": "1 1/2  tablespoon flour"
+      },
+      {
+        "Id": 6,
+        "ProductId": 172,
+        "Description": "1 teaspoon salt"
+      },
+      {
+        "Id": 7,
+        "ProductId": 23,
+        "Description": "1/2 teaspoon black pepper"
+      },
+      {
+        "Id": 8,
+        "ProductId": 46,
+        "Description": "8 eggs"
+      },
+      {
+        "Id": 9,
+        "ProductId": 130,
+        "Description": "1 teaspoon olive oil"
+      }
+    ],
+    "Tags": [
+      "Vegetarian"
+    ]
+  },
+  {
+    "Id": 28,
+    "Name": "Grilled Swordfish Steaks",
+    "Reference": "Pagano: 217\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 80,
+        "Description": "4 swordfish steaks"
+      },
+      {
+        "Id": 1,
+        "ProductId": 157,
+        "Description": "2 tablespoon red onions, diced"
+      },
+      {
+        "Id": 2,
+        "ProductId": 113,
+        "Description": "2 tablespoons fresh lemon juice"
+      },
+      {
+        "Id": 3,
+        "ProductId": 90,
+        "Description": "1 garlic clove, crushed"
+      },
+      {
+        "Id": 4,
+        "ProductId": 129,
+        "Description": "1 tablespoon olive oil"
+      },
+      {
+        "Id": 5,
+        "ProductId": 23,
+        "Description": "Pepper"
+      },
+      {
+        "Id": 6,
+        "ProductId": 90,
+        "Description": "2 garlic cloves, minced or pressed"
+      },
+      {
+        "Id": 7,
+        "ProductId": 39,
+        "Description": "1 tablespoon capers"
+      },
+      {
+        "Id": 8,
+        "ProductId": 113,
+        "Description": "3 tablespoons fresh lemon juice"
+      },
+      {
+        "Id": 9,
+        "ProductId": 129,
+        "Description": "2 tablespoons olive oil"
+      },
+      {
+        "Id": 10,
+        "ProductId": 102,
+        "Description": "1 tablespoon chives"
+      },
+      {
+        "Id": 11,
+        "ProductId": 141,
+        "Description": "1 tablespoon fresh parsley, chopped"
+      }
+    ],
+    "Tags": [
+      "Рыба"
+    ]
+  },
+  {
+    "Id": 29,
+    "Name": "Grilled Swordfrsh with Vegetables",
+    "Reference": "Pagano: 216\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 80,
+        "Description": "4 Swordfish steaks"
+      },
+      {
+        "Id": 1,
+        "ProductId": 217,
+        "Description": "2 small zucchinis"
+      },
+      {
+        "Id": 2,
+        "ProductId": 186,
+        "Description": "2 small yellow squash"
+      },
+      {
+        "Id": 3,
+        "ProductId": 131,
+        "Description": "4 slices red onion"
+      },
+      {
+        "Id": 4,
+        "ProductId": 184,
+        "Description": "Lemon pepper to taste"
+      },
+      {
+        "Id": 5,
+        "ProductId": 129,
+        "Description": "1/3 cup olive oil"
+      },
+      {
+        "Id": 6,
+        "ProductId": 90,
+        "Description": "2 garlic cloves"
+      },
+      {
+        "Id": 7,
+        "ProductId": 113,
+        "Description": "3 tablespoon fresh lemon juice"
+      },
+      {
+        "Id": 8,
+        "ProductId": 102,
+        "Description": "1 teaspoon thyme"
+      },
+      {
+        "Id": 9,
+        "ProductId": 102,
+        "Description": "1 tablespoon dried rosemary"
+      }
+    ],
+    "Tags": [
+      "Рыба"
+    ]
+  },
+  {
+    "Id": 30,
+    "Name": "Guacamole",
+    "Reference": "http://www.simplyrecipes.com/recipes/perfect_guacamole/\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 9,
+        "Description": "2 ripe avocados"
+      },
+      {
+        "Id": 1,
+        "ProductId": 131,
+        "Description": "1/2 red onion, minced (about 1/2 cup)"
+      },
+      {
+        "Id": 2,
+        "ProductId": 176,
+        "Description": "1-2 serrano chiles, stems and seeds removed, minced"
+      },
+      {
+        "Id": 3,
+        "ProductId": 55,
+        "Description": "2 tablespoons cilantro (leaves and tender stems), finely chopped"
+      },
+      {
+        "Id": 4,
+        "ProductId": 117,
+        "Description": "1 tablespoon of fresh lime or lemon juice"
+      },
+      {
+        "Id": 5,
+        "ProductId": 172,
+        "Description": "1/2 teaspoon coarse salt"
+      },
+      {
+        "Id": 6,
+        "ProductId": 23,
+        "Description": "A dash of freshly grated black pepper"
+      },
+      {
+        "Id": 7,
+        "ProductId": 196,
+        "Description": "1/2 ripe tomato, seeds and pulp removed, chopped"
+      },
+      {
+        "Id": 8,
+        "ProductId": 199,
+        "Description": "Tortillas chips"
+      }
+    ],
+    "Tags": [
+      "Vegetarian"
+    ]
+  },
+  {
+    "Id": 31,
+    "Name": "Herbed Roast Leg of Lamb",
+    "Reference": "Pagano: 299\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 111,
+        "Description": "1 leg of lamb (about 6 pounds)"
+      },
+      {
+        "Id": 1,
+        "ProductId": 90,
+        "Description": "1 teaspoon garlic powder or fresh garlic cloves"
+      },
+      {
+        "Id": 2,
+        "ProductId": 172,
+        "Description": "1 1/2 teaspoons salt"
+      },
+      {
+        "Id": 3,
+        "ProductId": 23,
+        "Description": "1/2 teaspoon ground black pepper"
+      },
+      {
+        "Id": 4,
+        "ProductId": 135,
+        "Description": "3 teaspoons oregano"
+      },
+      {
+        "Id": 5,
+        "ProductId": 129,
+        "Description": "1/2 cup olive oil"
+      },
+      {
+        "Id": 6,
+        "ProductId": 113,
+        "Description": "2 tablespoons fresh lemon juice"
+      }
+    ],
+    "Tags": [
+      "Мясо"
+    ]
+  },
+  {
+    "Id": 32,
+    "Name": "Homemade fresh tuna in olive oil",
+    "Reference": "Pagano: 220\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 200,
+        "Description": "2 tuna steaks"
+      },
+      {
+        "Id": 1,
+        "ProductId": 129,
+        "Description": "2 cups Extra Virgin olive oil"
+      },
+      {
+        "Id": 2,
+        "ProductId": 18,
+        "Description": "2 bay leaves"
+      },
+      {
+        "Id": 3,
+        "ProductId": 211,
+        "Description": "10 whole black peppercorns"
+      },
+      {
+        "Id": 4,
+        "ProductId": 172,
+        "Description": "1/4 teaspoon salt"
+      },
+      {
+        "Id": 5,
+        "ProductId": 113,
+        "Description": "4 round slices lemon"
+      }
+    ],
+    "Tags": [
+      "Рыба"
+    ]
+  },
+  {
+    "Id": 33,
+    "Name": "Homemade Humus with shpinat",
+    "Reference": "https://sites.google.com/site/bublegumm/home/cooking/chickpea-puree\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 52,
+        "Description": "1 cup of chickpeas"
+      },
+      {
+        "Id": 1,
+        "ProductId": 131,
+        "Description": "1 Large Yellow Onion, quartered"
+      },
+      {
+        "Id": 2,
+        "ProductId": 40,
+        "Description": "1 Large Carrot, peeled and quartered"
+      },
+      {
+        "Id": 3,
+        "ProductId": 90,
+        "Description": "6 Garlic Cloves, whole"
+      },
+      {
+        "Id": 4,
+        "ProductId": 172,
+        "Description": "Sea Salt"
+      },
+      {
+        "Id": 5,
+        "ProductId": 23,
+        "Description": "Black Pepper"
+      },
+      {
+        "Id": 6,
+        "ProductId": 129,
+        "Description": "2 Tbsp (table). Olive oil"
+      },
+      {
+        "Id": 7,
+        "ProductId": 185,
+        "Description": "12 oz. Baby Spinach"
+      }
+    ],
+    "Tags": [
+      "Vegetarian"
+    ]
+  },
+  {
+    "Id": 34,
+    "Name": "Italian-Style Pasta",
+    "Reference": "Pagano: 332\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 122,
+        "Description": "1 cup bottled spring water"
+      },
+      {
+        "Id": 1,
+        "ProductId": 40,
+        "Description": "1 Large carrot, chopped"
+      },
+      {
+        "Id": 2,
+        "ProductId": 21,
+        "Description": "1 large beet, peeled and choped"
+      },
+      {
+        "Id": 3,
+        "ProductId": 129,
+        "Description": "1 teaspoon olive oll"
+      },
+      {
+        "Id": 4,
+        "ProductId": 131,
+        "Description": "1 small onion, finely chopped"
+      },
+      {
+        "Id": 5,
+        "ProductId": 42,
+        "Description": "1 stalk celery, finely chopped"
+      },
+      {
+        "Id": 6,
+        "ProductId": 90,
+        "Description": "2 cloves garlic, minced"
+      },
+      {
+        "Id": 7,
+        "ProductId": 135,
+        "Description": "1/2 teaspoon dried oregano"
+      },
+      {
+        "Id": 8,
+        "ProductId": 17,
+        "Description": "1/2 teaspoon dried basil"
+      },
+      {
+        "Id": 9,
+        "ProductId": 141,
+        "Description": "1 teaspoon fresh parsley, minced"
+      },
+      {
+        "Id": 10,
+        "ProductId": 18,
+        "Description": "1 bay leaf"
+      },
+      {
+        "Id": 11,
+        "ProductId": 172,
+        "Description": "Sea salt"
+      },
+      {
+        "Id": 12,
+        "ProductId": 23,
+        "Description": "Black pepper to taste"
+      }
+    ],
+    "Tags": [
+      "Vegetarian"
+    ]
+  },
+  {
+    "Id": 35,
+    "Name": "Lamb Burgers",
+    "Reference": "Pagano: 300\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 111,
+        "Description": "1 pounds ground lamb"
+      },
+      {
+        "Id": 1,
+        "ProductId": 131,
+        "Description": "1 small onion, minced"
+      },
+      {
+        "Id": 2,
+        "ProductId": 90,
+        "Description": "1 garlic clove, finely chopped"
+      },
+      {
+        "Id": 3,
+        "ProductId": 135,
+        "Description": "Dash of oregano"
+      },
+      {
+        "Id": 4,
+        "ProductId": 33,
+        "Description": "Булочки для бургера 8 шт"
+      },
+      {
+        "Id": 5,
+        "ProductId": 124,
+        "Description": "Сыр"
+      },
+      {
+        "Id": 6,
+        "ProductId": 196,
+        "Description": "Помидоры 2 больших"
+      },
+      {
+        "Id": 7,
+        "ProductId": 116,
+        "Description": "Салат"
+      },
+      {
+        "Id": 8,
+        "ProductId": 110,
+        "Description": "Кетчуп"
+      }
+    ],
+    "Tags": [
+      "Мясо"
+    ]
+  },
+  {
+    "Id": 36,
+    "Name": "Lean Garden Soup",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 0,
+        "Description": "Lean Garden Soup"
+      }
+    ],
+    "Tags": [
+      "Суп"
+    ]
+  },
+  {
+    "Id": 37,
+    "Name": "Lemon muffins",
+    "Reference": "на нашем сайте\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 113,
+        "Description": "Лимон — 1 шт"
+      },
+      {
+        "Id": 1,
+        "ProductId": 46,
+        "Description": "Яйцо — 3 шт"
+      },
+      {
+        "Id": 2,
+        "ProductId": 189,
+        "Description": "Сахар — 300 мл"
+      },
+      {
+        "Id": 3,
+        "ProductId": 190,
+        "Description": "Масло растительное — 100 мл"
+      },
+      {
+        "Id": 4,
+        "ProductId": 82,
+        "Description": "Мука — 400 мл"
+      },
+      {
+        "Id": 5,
+        "ProductId": 12,
+        "Description": "Разрыхлитель теста — 1,5 ч. л."
+      },
+      {
+        "Id": 6,
+        "ProductId": 203,
+        "Description": "Сахар ванильный — 1 ч. л."
+      },
+      {
+        "Id": 7,
+        "ProductId": 182,
+        "Description": "Сметана (я беру легкую, 10%) — 200 г"
+      }
+    ],
+    "Tags": [
+      "Десерт"
+    ]
+  },
+  {
+    "Id": 38,
+    "Name": "Linguine with Parsley and garlic",
+    "Reference": "Pagano: 369\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 108,
+        "Description": "Jerusalem artichoke linguine"
+      },
+      {
+        "Id": 1,
+        "ProductId": 81,
+        "Description": "Хлопья чеснока"
+      },
+      {
+        "Id": 2,
+        "ProductId": 129,
+        "Description": "Olive oil extra virgin"
+      },
+      {
+        "Id": 3,
+        "ProductId": 114,
+        "Description": "lemon-pepper flakes"
+      },
+      {
+        "Id": 4,
+        "ProductId": 208,
+        "Description": "Вино белое"
+      },
+      {
+        "Id": 5,
+        "ProductId": 141,
+        "Description": "Петрушка"
+      },
+      {
+        "Id": 6,
+        "ProductId": 140,
+        "Description": "Пармезан"
+      }
+    ],
+    "Tags": [
+      "Vegetarian"
+    ]
+  },
+  {
+    "Id": 39,
+    "Name": "Pesto Sauce",
+    "Reference": "Pagano: 193\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 17,
+        "Description": "2 cups packed fresh basil leaves, washed and well drained"
+      },
+      {
+        "Id": 1,
+        "ProductId": 140,
+        "Description": "3/4 cup freshly grated low-fat Parmesan cheese"
+      },
+      {
+        "Id": 2,
+        "ProductId": 129,
+        "Description": "1/2 cup olive oil"
+      },
+      {
+        "Id": 3,
+        "ProductId": 90,
+        "Description": "2 garlic cloves"
+      },
+      {
+        "Id": 4,
+        "ProductId": 141,
+        "Description": "A few parsley sprigs (optional)"
+      },
+      {
+        "Id": 5,
+        "ProductId": 2,
+        "Description": "Roasted pignoli or almonds (optional)"
+      }
+    ],
+    "Tags": [
+      "Гарнир"
+    ]
+  },
+  {
+    "Id": 40,
+    "Name": "Pumpkin Muffins",
+    "Reference": "Pagano: 421\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 212,
+        "Description": "3/4 cup whole wheat flour"
+      },
+      {
+        "Id": 1,
+        "ProductId": 103,
+        "Description": "1/4 cup honey"
+      },
+      {
+        "Id": 2,
+        "ProductId": 172,
+        "Description": "1/4 teaspoon salt"
+      },
+      {
+        "Id": 3,
+        "ProductId": 12,
+        "Description": "1 teaspoon baking powder"
+      },
+      {
+        "Id": 4,
+        "ProductId": 56,
+        "Description": "1/4 teaspoon cinnamon"
+      },
+      {
+        "Id": 5,
+        "ProductId": 126,
+        "Description": "1/4 teaspoon nutmeg"
+      },
+      {
+        "Id": 6,
+        "ProductId": 120,
+        "Description": "2 tablespoon milk"
+      },
+      {
+        "Id": 7,
+        "ProductId": 152,
+        "Description": "1/4 cup cooled mashed pumpkin"
+      },
+      {
+        "Id": 8,
+        "ProductId": 34,
+        "Description": "1/8  cup butter"
+      },
+      {
+        "Id": 9,
+        "ProductId": 46,
+        "Description": "1 egg"
+      }
+    ],
+    "Tags": [
+      "Десерт"
+    ]
+  },
+  {
+    "Id": 41,
+    "Name": "Red Wine and Beef Pasta",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 143,
+        "Description": "8 oz package of DeBoles Spaghetti"
+      },
+      {
+        "Id": 1,
+        "ProductId": 19,
+        "Description": "1 1/2 lb top round beef cut into 1 inch cubes"
+      },
+      {
+        "Id": 2,
+        "ProductId": 158,
+        "Description": "1 bottle full bodied red wine"
+      },
+      {
+        "Id": 3,
+        "ProductId": 197,
+        "Description": "1 cup crushed plum tomatoes"
+      },
+      {
+        "Id": 4,
+        "ProductId": 102,
+        "Description": "2 tablespoons fresh rosemary, chopped"
+      },
+      {
+        "Id": 5,
+        "ProductId": 90,
+        "Description": "2 garlic cloves smashed and peeled"
+      },
+      {
+        "Id": 6,
+        "ProductId": 131,
+        "Description": "1 red onion diced"
+      },
+      {
+        "Id": 7,
+        "ProductId": 184,
+        "Description": "2 bay leaves"
+      },
+      {
+        "Id": 8,
+        "ProductId": 141,
+        "Description": "1/4 cup chopped flat leaf Italian parsley"
+      }
+    ],
+    "Tags": [
+      "Мясо"
+    ]
+  },
+  {
+    "Id": 42,
+    "Name": "Rice, Mushroom, Green Pea and Tofu",
+    "Reference": "Pagano: 321\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 31,
+        "Description": "1/2 cup brown rice"
+      },
+      {
+        "Id": 1,
+        "ProductId": 121,
+        "Description": "11/4 cup bottled spring water"
+      },
+      {
+        "Id": 2,
+        "ProductId": 125,
+        "Description": "4 large mushrooms (white or shiitake), sliced"
+      },
+      {
+        "Id": 3,
+        "ProductId": 183,
+        "Description": "2 tablespoons low sodium soy sauce or tamari"
+      },
+      {
+        "Id": 4,
+        "ProductId": 167,
+        "Description": "2 tablespoons rice wine"
+      },
+      {
+        "Id": 5,
+        "ProductId": 103,
+        "Description": "1 teaspoon honey"
+      },
+      {
+        "Id": 6,
+        "ProductId": 195,
+        "Description": "1 cup tofu, cubed"
+      },
+      {
+        "Id": 7,
+        "ProductId": 97,
+        "Description": "1/2 cup green peas, fresh or frozen"
+      },
+      {
+        "Id": 8,
+        "ProductId": 96,
+        "Description": "1 scallion, sliced (including green part), for garnish"
+      }
+    ],
+    "Tags": [
+      "Vegetarian"
+    ]
+  },
+  {
+    "Id": 43,
+    "Name": "Roasted chicken",
+    "Reference": "Pagano: 269\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 50,
+        "Description": "Chicken 4 pounds"
+      },
+      {
+        "Id": 1,
+        "ProductId": 130,
+        "Description": "Olive oil 1 tbsp"
+      },
+      {
+        "Id": 2,
+        "ProductId": 130,
+        "Description": "canola oil 2 tbsp"
+      },
+      {
+        "Id": 3,
+        "ProductId": 102,
+        "Description": "tarragon 1 tsp"
+      },
+      {
+        "Id": 4,
+        "ProductId": 102,
+        "Description": "thyme 1 tsp"
+      },
+      {
+        "Id": 5,
+        "ProductId": 183,
+        "Description": "low sodium soy sauce 1 tsp"
+      },
+      {
+        "Id": 6,
+        "ProductId": 184,
+        "Description": "onion flakes 1 tsp"
+      },
+      {
+        "Id": 7,
+        "ProductId": 113,
+        "Description": "lemon 1"
+      }
+    ],
+    "Tags": [
+      "Курица"
+    ]
+  },
+  {
+    "Id": 44,
+    "Name": "Roasted Chicken with Turnip",
+    "Reference": "Pagano: 264\r\nhttp://www.myrecipes.com/recipe/roasted-chicken-with-potatoes-carrots-turnips-10000001108201/\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 44,
+        "Description": "2 whole chicken breasts, boned, skinned and halved"
+      },
+      {
+        "Id": 1,
+        "ProductId": 130,
+        "Description": "2 tablespoons olive oil"
+      },
+      {
+        "Id": 2,
+        "ProductId": 23,
+        "Description": "Dash pepper"
+      },
+      {
+        "Id": 3,
+        "ProductId": 69,
+        "Description": "Dash dill"
+      },
+      {
+        "Id": 4,
+        "ProductId": 210,
+        "Description": "2 medium white turnips, cut into small chunks"
+      },
+      {
+        "Id": 5,
+        "ProductId": 66,
+        "Description": "1 large cucumber, peeled, seeded and cut into large chunks"
+      },
+      {
+        "Id": 6,
+        "ProductId": 45,
+        "Description": "2 cups fat free, low sodium chicken broth"
+      },
+      {
+        "Id": 7,
+        "ProductId": 172,
+        "Description": "Dash salt"
+      },
+      {
+        "Id": 8,
+        "ProductId": 23,
+        "Description": "Dash pepper"
+      },
+      {
+        "Id": 9,
+        "ProductId": 193,
+        "Description": "Dash thyme"
+      },
+      {
+        "Id": 10,
+        "ProductId": 71,
+        "Description": "1/2 teaspoon dried parsley"
+      },
+      {
+        "Id": 11,
+        "ProductId": 69,
+        "Description": "1/4 teaspoon dill weed"
+      },
+      {
+        "Id": 12,
+        "ProductId": 141,
+        "Description": "Parsley sprigs to garnish"
+      }
+    ],
+    "Tags": [
+      "Курица"
+    ]
+  },
+  {
+    "Id": 45,
+    "Name": "Rosemary Lamb roast",
+    "Reference": "Pagano: 315\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 111,
+        "Description": "1 leg of lamb, 6-7 pounds, trimmed of fat"
+      },
+      {
+        "Id": 1,
+        "ProductId": 90,
+        "Description": "2 garlic cloves"
+      },
+      {
+        "Id": 2,
+        "ProductId": 130,
+        "Description": "3 tablespoon olive oil"
+      },
+      {
+        "Id": 3,
+        "ProductId": 164,
+        "Description": "2 teaspoon rosemary"
+      },
+      {
+        "Id": 4,
+        "ProductId": 172,
+        "Description": "Dash sea salt and pepper to taste"
+      }
+    ],
+    "Tags": [
+      "Мясо"
+    ]
+  },
+  {
+    "Id": 46,
+    "Name": "Salmon with deal",
+    "Reference": "Pagano: 222\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 171,
+        "Description": "4 salmon fillets"
+      },
+      {
+        "Id": 1,
+        "ProductId": 131,
+        "Description": "1 scallion, chopped, for garnish"
+      },
+      {
+        "Id": 2,
+        "ProductId": 117,
+        "Description": "1 Lime, cut into 4 wedges, for garnish"
+      },
+      {
+        "Id": 3,
+        "ProductId": 69,
+        "Description": "1/4 cup fresh dill, chopped"
+      },
+      {
+        "Id": 4,
+        "ProductId": 96,
+        "Description": "3 tablespoons scallions, chopped"
+      },
+      {
+        "Id": 5,
+        "ProductId": 117,
+        "Description": "3 tablespoons fresh lime juice"
+      },
+      {
+        "Id": 6,
+        "ProductId": 104,
+        "Description": "1 tablespoons honey mustard"
+      },
+      {
+        "Id": 7,
+        "ProductId": 129,
+        "Description": "3 tablespoons olive oil"
+      }
+    ],
+    "Tags": [
+      "Рыба"
+    ]
+  },
+  {
+    "Id": 47,
+    "Name": "Spaghetti with Asparagus and Tuna",
+    "Reference": "Pagano: 232\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 108,
+        "Description": "1 package jerusalem artichoke spaghetti"
+      },
+      {
+        "Id": 1,
+        "ProductId": 8,
+        "Description": "1 bunch asparagus, diced"
+      },
+      {
+        "Id": 2,
+        "ProductId": 90,
+        "Description": "6 cloves finely minced garlic"
+      },
+      {
+        "Id": 3,
+        "ProductId": 131,
+        "Description": "1/4 cup finely minced onion"
+      },
+      {
+        "Id": 4,
+        "ProductId": 38,
+        "Description": "1 small can (2 oz) light tuna in water, drained"
+      },
+      {
+        "Id": 5,
+        "ProductId": 184,
+        "Description": "1/2 teaspoons black pepper"
+      },
+      {
+        "Id": 6,
+        "ProductId": 184,
+        "Description": "1/4 teaspoon lemon salt"
+      },
+      {
+        "Id": 7,
+        "ProductId": 183,
+        "Description": "2 teaspoons light soy sauce"
+      },
+      {
+        "Id": 8,
+        "ProductId": 129,
+        "Description": "3 teaspoons olive oil"
+      }
+    ],
+    "Tags": [
+      "Рыба"
+    ]
+  },
+  {
+    "Id": 48,
+    "Name": "Spicy chicken wings",
+    "Reference": "http://www.foodnetwork.com/recipes/alton-brown/alton-browns-buffalo-wings-recipe/index.html\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 51,
+        "Description": "12 whole chicken wings (about 3 pounds)"
+      },
+      {
+        "Id": 1,
+        "ProductId": 34,
+        "Description": "3 ounces (6 tablespoons) unsalted butter"
+      },
+      {
+        "Id": 2,
+        "ProductId": 90,
+        "Description": "1 small clove garlic, minced"
+      },
+      {
+        "Id": 3,
+        "ProductId": 32,
+        "Description": "1/4 cup hot sauce"
+      },
+      {
+        "Id": 4,
+        "ProductId": 172,
+        "Description": "Kosher salt"
+      }
+    ],
+    "Tags": [
+      "Курица"
+    ]
+  },
+  {
+    "Id": 49,
+    "Name": "Steak Tuna",
+    "Reference": "1000\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 201,
+        "Description": "Steak Tuna"
+      }
+    ],
+    "Tags": [
+      "Рыба"
+    ]
+  },
+  {
+    "Id": 50,
+    "Name": "Tacos by Maribel",
+    "Reference": "Pagano: 341\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 61,
+        "Description": "1 box (8 pieces) El Paso whshellsite corn taco"
+      },
+      {
+        "Id": 1,
+        "ProductId": 131,
+        "Description": "1 medium onion, minced"
+      },
+      {
+        "Id": 2,
+        "ProductId": 8,
+        "Description": "1 cup minced asparagus"
+      },
+      {
+        "Id": 3,
+        "ProductId": 30,
+        "Description": "1 cup minced broccoli"
+      },
+      {
+        "Id": 4,
+        "ProductId": 41,
+        "Description": "1 cup minced cauliflower"
+      },
+      {
+        "Id": 5,
+        "ProductId": 141,
+        "Description": "1/4 cup fresh minced parsley"
+      },
+      {
+        "Id": 6,
+        "ProductId": 90,
+        "Description": "1/2 teaspoon garlic powder salt"
+      },
+      {
+        "Id": 7,
+        "ProductId": 107,
+        "Description": "1/2 teaspoon Italian seasoning"
+      },
+      {
+        "Id": 8,
+        "ProductId": 23,
+        "Description": "1/2 teaspoon ground black pepper"
+      },
+      {
+        "Id": 9,
+        "ProductId": 129,
+        "Description": "1/4 cup extra virgin olive oil"
+      },
+      {
+        "Id": 10,
+        "ProductId": 26,
+        "Description": "2 cups shredded head of lettuce"
+      },
+      {
+        "Id": 11,
+        "ProductId": 202,
+        "Description": "2 cups lowfat cottage cheese"
+      }
+    ],
+    "Tags": [
+      "Vegetarian"
+    ]
+  },
+  {
+    "Id": 51,
+    "Name": "Tilapia with orange",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 86,
+        "Description": "5 filet of tilapias"
+      },
+      {
+        "Id": 1,
+        "ProductId": 133,
+        "Description": "1/3 cup orange juice (2 oranges)"
+      },
+      {
+        "Id": 2,
+        "ProductId": 129,
+        "Description": "3 tablespoons olive oil"
+      },
+      {
+        "Id": 3,
+        "ProductId": 73,
+        "Description": "1 teaspoon dried basil"
+      },
+      {
+        "Id": 4,
+        "ProductId": 204,
+        "Description": "1 teaspoon apple cider vinegar"
+      },
+      {
+        "Id": 5,
+        "ProductId": 90,
+        "Description": "2 cloves garlic, minced"
+      }
+    ],
+    "Tags": [
+      "Рыба"
+    ]
+  },
+  {
+    "Id": 52,
+    "Name": "Veggies: carrots, zucini, coliflower (or broccoli)",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 88,
+        "Description": "Frozen veggies"
+      }
+    ],
+    "Tags": [
+      "Гарнир"
+    ]
+  },
+  {
+    "Id": 53,
+    "Name": "White bean soup",
+    "Reference": "For Damian: 142\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 72,
+        "Description": "1 cup dried small white beans"
+      },
+      {
+        "Id": 1,
+        "ProductId": 18,
+        "Description": "2 bay leaves"
+      },
+      {
+        "Id": 2,
+        "ProductId": 130,
+        "Description": "2 tablespoon olive oil"
+      },
+      {
+        "Id": 3,
+        "ProductId": 131,
+        "Description": "1 large onion"
+      },
+      {
+        "Id": 4,
+        "ProductId": 196,
+        "Description": "3 large tomatoes"
+      },
+      {
+        "Id": 5,
+        "ProductId": 141,
+        "Description": "1/2 cup fresh parsley"
+      },
+      {
+        "Id": 6,
+        "ProductId": 90,
+        "Description": "1 large clove garlic"
+      },
+      {
+        "Id": 7,
+        "ProductId": 172,
+        "Description": "1 teaspoon salt"
+      },
+      {
+        "Id": 8,
+        "ProductId": 143,
+        "Description": "1 cup whole wheat pasta"
+      }
+    ],
+    "Tags": [
+      "Dema",
+      "Суп"
+    ]
+  },
+  {
+    "Id": 54,
+    "Name": "Баранья нога в тесте",
+    "Reference": "http://belonika.ru/blog/post/650/\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 111,
+        "Description": "Маленькая ягнячья ножка — 1 штука"
+      },
+      {
+        "Id": 1,
+        "ProductId": 111,
+        "Description": "Почки бараньи — 300 г"
+      },
+      {
+        "Id": 2,
+        "ProductId": 125,
+        "Description": "Шампиньоны — 3 штуки"
+      },
+      {
+        "Id": 3,
+        "ProductId": 90,
+        "Description": "Чеснок — 2 зубчика"
+      },
+      {
+        "Id": 4,
+        "ProductId": 140,
+        "Description": "Пармезан тертый — 80 г"
+      },
+      {
+        "Id": 5,
+        "ProductId": 141,
+        "Description": "Петрушка — 2 веточки"
+      },
+      {
+        "Id": 6,
+        "ProductId": 151,
+        "Description": "Слоеное тесто — 1 лист"
+      },
+      {
+        "Id": 7,
+        "ProductId": 46,
+        "Description": "Желток для смазывания — 1 штука"
+      },
+      {
+        "Id": 8,
+        "ProductId": 130,
+        "Description": "Оливковое масло"
+      },
+      {
+        "Id": 9,
+        "ProductId": 172,
+        "Description": "Морская соль"
+      },
+      {
+        "Id": 10,
+        "ProductId": 23,
+        "Description": "Молотый черный перец"
+      }
+    ],
+    "Tags": [
+      "Мясо"
+    ]
+  },
+  {
+    "Id": 55,
+    "Name": "Блинчики кобачковые",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 217,
+        "Description": "Кабачек"
+      },
+      {
+        "Id": 1,
+        "ProductId": 82,
+        "Description": "Мука"
+      },
+      {
+        "Id": 2,
+        "ProductId": 130,
+        "Description": "Масло"
+      }
+    ],
+    "Tags": [
+      "Блины",
+      "Завтраки"
+    ]
+  },
+  {
+    "Id": 56,
+    "Name": "Блинчики пухлые",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 82,
+        "Description": "Мука"
+      },
+      {
+        "Id": 1,
+        "ProductId": 46,
+        "Description": "Яйцо Куриное"
+      },
+      {
+        "Id": 2,
+        "ProductId": 109,
+        "Description": "Кефир"
+      }
+    ],
+    "Tags": [
+      "Блины",
+      "Завтраки"
+    ]
+  },
+  {
+    "Id": 57,
+    "Name": "Блины с бананом",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 15,
+        "Description": "Банан"
+      },
+      {
+        "Id": 1,
+        "ProductId": 82,
+        "Description": "Мука"
+      },
+      {
+        "Id": 2,
+        "ProductId": 109,
+        "Description": "Кефир"
+      }
+    ],
+    "Tags": [
+      "Блины",
+      "Завтраки"
+    ]
+  },
+  {
+    "Id": 58,
+    "Name": "Блины с козьим сыром и шпинатом",
+    "Reference": "Pagano: 328\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 212,
+        "Description": "4 cups whole wheat flour"
+      },
+      {
+        "Id": 1,
+        "ProductId": 120,
+        "Description": "6-8 cups low fat milk"
+      },
+      {
+        "Id": 2,
+        "ProductId": 46,
+        "Description": "2 eggs"
+      },
+      {
+        "Id": 3,
+        "ProductId": 172,
+        "Description": "sea salt"
+      },
+      {
+        "Id": 4,
+        "ProductId": 185,
+        "Description": "2 bags shpinat"
+      },
+      {
+        "Id": 5,
+        "ProductId": 93,
+        "Description": "8 ounces low far frash goat cheese"
+      },
+      {
+        "Id": 6,
+        "ProductId": 90,
+        "Description": "2 cloves garlic"
+      },
+      {
+        "Id": 7,
+        "ProductId": 130,
+        "Description": "2 tsp canola oil"
+      },
+      {
+        "Id": 8,
+        "ProductId": 172,
+        "Description": "sea salt"
+      }
+    ],
+    "Tags": [
+      "Блины",
+      "Завтраки"
+    ]
+  },
+  {
+    "Id": 59,
+    "Name": "Вареная свекла",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 21,
+        "Description": "Вареная свекла"
+      }
+    ],
+    "Tags": [
+      "Гарнир",
+      "Покупное"
+    ]
+  },
+  {
+    "Id": 60,
+    "Name": "Запеканка с Рикоттой",
+    "Reference": "http://belonika.livejournal.com/139245.html\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 162,
+        "Description": "500 гр рикотты"
+      },
+      {
+        "Id": 1,
+        "ProductId": 182,
+        "Description": "200 гр нежирной сметаны"
+      },
+      {
+        "Id": 2,
+        "ProductId": 46,
+        "Description": "4 яйца"
+      },
+      {
+        "Id": 3,
+        "ProductId": 62,
+        "Description": "4 ст. ложки кукурузного крахмала"
+      },
+      {
+        "Id": 4,
+        "ProductId": 189,
+        "Description": "2-4 ст ложки сахара"
+      },
+      {
+        "Id": 5,
+        "ProductId": 34,
+        "Description": "немного сливочного масла"
+      },
+      {
+        "Id": 6,
+        "ProductId": 83,
+        "Description": "ягоды или фрукты для соуса и \"начинки\""
+      }
+    ],
+    "Tags": [
+      "Десерт"
+    ]
+  },
+  {
+    "Id": 61,
+    "Name": "Имбирный Тунец",
+    "Reference": "Belonika receptishi: 128\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 201,
+        "Description": "Tuna steak"
+      },
+      {
+        "Id": 1,
+        "ProductId": 113,
+        "Description": "Лимон"
+      },
+      {
+        "Id": 2,
+        "ProductId": 183,
+        "Description": "Соевый соус"
+      },
+      {
+        "Id": 3,
+        "ProductId": 34,
+        "Description": "Масло сливочное"
+      },
+      {
+        "Id": 4,
+        "ProductId": 92,
+        "Description": "Имбирь"
+      }
+    ],
+    "Tags": [
+      "Рыба"
+    ]
+  },
+  {
+    "Id": 62,
+    "Name": "Капуста тушеная",
+    "Reference": "1000\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 35,
+        "Description": "2 качан капусты"
+      },
+      {
+        "Id": 1,
+        "ProductId": 40,
+        "Description": "3 Больших марковки"
+      },
+      {
+        "Id": 2,
+        "ProductId": 131,
+        "Description": "1 Луковица"
+      },
+      {
+        "Id": 3,
+        "ProductId": 129,
+        "Description": "Масло оливковое"
+      },
+      {
+        "Id": 4,
+        "ProductId": 111,
+        "Description": "1 кг Ребрышки баранины"
+      }
+    ],
+    "Tags": [
+      "Мясо"
+    ]
+  },
+  {
+    "Id": 63,
+    "Name": "Картофельное пюре",
+    "Reference": "http://gotovim-doma.ru/view.php?r=16-recept-kartofelnoe-piure\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 149,
+        "Description": "картофель - 1 кг."
+      },
+      {
+        "Id": 1,
+        "ProductId": 120,
+        "Description": "молоко 1-1,5 ст."
+      },
+      {
+        "Id": 2,
+        "ProductId": 34,
+        "Description": "сливочное масло"
+      },
+      {
+        "Id": 3,
+        "ProductId": 172,
+        "Description": "соль"
+      },
+      {
+        "Id": 4,
+        "ProductId": 23,
+        "Description": "перец"
+      }
+    ],
+    "Tags": [
+      "Гарнир"
+    ]
+  },
+  {
+    "Id": 64,
+    "Name": "Каша гречневая",
+    "Reference": "http://www.russianfood.com/\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 10,
+        "Description": "Гречка"
+      },
+      {
+        "Id": 1,
+        "ProductId": 34,
+        "Description": "Масло сливочное"
+      },
+      {
+        "Id": 2,
+        "ProductId": 172,
+        "Description": "Соль"
+      }
+    ],
+    "Tags": [
+      "Каши"
+    ]
+  },
+  {
+    "Id": 65,
+    "Name": "Каша манная",
+    "Reference": "http://pojrem.ru/\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 175,
+        "Description": "Крупа манная – 3ст.л."
+      },
+      {
+        "Id": 1,
+        "ProductId": 120,
+        "Description": "Молоко – 500 мл."
+      },
+      {
+        "Id": 2,
+        "ProductId": 189,
+        "Description": "Сахар – 1 ст.л."
+      },
+      {
+        "Id": 3,
+        "ProductId": 172,
+        "Description": "Соль – 1/2 Ч.л."
+      },
+      {
+        "Id": 4,
+        "ProductId": 155,
+        "Description": "Изюм"
+      },
+      {
+        "Id": 5,
+        "ProductId": 70,
+        "Description": "Курага"
+      }
+    ],
+    "Tags": [
+      "Завтраки",
+      "Каши"
+    ]
+  },
+  {
+    "Id": 66,
+    "Name": "Каша овсянная",
+    "Reference": "http://www.gotovim.ru/\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 127,
+        "Description": "Овсянка"
+      },
+      {
+        "Id": 1,
+        "ProductId": 34,
+        "Description": "Масло сливочное"
+      },
+      {
+        "Id": 2,
+        "ProductId": 155,
+        "Description": "Изюм"
+      },
+      {
+        "Id": 3,
+        "ProductId": 70,
+        "Description": "Курага"
+      },
+      {
+        "Id": 4,
+        "ProductId": 150,
+        "Description": "чернослив - 60г"
+      },
+      {
+        "Id": 5,
+        "ProductId": 120,
+        "Description": "молоко - 200г"
+      }
+    ],
+    "Tags": [
+      "Завтраки",
+      "Каши"
+    ]
+  },
+  {
+    "Id": 67,
+    "Name": "Каша перловая с грибами",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 16,
+        "Description": "Перловка"
+      },
+      {
+        "Id": 1,
+        "ProductId": 125,
+        "Description": "Грибы"
+      },
+      {
+        "Id": 2,
+        "ProductId": 131,
+        "Description": "Лук"
+      }
+    ],
+    "Tags": [
+      "Каши"
+    ]
+  },
+  {
+    "Id": 68,
+    "Name": "Каша рисовая",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 159,
+        "Description": "Рис"
+      },
+      {
+        "Id": 1,
+        "ProductId": 34,
+        "Description": "Масло сливочное"
+      }
+    ],
+    "Tags": [
+      "Завтраки",
+      "Каши"
+    ]
+  },
+  {
+    "Id": 69,
+    "Name": "Компот",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 5,
+        "Description": "Яблоко сладкое"
+      },
+      {
+        "Id": 1,
+        "ProductId": 147,
+        "Description": "Слива"
+      },
+      {
+        "Id": 2,
+        "ProductId": 83,
+        "Description": "Ягода мороженная"
+      },
+      {
+        "Id": 3,
+        "ProductId": 189,
+        "Description": "Сахар"
+      }
+    ],
+    "Tags": [
+      "Десерт"
+    ]
+  },
+  {
+    "Id": 70,
+    "Name": "Креветки с соусом из перцев",
+    "Reference": "Belonika receptishi: 49\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 180,
+        "Description": "30-40 больших свежих креветок"
+      },
+      {
+        "Id": 1,
+        "ProductId": 101,
+        "Description": "200 мл сливок"
+      },
+      {
+        "Id": 2,
+        "ProductId": 90,
+        "Description": "2 зубчика чеснока"
+      },
+      {
+        "Id": 3,
+        "ProductId": 139,
+        "Description": "1 большой красный перец"
+      },
+      {
+        "Id": 4,
+        "ProductId": 197,
+        "Description": "10 маленьких помидоров чери"
+      },
+      {
+        "Id": 5,
+        "ProductId": 105,
+        "Description": "Острый перчик пеперончино"
+      },
+      {
+        "Id": 6,
+        "ProductId": 130,
+        "Description": "Оливковое масло"
+      },
+      {
+        "Id": 7,
+        "ProductId": 172,
+        "Description": "Соль"
+      }
+    ],
+    "Tags": [
+      "Рыба"
+    ]
+  },
+  {
+    "Id": 71,
+    "Name": "Куриные колбаски",
+    "Reference": "http://belonika.livejournal.com/246181.html\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 50,
+        "Description": "1 крупная курица"
+      },
+      {
+        "Id": 1,
+        "ProductId": 44,
+        "Description": "6 куриных грудок"
+      },
+      {
+        "Id": 2,
+        "ProductId": 46,
+        "Description": "1 яйцо"
+      },
+      {
+        "Id": 3,
+        "ProductId": 101,
+        "Description": "Сливки 200 мл"
+      },
+      {
+        "Id": 4,
+        "ProductId": 105,
+        "Description": "1 эспелетский перец (любой среднежгучий красный, крупномолотый)"
+      },
+      {
+        "Id": 5,
+        "ProductId": 102,
+        "Description": "1 пучок свежего шалфея"
+      },
+      {
+        "Id": 6,
+        "ProductId": 23,
+        "Description": "черный молотый перец"
+      },
+      {
+        "Id": 7,
+        "ProductId": 102,
+        "Description": "1 пучок свежего Эстрагон"
+      }
+    ],
+    "Tags": [
+      "Курица"
+    ]
+  },
+  {
+    "Id": 72,
+    "Name": "Куриные колбаски соус",
+    "Reference": "http://belonika.livejournal.com/246181.html\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 101,
+        "Description": "1 жирные сливки около 200 мл"
+      },
+      {
+        "Id": 1,
+        "ProductId": 102,
+        "Description": "1 пучок свежего эстрагона"
+      },
+      {
+        "Id": 2,
+        "ProductId": 113,
+        "Description": "1 столовая ложка сока лемона"
+      },
+      {
+        "Id": 3,
+        "ProductId": 45,
+        "Description": "Куриный бульен 1 чашка"
+      }
+    ],
+    "Tags": [
+      "Курица"
+    ]
+  },
+  {
+    "Id": 73,
+    "Name": "Курица тушеная с перцем",
+    "Reference": "Belonika receptishi: 152\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 50,
+        "Description": "Курица (1300 г)"
+      },
+      {
+        "Id": 1,
+        "ProductId": 131,
+        "Description": "2 средних луковицы"
+      },
+      {
+        "Id": 2,
+        "ProductId": 139,
+        "Description": "2 перца (желтый и красный)"
+      },
+      {
+        "Id": 3,
+        "ProductId": 90,
+        "Description": "3 зубчика чеснока"
+      },
+      {
+        "Id": 4,
+        "ProductId": 196,
+        "Description": "5 некрупных помидоров"
+      },
+      {
+        "Id": 5,
+        "ProductId": 102,
+        "Description": "Майоран - 3 веточки"
+      },
+      {
+        "Id": 6,
+        "ProductId": 164,
+        "Description": "Розмарин - 3 веточки"
+      },
+      {
+        "Id": 7,
+        "ProductId": 135,
+        "Description": "Орегано - 3 веточки"
+      },
+      {
+        "Id": 8,
+        "ProductId": 197,
+        "Description": "Банка консервированных помидоров"
+      },
+      {
+        "Id": 9,
+        "ProductId": 23,
+        "Description": "Свежемолотый черный перец"
+      }
+    ],
+    "Tags": [
+      "Курица"
+    ]
+  },
+  {
+    "Id": 74,
+    "Name": "миндальный кекс с черносливом",
+    "Reference": "http://belonika.livejournal.com/250941.html\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 150,
+        "Description": "400 г чернослива без косточек"
+      },
+      {
+        "Id": 1,
+        "ProductId": 46,
+        "Description": "4 яйца (4 желтка и 2 белка!)"
+      },
+      {
+        "Id": 2,
+        "ProductId": 62,
+        "Description": "1 ст. л. с горкой крахмала"
+      },
+      {
+        "Id": 3,
+        "ProductId": 12,
+        "Description": "1 ч.л. разрыхлителя (пекарского порошка)"
+      },
+      {
+        "Id": 4,
+        "ProductId": 3,
+        "Description": "100 г миндальной пудры"
+      },
+      {
+        "Id": 5,
+        "ProductId": 189,
+        "Description": "100 г сахара"
+      },
+      {
+        "Id": 6,
+        "ProductId": 101,
+        "Description": "150-200 мл жирных сливок (35%)"
+      },
+      {
+        "Id": 7,
+        "ProductId": 34,
+        "Description": "сливочное масло (20-30 г)"
+      },
+      {
+        "Id": 8,
+        "ProductId": 82,
+        "Description": "мука для обсыпки формы (пару ложек)"
+      }
+    ],
+    "Tags": [
+      "Десерт"
+    ]
+  },
+  {
+    "Id": 75,
+    "Name": "Минестроне",
+    "Reference": "Belonika receptishi: 117\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 11,
+        "Description": "Упаковка бекона"
+      },
+      {
+        "Id": 1,
+        "ProductId": 77,
+        "Description": "1 Луковица фенхеля"
+      },
+      {
+        "Id": 2,
+        "ProductId": 42,
+        "Description": "3 Стебля сельдерея"
+      },
+      {
+        "Id": 3,
+        "ProductId": 90,
+        "Description": "3 Зубчика чеснока"
+      },
+      {
+        "Id": 4,
+        "ProductId": 53,
+        "Description": "Красный острый перчик"
+      },
+      {
+        "Id": 5,
+        "ProductId": 149,
+        "Description": "1 Картофелина"
+      },
+      {
+        "Id": 6,
+        "ProductId": 139,
+        "Description": "5 маленьких красных сладких перцев"
+      },
+      {
+        "Id": 7,
+        "ProductId": 8,
+        "Description": "3 Стебля спаржи"
+      },
+      {
+        "Id": 8,
+        "ProductId": 97,
+        "Description": "1 чашка свежего или мороженого горошка"
+      },
+      {
+        "Id": 9,
+        "ProductId": 217,
+        "Description": "Средний кабачек"
+      },
+      {
+        "Id": 10,
+        "ProductId": 197,
+        "Description": "2 крупных помидора или 5 нормальных"
+      },
+      {
+        "Id": 11,
+        "ProductId": 198,
+        "Description": "1 литр хорошего томатного сока"
+      },
+      {
+        "Id": 12,
+        "ProductId": 37,
+        "Description": "Банка белой фасоли"
+      },
+      {
+        "Id": 13,
+        "ProductId": 17,
+        "Description": "Свежий базилик"
+      },
+      {
+        "Id": 14,
+        "ProductId": 140,
+        "Description": "Тертый пармезан"
+      },
+      {
+        "Id": 15,
+        "ProductId": 34,
+        "Description": "Сливочное масло"
+      },
+      {
+        "Id": 16,
+        "ProductId": 23,
+        "Description": "Свежий черный перец"
+      },
+      {
+        "Id": 17,
+        "ProductId": 172,
+        "Description": "Соль"
+      },
+      {
+        "Id": 18,
+        "ProductId": 34,
+        "Description": "Масло сливочное"
+      }
+    ],
+    "Tags": [
+      "Суп"
+    ]
+  },
+  {
+    "Id": 76,
+    "Name": "Минтай в кляре",
+    "Reference": "https://sites.google.com/site/bublegumm/home/cooking/mntaj-v-klare\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 1,
+        "Description": "Минтай (филе) — 3-4 шт"
+      },
+      {
+        "Id": 1,
+        "ProductId": 196,
+        "Description": "Соус (томатный, можно помидоры) — 6-7 ст. л."
+      },
+      {
+        "Id": 2,
+        "ProductId": 90,
+        "Description": "Чеснок — 5-6 зуб."
+      },
+      {
+        "Id": 3,
+        "ProductId": 46,
+        "Description": "Яйцо — 1 шт"
+      },
+      {
+        "Id": 4,
+        "ProductId": 122,
+        "Description": "Вода газированная — 2-3 ст. л."
+      },
+      {
+        "Id": 5,
+        "ProductId": 82,
+        "Description": "Мука — 2-3 ст. л."
+      },
+      {
+        "Id": 6,
+        "ProductId": 172,
+        "Description": "Соль"
+      },
+      {
+        "Id": 7,
+        "ProductId": 23,
+        "Description": "Перец черный (молотый)"
+      },
+      {
+        "Id": 8,
+        "ProductId": 18,
+        "Description": "Лавровый лист"
+      },
+      {
+        "Id": 9,
+        "ProductId": 130,
+        "Description": "Масло растительное (для жарки)"
+      }
+    ],
+    "Tags": [
+      "Рыба"
+    ]
+  },
+  {
+    "Id": 77,
+    "Name": "Морковный сок",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 40,
+        "Description": "4 морковки"
+      },
+      {
+        "Id": 1,
+        "ProductId": 42,
+        "Description": "3 сельдерея"
+      },
+      {
+        "Id": 2,
+        "ProductId": 5,
+        "Description": "2 яблока"
+      },
+      {
+        "Id": 3,
+        "ProductId": 66,
+        "Description": "1/2 огурца"
+      }
+    ],
+    "Tags": [
+      "Соки"
+    ]
+  },
+  {
+    "Id": 78,
+    "Name": "Налистники с творогом",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 82,
+        "Description": "Мука"
+      },
+      {
+        "Id": 1,
+        "ProductId": 202,
+        "Description": "Творог"
+      },
+      {
+        "Id": 2,
+        "ProductId": 120,
+        "Description": "Молоко"
+      },
+      {
+        "Id": 3,
+        "ProductId": 46,
+        "Description": "Яйцо"
+      }
+    ],
+    "Tags": [
+      "Блины"
+    ]
+  },
+  {
+    "Id": 79,
+    "Name": "Оливье",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 149,
+        "Description": "Картошка 3 шт"
+      },
+      {
+        "Id": 1,
+        "ProductId": 98,
+        "Description": "Горошек 1 банка"
+      },
+      {
+        "Id": 2,
+        "ProductId": 46,
+        "Description": "Яйцо 5 шт"
+      },
+      {
+        "Id": 3,
+        "ProductId": 145,
+        "Description": "Соленые огурцы банка"
+      },
+      {
+        "Id": 4,
+        "ProductId": 119,
+        "Description": "Майонез"
+      },
+      {
+        "Id": 5,
+        "ProductId": 25,
+        "Description": "Колбаса 1 pound"
+      }
+    ],
+    "Tags": [
+      "Гарнир"
+    ]
+  },
+  {
+    "Id": 80,
+    "Name": "Омлет",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 46,
+        "Description": "Яйцо куриное"
+      },
+      {
+        "Id": 1,
+        "ProductId": 120,
+        "Description": "Молоко"
+      },
+      {
+        "Id": 2,
+        "ProductId": 82,
+        "Description": "Мука"
+      }
+    ],
+    "Tags": [
+      "Vegetarian",
+      "Завтраки"
+    ]
+  },
+  {
+    "Id": 81,
+    "Name": "Отбивные",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 148,
+        "Description": "Свинина 1 pound"
+      },
+      {
+        "Id": 1,
+        "ProductId": 182,
+        "Description": "Сметана"
+      },
+      {
+        "Id": 2,
+        "ProductId": 46,
+        "Description": "Яйцо 3 шт"
+      },
+      {
+        "Id": 3,
+        "ProductId": 82,
+        "Description": "Мука"
+      },
+      {
+        "Id": 4,
+        "ProductId": 90,
+        "Description": "Чеснок"
+      },
+      {
+        "Id": 5,
+        "ProductId": 172,
+        "Description": "Соль"
+      },
+      {
+        "Id": 6,
+        "ProductId": 23,
+        "Description": "Перец"
+      }
+    ],
+    "Tags": [
+      "Мясо"
+    ]
+  },
+  {
+    "Id": 82,
+    "Name": "Паштет печеночный",
+    "Reference": "https://belonika.ru/recipes/189/\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 118,
+        "Description": "Печень телячья — 500 г"
+      },
+      {
+        "Id": 1,
+        "ProductId": 131,
+        "Description": "Лук — 1 головка"
+      },
+      {
+        "Id": 2,
+        "ProductId": 90,
+        "Description": "Чеснок — 1 зубчик"
+      },
+      {
+        "Id": 3,
+        "ProductId": 34,
+        "Description": "Сливочное масло — 50 г"
+      },
+      {
+        "Id": 4,
+        "ProductId": 101,
+        "Description": "Жирные сливки (33%) — 100 г"
+      },
+      {
+        "Id": 5,
+        "ProductId": 208,
+        "Description": "Белое сухое вино — 100 г"
+      },
+      {
+        "Id": 6,
+        "ProductId": 130,
+        "Description": "Оливковое масло — 5 ст.л."
+      },
+      {
+        "Id": 7,
+        "ProductId": 184,
+        "Description": "Кориандр молотый"
+      },
+      {
+        "Id": 8,
+        "ProductId": 172,
+        "Description": "Морская соль"
+      },
+      {
+        "Id": 9,
+        "ProductId": 23,
+        "Description": "Молотый черный перец"
+      }
+    ],
+    "Tags": [
+      "Завтраки",
+      "Мясо"
+    ]
+  },
+  {
+    "Id": 83,
+    "Name": "Пельмени",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 111,
+        "Description": "Вырезка баранины"
+      },
+      {
+        "Id": 1,
+        "ProductId": 82,
+        "Description": "Мука"
+      },
+      {
+        "Id": 2,
+        "ProductId": 131,
+        "Description": "Лук"
+      },
+      {
+        "Id": 3,
+        "ProductId": 23,
+        "Description": "Перец черный молотый"
+      }
+    ],
+    "Tags": [
+      "Мясо"
+    ]
+  },
+  {
+    "Id": 84,
+    "Name": "Плов",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 44,
+        "Description": "Куриная грудка"
+      },
+      {
+        "Id": 1,
+        "ProductId": 159,
+        "Description": "Рис"
+      },
+      {
+        "Id": 2,
+        "ProductId": 40,
+        "Description": "Морковка"
+      },
+      {
+        "Id": 3,
+        "ProductId": 131,
+        "Description": "Лук"
+      },
+      {
+        "Id": 4,
+        "ProductId": 90,
+        "Description": "Чеснок"
+      },
+      {
+        "Id": 5,
+        "ProductId": 52,
+        "Description": "Нут"
+      }
+    ],
+    "Tags": [
+      "Курица"
+    ]
+  },
+  {
+    "Id": 85,
+    "Name": "Ризотто с лесными грибами",
+    "Reference": "Belonika receptishi: 95\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 45,
+        "Description": "1 л. Куриного бульона"
+      },
+      {
+        "Id": 1,
+        "ProductId": 159,
+        "Description": "400 г риса для ризотто"
+      },
+      {
+        "Id": 2,
+        "ProductId": 140,
+        "Description": "Пармезан"
+      },
+      {
+        "Id": 3,
+        "ProductId": 131,
+        "Description": "2 крупных луковицы"
+      },
+      {
+        "Id": 4,
+        "ProductId": 90,
+        "Description": "2 зубчика чеснока"
+      },
+      {
+        "Id": 5,
+        "ProductId": 129,
+        "Description": "Оливковое масло"
+      },
+      {
+        "Id": 6,
+        "ProductId": 34,
+        "Description": "Сливочное масло"
+      },
+      {
+        "Id": 7,
+        "ProductId": 208,
+        "Description": "Полбутылки сухого белого вина"
+      },
+      {
+        "Id": 8,
+        "ProductId": 23,
+        "Description": "Перец"
+      },
+      {
+        "Id": 9,
+        "ProductId": 172,
+        "Description": "Соль"
+      },
+      {
+        "Id": 10,
+        "ProductId": 179,
+        "Description": "500 г грибов"
+      },
+      {
+        "Id": 11,
+        "ProductId": 141,
+        "Description": "Петрушка"
+      }
+    ],
+    "Tags": [
+      "Vegetarian"
+    ]
+  },
+  {
+    "Id": 86,
+    "Name": "Рыбные колтелы",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 209,
+        "Description": "400 гр филе двух белых рыбин"
+      },
+      {
+        "Id": 1,
+        "ProductId": 79,
+        "Description": "200 гр филе красной рыбы"
+      },
+      {
+        "Id": 2,
+        "ProductId": 183,
+        "Description": "Соевый соу"
+      },
+      {
+        "Id": 3,
+        "ProductId": 46,
+        "Description": "2 яйца"
+      },
+      {
+        "Id": 4,
+        "ProductId": 184,
+        "Description": "Белый перец"
+      },
+      {
+        "Id": 5,
+        "ProductId": 130,
+        "Description": "Оливковое масло"
+      },
+      {
+        "Id": 6,
+        "ProductId": 96,
+        "Description": "Лук зеленый"
+      },
+      {
+        "Id": 7,
+        "ProductId": 17,
+        "Description": "Базилик"
+      },
+      {
+        "Id": 8,
+        "ProductId": 55,
+        "Description": "Кинза"
+      },
+      {
+        "Id": 9,
+        "ProductId": 139,
+        "Description": "2 больших красных перца"
+      },
+      {
+        "Id": 10,
+        "ProductId": 90,
+        "Description": "3 дольки чеснока"
+      },
+      {
+        "Id": 11,
+        "ProductId": 103,
+        "Description": "3 столовых ложки меда"
+      },
+      {
+        "Id": 12,
+        "ProductId": 184,
+        "Description": "1/2 чайной ложки семян кориандра"
+      },
+      {
+        "Id": 13,
+        "ProductId": 183,
+        "Description": "2 столовых ложки соевого соуса"
+      }
+    ],
+    "Tags": [
+      "Рыба"
+    ]
+  },
+  {
+    "Id": 87,
+    "Name": "Салат Ванючка",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 60,
+        "Description": "Кукуруза"
+      },
+      {
+        "Id": 1,
+        "ProductId": 64,
+        "Description": "Крабовые палочки"
+      },
+      {
+        "Id": 2,
+        "ProductId": 119,
+        "Description": "Майонез"
+      },
+      {
+        "Id": 3,
+        "ProductId": 46,
+        "Description": "Яйца"
+      }
+    ],
+    "Tags": [
+      "Гарнир"
+    ]
+  },
+  {
+    "Id": 88,
+    "Name": "Салат зеленый с редиской",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 66,
+        "Description": "Cucumber"
+      },
+      {
+        "Id": 1,
+        "ProductId": 96,
+        "Description": "Scallion"
+      },
+      {
+        "Id": 2,
+        "ProductId": 75,
+        "Description": "Endive"
+      },
+      {
+        "Id": 3,
+        "ProductId": 116,
+        "Description": "Lettuce"
+      },
+      {
+        "Id": 4,
+        "ProductId": 185,
+        "Description": "Spinach"
+      },
+      {
+        "Id": 5,
+        "ProductId": 154,
+        "Description": "Radish"
+      },
+      {
+        "Id": 6,
+        "ProductId": 113,
+        "Description": "1/2 Lemon"
+      },
+      {
+        "Id": 7,
+        "ProductId": 129,
+        "Description": "1 teaspoon extra virging olive oil"
+      },
+      {
+        "Id": 8,
+        "ProductId": 184,
+        "Description": "Ground pepper and salt"
+      }
+    ],
+    "Tags": [
+      "Vegetarian",
+      "Гарнир"
+    ]
+  },
+  {
+    "Id": 89,
+    "Name": "Салат с аругулой",
+    "Reference": "Pagano: 133\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 7,
+        "Description": "1 package arugula"
+      },
+      {
+        "Id": 1,
+        "ProductId": 153,
+        "Description": "1 head radicchio"
+      },
+      {
+        "Id": 2,
+        "ProductId": 75,
+        "Description": "2 Belgian endives"
+      },
+      {
+        "Id": 3,
+        "ProductId": 26,
+        "Description": "1 Boston lettuce"
+      },
+      {
+        "Id": 4,
+        "ProductId": 117,
+        "Description": "1/4 cup fresh lime juice"
+      },
+      {
+        "Id": 5,
+        "ProductId": 103,
+        "Description": "1 tablespoon honey"
+      },
+      {
+        "Id": 6,
+        "ProductId": 68,
+        "Description": "1 teaspoon dijon mustard"
+      },
+      {
+        "Id": 7,
+        "ProductId": 90,
+        "Description": "1 garlic clove"
+      },
+      {
+        "Id": 8,
+        "ProductId": 128,
+        "Description": "2/3 cup safflower oil"
+      }
+    ],
+    "Tags": [
+      "Гарнир"
+    ]
+  },
+  {
+    "Id": 90,
+    "Name": "Свекольный сок",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 21,
+        "Description": "1/2 свеклы"
+      },
+      {
+        "Id": 1,
+        "ProductId": 42,
+        "Description": "2 сельдерея"
+      },
+      {
+        "Id": 2,
+        "ProductId": 5,
+        "Description": "2 яблока"
+      },
+      {
+        "Id": 3,
+        "ProductId": 66,
+        "Description": "1/2 огурца"
+      }
+    ],
+    "Tags": [
+      "Соки"
+    ]
+  },
+  {
+    "Id": 91,
+    "Name": "Селедка под шубой",
+    "Reference": "http://www.gastronom.ru/recipe/5136/seledka-pod-shuboj\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 149,
+        "Description": "картофель – 2 шт"
+      },
+      {
+        "Id": 1,
+        "ProductId": 46,
+        "Description": "яйца – 1 шт"
+      },
+      {
+        "Id": 2,
+        "ProductId": 40,
+        "Description": "морковь – 2 шт"
+      },
+      {
+        "Id": 3,
+        "ProductId": 21,
+        "Description": "свекла – 2 шт"
+      },
+      {
+        "Id": 4,
+        "ProductId": 172,
+        "Description": "соль – по вкусу"
+      },
+      {
+        "Id": 5,
+        "ProductId": 173,
+        "Description": "сельдь соленая – 1 шт"
+      },
+      {
+        "Id": 6,
+        "ProductId": 119,
+        "Description": "майонез – 200 г"
+      },
+      {
+        "Id": 7,
+        "ProductId": 131,
+        "Description": "1 большая луковица"
+      }
+    ],
+    "Tags": [
+      "Рыба"
+    ]
+  },
+  {
+    "Id": 92,
+    "Name": "Соленый ласось",
+    "Reference": "http://belonika.livejournal.com/236579.html\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 170,
+        "Description": "пару хороших, толстых филе лосося (граммов на 700 каждое)"
+      },
+      {
+        "Id": 1,
+        "ProductId": 172,
+        "Description": "1 кг КРУПНОЙ морской соли"
+      },
+      {
+        "Id": 2,
+        "ProductId": 189,
+        "Description": "500 г сахара"
+      },
+      {
+        "Id": 3,
+        "ProductId": 23,
+        "Description": "6 ст. л. крупномолотого черного перца"
+      },
+      {
+        "Id": 4,
+        "ProductId": 69,
+        "Description": "6 ст. л. мелкорубленного свежего укропа (это большой пучок)"
+      }
+    ],
+    "Tags": [
+      "Рыба"
+    ]
+  },
+  {
+    "Id": 93,
+    "Name": "Суп с фрикадельками",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 111,
+        "Description": "Фарш мясной"
+      },
+      {
+        "Id": 1,
+        "ProductId": 40,
+        "Description": "Морковь кусочками"
+      },
+      {
+        "Id": 2,
+        "ProductId": 149,
+        "Description": "1 средняя карьофилина"
+      },
+      {
+        "Id": 3,
+        "ProductId": 42,
+        "Description": "Сельдерей"
+      },
+      {
+        "Id": 4,
+        "ProductId": 131,
+        "Description": "Лук"
+      },
+      {
+        "Id": 5,
+        "ProductId": 143,
+        "Description": "Макароны"
+      },
+      {
+        "Id": 6,
+        "ProductId": 172,
+        "Description": "Соль"
+      },
+      {
+        "Id": 7,
+        "ProductId": 23,
+        "Description": "Перец"
+      }
+    ],
+    "Tags": [
+      "Суп"
+    ]
+  },
+  {
+    "Id": 94,
+    "Name": "Сырники",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 202,
+        "Description": "Творог несоленый"
+      },
+      {
+        "Id": 1,
+        "ProductId": 46,
+        "Description": "Яйцо"
+      },
+      {
+        "Id": 2,
+        "ProductId": 82,
+        "Description": "Мука"
+      }
+    ],
+    "Tags": [
+      "Vegetarian",
+      "Блины",
+      "Завтраки"
+    ]
+  },
+  {
+    "Id": 95,
+    "Name": "Творог",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 202,
+        "Description": "Творог"
+      }
+    ],
+    "Tags": [
+      "Vegetarian"
+    ]
+  },
+  {
+    "Id": 96,
+    "Name": "Тельятелле с копченым лососем",
+    "Reference": "Belonika receptishi: 88\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 143,
+        "Description": "Тельятелле (паста) 500 гр"
+      },
+      {
+        "Id": 1,
+        "ProductId": 181,
+        "Description": "Копченый лосось 200 гр"
+      },
+      {
+        "Id": 2,
+        "ProductId": 101,
+        "Description": "Сливки 500 мл"
+      },
+      {
+        "Id": 3,
+        "ProductId": 90,
+        "Description": "Зубчик чеснока 2"
+      },
+      {
+        "Id": 4,
+        "ProductId": 54,
+        "Description": "Шнит-лук пучок"
+      },
+      {
+        "Id": 5,
+        "ProductId": 140,
+        "Description": "Пармезан 100 гр"
+      },
+      {
+        "Id": 6,
+        "ProductId": 130,
+        "Description": "Оливковое масло"
+      },
+      {
+        "Id": 7,
+        "ProductId": 172,
+        "Description": "Соль"
+      }
+    ],
+    "Tags": [
+      "Рыба"
+    ]
+  },
+  {
+    "Id": 97,
+    "Name": "Тзатзики",
+    "Reference": "http://www.belonika.ru/recipes/388/\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 215,
+        "Description": "Йогурт греческий — 300 г"
+      },
+      {
+        "Id": 1,
+        "ProductId": 66,
+        "Description": "Огурцы — 2 штуки"
+      },
+      {
+        "Id": 2,
+        "ProductId": 90,
+        "Description": "Чеснок — 2 зубчика"
+      },
+      {
+        "Id": 3,
+        "ProductId": 130,
+        "Description": "Оливковое масло — 4 ст.л."
+      },
+      {
+        "Id": 4,
+        "ProductId": 69,
+        "Description": "Укроп"
+      }
+    ],
+    "Tags": [
+      "Соус"
+    ]
+  },
+  {
+    "Id": 98,
+    "Name": "Торт Горка",
+    "Reference": "моя книжка\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 36,
+        "Description": "какао 4 ст.л."
+      },
+      {
+        "Id": 1,
+        "ProductId": 189,
+        "Description": "сахар стакан"
+      },
+      {
+        "Id": 2,
+        "ProductId": 46,
+        "Description": "яйца 2"
+      },
+      {
+        "Id": 3,
+        "ProductId": 13,
+        "Description": "cода гашенная уксусом 1 ч.л"
+      },
+      {
+        "Id": 4,
+        "ProductId": 182,
+        "Description": "сметана 2 стакана"
+      },
+      {
+        "Id": 5,
+        "ProductId": 82,
+        "Description": "мука 1.5 стакана"
+      },
+      {
+        "Id": 6,
+        "ProductId": 113,
+        "Description": "лимон 2 шт"
+      }
+    ],
+    "Tags": [
+      "Десерт"
+    ]
+  },
+  {
+    "Id": 99,
+    "Name": "Тофу-Руккола",
+    "Reference": "Belonika receptishi: 30\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 195,
+        "Description": "Силки тофу 150 г"
+      },
+      {
+        "Id": 1,
+        "ProductId": 165,
+        "Description": "Горсть рукколы"
+      },
+      {
+        "Id": 2,
+        "ProductId": 204,
+        "Description": "Яблочный уксус 2 ст. ложки"
+      },
+      {
+        "Id": 3,
+        "ProductId": 45,
+        "Description": "Овощной бульон 50 г"
+      },
+      {
+        "Id": 4,
+        "ProductId": 129,
+        "Description": "Оливковое масло 1 ст. ложка"
+      },
+      {
+        "Id": 5,
+        "ProductId": 68,
+        "Description": "Дижонская горчица 1 ч. ложка"
+      }
+    ],
+    "Tags": [
+      "Vegetarian"
+    ]
+  },
+  {
+    "Id": 100,
+    "Name": "Травянной сок",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 42,
+        "Description": "2 сельдерея"
+      },
+      {
+        "Id": 1,
+        "ProductId": 66,
+        "Description": "1/2 огурца"
+      },
+      {
+        "Id": 2,
+        "ProductId": 5,
+        "Description": "2 яблока"
+      },
+      {
+        "Id": 3,
+        "ProductId": 17,
+        "Description": "Базилик"
+      },
+      {
+        "Id": 4,
+        "ProductId": 192,
+        "Description": "Свисчард"
+      },
+      {
+        "Id": 5,
+        "ProductId": 185,
+        "Description": "1/2 шпината"
+      },
+      {
+        "Id": 6,
+        "ProductId": 77,
+        "Description": "Фенхель"
+      }
+    ],
+    "Tags": [
+      "Соки"
+    ]
+  },
+  {
+    "Id": 101,
+    "Name": "Тыква",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 152,
+        "Description": "Тыква"
+      }
+    ],
+    "Tags": [
+      "Dema"
+    ]
+  },
+  {
+    "Id": 102,
+    "Name": "Французский рыбный суп",
+    "Reference": "Pagano: 111\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 85,
+        "Description": "Филе красной рыбы"
+      },
+      {
+        "Id": 1,
+        "ProductId": 86,
+        "Description": "Филе белой рыбы"
+      },
+      {
+        "Id": 2,
+        "ProductId": 112,
+        "Description": "Лук порей"
+      },
+      {
+        "Id": 3,
+        "ProductId": 42,
+        "Description": "Сельдерей"
+      },
+      {
+        "Id": 4,
+        "ProductId": 166,
+        "Description": "Шафран"
+      },
+      {
+        "Id": 5,
+        "ProductId": 90,
+        "Description": "Чеснок"
+      },
+      {
+        "Id": 6,
+        "ProductId": 40,
+        "Description": "Морковь"
+      },
+      {
+        "Id": 7,
+        "ProductId": 77,
+        "Description": "Фенхель"
+      },
+      {
+        "Id": 8,
+        "ProductId": 142,
+        "Description": "Пастернак"
+      },
+      {
+        "Id": 9,
+        "ProductId": 129,
+        "Description": "Olive oil extra virgin"
+      }
+    ],
+    "Tags": [
+      "Суп"
+    ]
+  },
+  {
+    "Id": 103,
+    "Name": "Холодник",
+    "Reference": "Belonika receptishi: 105\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 46,
+        "Description": "4 вареных яйца"
+      },
+      {
+        "Id": 1,
+        "ProductId": 21,
+        "Description": "4 средние свеклы"
+      },
+      {
+        "Id": 2,
+        "ProductId": 66,
+        "Description": "3 свежих огурца"
+      },
+      {
+        "Id": 3,
+        "ProductId": 213,
+        "Description": "200 г натурального йогурта"
+      },
+      {
+        "Id": 4,
+        "ProductId": 113,
+        "Description": "Винный укксус (Лимонный сок)"
+      },
+      {
+        "Id": 5,
+        "ProductId": 96,
+        "Description": "Зеленый лук"
+      },
+      {
+        "Id": 6,
+        "ProductId": 123,
+        "Description": "Мята"
+      },
+      {
+        "Id": 7,
+        "ProductId": 141,
+        "Description": "Петрушка"
+      },
+      {
+        "Id": 8,
+        "ProductId": 69,
+        "Description": "Укроп"
+      },
+      {
+        "Id": 9,
+        "ProductId": 17,
+        "Description": "Базилик"
+      },
+      {
+        "Id": 10,
+        "ProductId": 172,
+        "Description": "Соль"
+      },
+      {
+        "Id": 11,
+        "ProductId": 23,
+        "Description": "Перец"
+      }
+    ],
+    "Tags": [
+      "Суп"
+    ]
+  },
+  {
+    "Id": 104,
+    "Name": "Шашлычок из лосося в меду",
+    "Reference": "Belonika dietishi: 66\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 171,
+        "Description": "300 г филе лосося"
+      },
+      {
+        "Id": 1,
+        "ProductId": 68,
+        "Description": "2 чайные ложки дижонской горчицы"
+      },
+      {
+        "Id": 2,
+        "ProductId": 103,
+        "Description": "2 чайные ложки меда"
+      },
+      {
+        "Id": 3,
+        "ProductId": 183,
+        "Description": "2 чайные ложки соевого соуса"
+      },
+      {
+        "Id": 4,
+        "ProductId": 177,
+        "Description": "Кунжут"
+      }
+    ],
+    "Tags": [
+      "Рыба"
+    ]
+  },
+  {
+    "Id": 105,
+    "Name": "Шоколадные трюфели с виски",
+    "Reference": "i-lara\r\n",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 67,
+        "Description": "горький шоколад 250 г"
+      },
+      {
+        "Id": 1,
+        "ProductId": 101,
+        "Description": "сливки для взбивания (жирность 38%) 200 мл"
+      },
+      {
+        "Id": 2,
+        "ProductId": 34,
+        "Description": "сливочное масло 100 г"
+      },
+      {
+        "Id": 3,
+        "ProductId": 28,
+        "Description": "виски 1-2 ст.л."
+      }
+    ],
+    "Tags": [
+      "Десерт"
+    ]
+  },
+  {
+    "Id": 106,
+    "Name": "Щи с капустой",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 35,
+        "Description": "1 головка капусты"
+      },
+      {
+        "Id": 1,
+        "ProductId": 111,
+        "Description": "2 паунда бараньих косточек"
+      },
+      {
+        "Id": 2,
+        "ProductId": 149,
+        "Description": "2 картофелены"
+      },
+      {
+        "Id": 3,
+        "ProductId": 40,
+        "Description": "1 большая морковка"
+      },
+      {
+        "Id": 4,
+        "ProductId": 197,
+        "Description": "3 средних помидора"
+      },
+      {
+        "Id": 5,
+        "ProductId": 131,
+        "Description": "1 большая головка лука"
+      },
+      {
+        "Id": 6,
+        "ProductId": 90,
+        "Description": "3 зубчика чеснока"
+      },
+      {
+        "Id": 7,
+        "ProductId": 110,
+        "Description": "2 ст.л. Кетчупа"
+      },
+      {
+        "Id": 8,
+        "ProductId": 182,
+        "Description": "Сметана"
+      }
+    ],
+    "Tags": [
+      "Суп"
+    ]
+  },
+  {
+    "Id": 107,
+    "Name": "Яйцо вареное",
+    "Reference": "",
+    "Description": null,
+    "Ingredients": [
+      {
+        "Id": 0,
+        "ProductId": 46,
+        "Description": "Яйцо куриное"
+      }
+    ],
+    "Tags": [
+      "Завтраки"
+    ]
+  }
+]

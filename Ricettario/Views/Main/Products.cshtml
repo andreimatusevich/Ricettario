@@ -1,0 +1,160 @@
+﻿@{
+    ViewBag.Title = "Products";
+}
+<script type="text/html" id="templateProductView">
+    <tr>
+        <td data-bind="text: item.Id"></td>
+        <td data-bind="text: item.Name"></td>
+        <td data-bind="text: item.Synonyms"></td>
+        <td data-bind="text: $root.lookupStore(item.WhereToBuy)"></td>
+        <td><span data-bind="if: item.Buy"><span class="glyphicon glyphicon-ok"></span></span></td>
+        <td><span data-bind="if: item.Skip"><span class="glyphicon glyphicon-ok"></span></span></td>
+        <td>
+            <button class="show-on-hover btn btn-default btn-xs" type="button"><span class="glyphicon glyphicon-edit" data-bind="click: $root.beginEdit"></span></button>
+        </td>
+    </tr>
+</script>
+
+<script type="text/html" id="editTemplateProductView">
+    <tr>
+        <td data-bind="text: item.Id"></td>
+        <td><input class="form-control" data-bind="textInput: item.Name" /></td>
+        <td><input class="form-control" data-bind="textInput: item.Synonyms" /></td>
+        <td>
+            <!-- ko if: item.WhereToBuy -->
+            <select class="form-control" data-bind="options: $root.stores,
+                       optionsText: 'Name',
+                       optionsValue: 'Id',
+                       value: item.WhereToBuy.StoreId,
+                       optionsCaption: 'Choose...'"></select>
+            <select class="form-control" data-bind="options: $root.departments()[item.WhereToBuy.StoreId()],
+                       optionsText: 'Name',
+                       optionsValue: 'Id',
+                       value: item.WhereToBuy.DepartmentId,
+                       optionsCaption: 'Choose...'"></select>
+            <!-- /ko -->
+        </td>
+        <td><input class="checkbox" type="checkbox" data-bind="checked: item.Buy" /></td>
+        <td><input class="checkbox" type="checkbox" data-bind="checked: item.Skip" /></td>
+        <td>
+            <button class="btn btn-success btn-xs" type="button"><span class="glyphicon glyphicon-save green" data-bind="click: $root.save"></span></button>
+            <button class="btn btn-danger btn-xs" type="button"><span class="glyphicon glyphicon-remove" data-bind="click: $root.delete"></span></button>
+            <button class="btn btn-default btn-xs" type="button"><span class="glyphicon glyphicon-new-window" data-bind="click: $root.cancelEdit"></span></button>
+        </td>
+    </tr>
+</script>
+
+<script id="deleteDialog-template" type="text/html">
+    <div id="dialog-confirm" title="Delete company?">
+        <p>
+            <span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span>
+            Company "<span data-bind="text: Name"></span>" will be permanently deleted and cannot be recovered. Are you sure?
+        </p>
+    </div>
+</script>
+
+<div id="ProductView">
+    <div id="dialog" data-bind="dialog: { autoOpen: false, modal: true, title: 'Delete company?', submitLabel: 'Delete', onSubmit: deleteDialog.submit }, template: { name: 'deleteDialog-template', data: deleteDialog.data, 'if': deleteDialog.data }, openDialog: deleteDialog.data"></div>
+    <p data-bind="messageSlide: errorMessage, messageSlideDuration: 5000"></p>
+    
+    <h2><span data-bind="text: $root.items().length"></span> @ViewBag.Title </h2>
+
+    <table class="dataTable table table-metro-header table-left-thead-align table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Synonyms</th>
+                <th>WhereToBuy</th>
+                <th>Buy</th>
+                <th>Skip</th>
+                <th>Action&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            </tr>
+            <tr data-bind="foreach: { data: search, as: 'item' }">
+                <td><input class="form-control" data-bind="textInput: item.Id" /></td>
+                <td><input class="form-control" data-bind="textInput: item.Name" /></td>
+                <td><input class="form-control" data-bind="textInput: item.Synonyms" /></td>
+                <td>
+                    @*<select class="form-control" data-bind="options: $root.stores,
+                       optionsText: 'Name',
+                       optionsValue: 'Id',
+                       value: item.WhereToBuy.StoreId,
+                       optionsCaption: 'Choose...'"></select>*@
+                </td>
+                <td><input class="checkbox" type="checkbox" data-bind="checked: item.Buy" /></td>
+                <td><input class="checkbox" type="checkbox" data-bind="checked: item.Skip" /></td>
+                <td>
+                    <button class="btn btn-primary btn-xs" type="button"><span class="glyphicon glyphicon-search" data-bind="click: $root.load"></span></button>
+                    <button class="btn btn-success btn-xs" type="button"><span class="glyphicon glyphicon-plus" data-bind="click: $root.add"></span></button>
+                </td>
+            </tr>
+        </thead>
+        <tbody data-bind="template: { name: $root.getTemplateName, foreach: items, as: 'item' }"></tbody>
+    </table>
+</div>
+
+<script>
+    var model;
+    $(function () {
+        var view = 'ProductView';
+        var productModel = new RestBackedViewModel({
+            viewName: view,
+            baseUrl: '@Url.Content("~/Product")',
+            search: { Id: '@Model.id', Name: '@Model.name', Synonyms: '', WhereToBuy: { StoreId: 0 }, Buy: '', Skip: '' }
+        });
+        productModel.deleteDialog = new PopupDialog({
+            success: productModel.delete
+        });
+        productModel.stores = ko.observable([]);
+
+        productModel.departments = ko.pureComputed(function() {
+            return productModel.stores().map(function(store) {
+                return store.Departments;
+            });
+        }, productModel);
+
+        productModel.lookupStore = function (location) {
+            if (ko.isObservable(location)) {
+                location = location();
+            }
+
+            if (typeof location === 'undefined' || location === null) {
+                return 'undefined or null';
+            }
+            var storeId = location.StoreId();
+            var departmentId = location.DepartmentId();
+
+            var stores = productModel.stores();
+            if (stores.length === 0) {
+                return storeId;
+            }
+            var filtered = stores.filter(function (element) {
+                return element.Id === storeId;
+            });
+            if (filtered.length === 0) {
+                return storeId;
+            }
+            if (filtered.length > 1) {
+                return "More than one store was found by id: " + id;
+            }
+
+            var store = filtered[0];
+
+            var department = store.Departments.filter(function (element) {
+                return element.Id === departmentId;
+            })[0];
+
+            return store.Name + (department.Name != '' ? ' - ' + department.Name : '');
+        };
+
+        ko.applyBindings(productModel, document.getElementById(view));
+
+        $.getJSON('@Url.Content("~/Store/Get")', function (array) {
+            productModel.stores(array);
+        }).fail(function (error) {
+            alert(error);
+        });
+
+        model = productModel;
+    });
+</script>

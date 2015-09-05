@@ -1,0 +1,40 @@
+﻿<script type="text/ng-template" id="shoppingList_repeater.html">
+    <div class="list-group-item" ng-repeat="item in ::store.items">
+        <div class="row">
+            <div ng-click="expanded = !expanded" class="col-xs-8">
+                <h4>{{::item.product}}</h4>
+            </div>
+            <div class="col-xs-4">
+                <ui-switch ng-model='item.bought' ng-click="onItemBought(store.name)"></ui-switch>
+            </div>
+        </div>
+        <div class="row" ng-class="expanded ? '' : 'collapse'">
+            <div class="col-xs-12">
+                <dl style="margin-bottom: 0">
+                    <dt>Department:</dt>
+                    <dd>{{::item.department}}</dd>
+                    <dt>Dishes:</dt>
+                    <dd><span style="white-space: pre-wrap;">{{::item.name}}</span></dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</script>
+
+<div ui-content-for="title">
+    <span>{{getCurrentStore()}}</span>
+</div>
+
+<div class="scrollable">
+    <div class="scrollable-content" ui-scroll-bottom='bottomReached()' ng-init="list = getShoppingList()" ng-if="shoppingList.stores.length > 0">
+        <div ng-repeat-start="store in ::list.stores" ng-if="false"></div>
+        <div class="list-group" id="accordion" ng-show="store.name == getCurrentStore()">
+            <ng-include src="'shoppingList_repeater.html'" />
+        </div>
+        <div ng-repeat-end ng-if="false"></div>
+
+        <!--<div class="list-group" id="accordion" ng-repeat="store in ::list.stores" ng-show="">
+            <ng-include src="'shoppingList_repeater.html'" />
+        </div>-->
+    </div>
+</div>

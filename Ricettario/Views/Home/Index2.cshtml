@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html ng-app="AppMain" ng-controller="LandingPageController">
+<head>
+    <title ng-bind="models.helloAngular"></title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.css">
+    @Styles.Render("~/Content/css")
+</head>
+
+<script type="text/ng-template" id="poducts.html">
+    <div ng-controller="ApiController">
+        <h2>Products</h2>
+        <ul class="product">
+            @*<li ng-repeat="product in products | filter:query | orderBy:orderProp" class="thumbnail">*@
+            <li ng-repeat="product in products" class="thumbnail" ng-init="debugPrint(product)">
+                <p>{{product.Label}}</p>
+                <pre>{{product.Text}}</pre>
+            </li>
+        </ul>
+    </div>
+</script>
+
+
+<body>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" ng-click="navbarProperties.isCollapsed = !navbarProperties.isCollapsed">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Schedule", "Schedule", "Main", new { area = "" }, new { @class = "navbar-brand" })
+                <a class="navbar-brand" href="#">Ricettario</a>
+            </div>
+            <div class="navbar-collapse collapse" collapse="navbarProperties.isCollapsed">
+                <ul class="nav navbar-nav">
+                    <li><a href="/#/routeOne">Route One</a></li>
+                    <li><a href="/#/routeTwo/5">Route Two</a></li>
+                    <li><a href="/#/routeThree">Route Three</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/login">Login</a></li>
+                    <li><a href="/register">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div ui-grid="gridOptions" class="myGrid" ui-grid-edit ui-grid-cellnav></div>
+    </div>
+
+    <div class="container mainContent">
+        <div ng-view></div>
+    </div>
+
+    @Scripts.Render("~/bundles/AngularJs")
+    @Scripts.Render("~/bundles/AppMain")
+    
+    <script>
+        var Register;
+        $(function() {
+            Register = new ReferenceData();
+            Register.jsonUrl = '@Url.Content("~/Api/Stores")';
+            Register.load();
+        });
+
+        function ReferenceData() {
+            var self = this;
+            self.jsonUrl = "";
+            self.stores = null;
+            self.storesEnumerable = null;
+
+            self.load = function () {
+                $.getJSON(self.jsonUrl, function (array) {
+                    self.stores = ko.mapping.fromJS(array);
+                    self.storesEnumerable = Enumerable.From(array);
+                }).fail(function (error) {
+                    alert(error);
+                });
+            };
+
+            self.whereToBuy = function (data) {
+                var storeId = data.WhereToBuy.StoreId();
+                var departmentId = data.WhereToBuy.DepartmentId();
+                var store = self.storesEnumerable.Single(function (x) { return x.Id === storeId; });
+                var department = Enumerable.From(store.Departments).Single(function (x) { return x.Id === departmentId; });
+                return department.Name !== "" ? store.Name + ' - ' + department.Name : store.Name;
+            };
+        }
+
+    </script>
+
+    <script>
+        $(function () {
+            var viewModel = new ViewModel();
+            viewModel.jsonUrl = '@Url.Content("~/Api/Products?filter=")';
+            ko.applyBindings(viewModel);
+        });
+
+        function ViewModel() {
+            var self = this;
+
+            self.jsonUrl = "";
+            self.items = ko.mapping.fromJS([]);
+            self.filter = ko.observable("");
+
+            self.find = function () {
+                var filter = self.filter();
+                $.getJSON(self.jsonUrl + encodeURIComponent(filter), function (array) {
+                    var arrayLength = array.length;
+                    for (var i = 0; i < arrayLength; i++) {
+                        array[i].changed = false;
+                    }
+                    ko.mapping.fromJS(array, self.items);
+                }).fail(function (error) {
+                    alert(error);
+                });
+            };
+
+            self.save = function (data) {
+                alert(ko.toJSON(data));
+                data.changed(false);
+            };
+
+            //parameters order is reverted
+            self.onChange = function (data) {
+                data.changed(true);
+                return true;
+            };
+
+            self.getTemplate = function (data) {
+                return data.changed() ? 'product-template-edit' : 'product-template';
+            };
+        }
+    </script>
+
+    <style>
+        .itemTable tr .show-on-hover {
+            visibility: hidden;
+        }
+
+        .itemTable tr:hover .show-on-hover {
+            visibility: visible;
+        }
+
+        .itemTable input {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .itemTable input[type=checkbox] {
+            width: auto;
+            max-width: none;
+        }
+    </style>
+
+    <script type="text/html" id="product-template">
+        <tr>
+            <td data-bind="text: Id"></td>
+            <td data-bind="text: Name"></td>
+            <td data-bind="text: Synonyms"></td>
+            <td data-bind="text: Register.whereToBuy($data)"></td>
+            <td data-bind="text: Buy"></td>
+            <td data-bind="text: Skip"></td>
+            <td>
+                <button class="btn btn-default show-on-hover" data-bind="click: $root.onChange">edit</button>
+            </td>
+        </tr>
+    </script>
+
+    <script type="text/html" id="product-template-edit">
+        <tr>
+            <td data-bind="text: Id"></td>
+            <td><input data-bind="value: Name" /></td>
+            <td><input data-bind="value: Synonyms" /></td>
+            <td><input data-bind="value: WhereToBuy" /></td>
+            <td><input type="checkbox" data-bind="checked: Buy" /></td>
+            <td><input type="checkbox" data-bind="checked: Skip" /></td>
+            <td>
+                <button class="btn btn-success" data-bind="click: $root.save">save</button>
+            </td>
+        </tr>
+    </script>
+
+    <div>
+        <h2>Products</h2>
+        <input data-bind="value: filter" />
+        <button class="btn btn-primary" data-bind="click: find">find</button>
+        <table class="itemTable table table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Synonyms</th>
+                    <th>WhereToBuy</th>
+                    <th>Buy</th>
+                    <th>Skip</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody data-bind="template: { name: getTemplate, foreach: items, as: 'item' }"></tbody>
+            @*<tbody data-bind="foreach: { data: items, as: 'item' }">
+                    <tr>
+                        <td><button class="btn btn-default show-on-hover" data-bind="click: $root.onChange">edit</button></td>
+                        <td data-bind="text: item.changed"></td>
+                        <td data-bind="text: item.Id"></td>
+                        <td data-bind="text: item.Name"></td>
+                        <td data-bind="text: item.Synonyms"></td>
+                        <td data-bind="text: item.WhereToBuy"></td>
+                        <td data-bind="text: item.Buy"></td>
+                        <td data-bind="text: item.Skip"></td>
+                        <td>
+                            <!-- ko if: $data.changed -->
+                            <button class="btn btn-default" data-bind="click: $root.save">save</button>
+                            <!-- /ko -->
+                        </td>
+                    </tr>
+                </tbody>*@
+        </table>
+    </div>
+
+</body>
+
+</html>

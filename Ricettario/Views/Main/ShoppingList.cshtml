@@ -1,0 +1,158 @@
+﻿@{
+    ViewBag.Title = "Shopping Items for " + Model.parentName;
+}
+
+<style>
+    .pre-block {
+        display: block;
+        padding: 9.5px;
+        margin: 0 0 10px;
+        font-size: 13px;
+        line-height: 1.42857143;
+        word-break: break-all;
+        word-wrap: break-word;
+        color: #333333;
+        background-color: #f5f5f5;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        font-family: monospace;
+    }
+</style>
+
+<script type="text/html" id="templateShoppingListView">
+    <tr>
+        <td data-bind="text: item.Id"></td>
+        <td data-bind="text: item.Store"></td>
+        <td data-bind="text: item.Department"></td>
+        <td>
+            <div data-bind="foreach: { data: $root.parseIngredients(item.Name()), as: 'ingredient' }" class="pre-block">
+                <!-- ko ifnot: ingredient[0] === 'To Buy' -->
+                <div>
+                    <a data-bind="attr: { href: $root.recipeUrl + ingredient[0] , title: ingredient[0] }, text: ingredient[0]"></a>
+                    <span> - </span>
+                    <span data-bind="text: ingredient[1]"></span>
+                </div>
+                <!-- /ko -->
+                <!-- ko if: ingredient[0] === 'To Buy' -->
+                <div data-bind="text: ingredient[0]"></div>
+                <!-- /ko -->
+            </div>
+        </td>
+        <td>
+            <a data-bind="attr: { href: $root.productUrl + item.Product() , title: item.Product }, text: item.Product"></a>
+        </td>
+        <td><span data-bind="if: item.Buy"><span class="glyphicon glyphicon-ok"></span></span></td>
+        <td>
+            <button class="show-on-hover btn btn-default btn-xs" type="button"><span class="glyphicon glyphicon-edit" data-bind="click: $root.beginEdit"></span></button>
+        </td>
+    </tr>
+</script>
+
+<script type="text/html" id="editTemplateShoppingListView">
+    <tr>
+        <td data-bind="text: item.Id"></td>
+        <td><input class="form-control" data-bind="textInput: item.Store" /></td>
+        <td><input class="form-control" data-bind="textInput: item.Department" /></td>
+        <td><input class="form-control" data-bind="textInput: item.Name" /></td>
+        <td><input class="form-control" data-bind="textInput: item.Product" /></td>
+        <td><input class="checkbox" type="checkbox" data-bind="checked: item.Buy" /></td>
+        <td>
+            <button class="btn btn-success btn-xs" type="button"><span class="glyphicon glyphicon-save green" data-bind="click: $root.save"></span></button>
+            <button class="btn btn-danger btn-xs" type="button"><span class="glyphicon glyphicon-remove" data-bind="click: $root.delete"></span></button>
+            <button class="btn btn-default btn-xs" type="button"><span class="glyphicon glyphicon-new-window" data-bind="click: $root.cancelEdit"></span></button>
+        </td>
+    </tr>
+</script>
+
+<div id="ShoppingShoppingListView">
+    <p data-bind="messageSlide: errorMessage, messageSlideDuration: 5000"></p>
+
+    <h2><span data-bind="text: $root.items().length"></span> @ViewBag.Title </h2>
+    
+    <div class="form-group row">
+        <div class="col-sm-15">
+            <a href="@Url.Action("PrintShoppingList", "Main", new { weekNumber = Model.weekNumber, store = "BJs" })">BJs</a>&nbsp;&nbsp;
+            <a href="@Url.Action("PrintShoppingList", "Main", new { weekNumber = Model.weekNumber, store = "ShopRite" })">ShopRite</a>&nbsp;&nbsp;
+            <a href="@Url.Action("PrintSchedule", "Main", new { weekNumber = Model.weekNumber })">Menu</a>
+        </div>
+    </div>
+
+    <table class="dataTable table table-metro-header table-left-thead-align table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Store</th>
+                <th>Department</th>
+                <th>Description</th>
+                <th>Product</th>
+                <th>Buy</th>
+                <th>Action&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            </tr>
+            <tr data-bind="foreach: { data: search, as: 'item' }">
+                <td><input class="form-control" data-bind="textInput: item.Id" /></td>
+                <td><input class="form-control" data-bind="textInput: item.Store" /></td>
+                <td><input class="form-control" data-bind="textInput: item.Department" /></td>
+                <td><input class="form-control" data-bind="textInput: item.Name" /></td>
+                <td><input class="form-control" data-bind="textInput: item.Product" /></td>
+                <td></td>
+                <td>
+                    <button class="btn btn-primary btn-xs" type="button"><span class="glyphicon glyphicon-search" data-bind="click: $root.load"></span></button>
+                    <button class="btn btn-success btn-xs" type="button"><span class="glyphicon glyphicon-plus" data-bind="click: $root.add"></span></button>
+                </td>
+            </tr>
+        </thead>
+        <tbody data-bind="template: { name: $root.getTemplateName, foreach: items, as: 'item' }"></tbody>
+    </table>
+
+    <div class="form-group row">
+        <div class="col-sm-14">
+            <a href="@Url.Action("PrintShoppingList", "Main", new { weekNumber = Model.weekNumber, store = "BJs" })">BJs</a>&nbsp;&nbsp;
+            <a href="@Url.Action("PrintShoppingList", "Main", new { weekNumber = Model.weekNumber, store = "ShopRite" })">ShopRite</a>&nbsp;&nbsp;
+            <a href="@Url.Action("PrintSchedule", "Main", new { weekNumber = Model.weekNumber })">Menu</a>
+        </div>
+        <div class="col-sm-offset-14 col-sm-1 pull-right">
+            <button class="btn btn-default" type="button">
+                <div data-bind="click: $root.sendEmails">Send Emails</div>
+            </button>
+        </div>
+    </div>
+
+</div>
+
+
+
+<script>
+    var parentQuery = '?parentId=' + @Model.parentId;
+    var weekNumber = @Model.weekNumber;
+
+    var model;
+    $(function () {
+
+        var view = 'ShoppingListView';
+        var url = '@Url.Content("~/ShoppingListItem")';
+        model = new RestBackedViewModel({
+            postUrl: url + '/Post' + parentQuery,
+            putUrl: url + '/Put' + parentQuery,
+            deleteUrl: url + '/Delete' + parentQuery,
+            jsonUrl: url + '/Get' + parentQuery,
+            viewName: view,
+            baseUrl: url,
+            search: { Id: '', Name: '', Store: '', Department: '', Recipe: '', Product: '' }
+        });
+
+        model.productUrl = '@Url.Content("~/Products")' + '?name=';
+        model.recipeUrl = '@Url.Content("~/Recipes")' + '?name=';
+
+        model.parseIngredients = function(text) {
+            var lines = text.split("\n");
+            var array = lines.map(function (item) { return item.split(" - "); });
+            return array;
+        };
+
+        model.sendEmails = function() {
+            $.post('@Url.Content("~/Schedule/SendEmails")', { weekNumber: weekNumber }, function() {});
+        };
+
+        ko.applyBindings(model, document.getElementById(view));
+    });
+</script>
