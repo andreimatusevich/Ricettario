@@ -141,9 +141,12 @@
     <Content Include="CsvTest.Products.approved.txt" />
     <Content Include="CsvTest.Recipes.approved.txt" />
     <Content Include="CsvTest.Stores.approved.txt" />
+    <Content Include="ScheduleTest.Week.approved.txt" />
+    <Content Include="SubServicesTest.ParseIngridients.approved.txt" />
     <Content Include="TestData\EnToRu.txt" />
     <Content Include="TestData\RuToEn.txt" />
     <Content Include="TestData\weekschedule.txt" />
+    <Content Include="WeekTest.Load.approved.txt" />
     <Content Include="x64\SQLite.Interop.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -161,7 +164,9 @@
       <Name>Ricettario</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\System.Data.SQLite.Core.1.0.97.0\build\net45\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.97.0\build\net45\System.Data.SQLite.Core.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

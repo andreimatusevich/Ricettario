@@ -44,7 +44,8 @@ namespace Tests
         [UseReporter(typeof(WinMergeReporter))]
         public void ParseIngridients()
         {
-            var products = JsonConvert.DeserializeObject<List<Product>>(File.ReadAllText(CsvTest.GetPath("CsvTest.Products.approved.txt"))).Skip(1).ToList();
+            var json = File.ReadAllText(@"..\..\" + "CsvTest.Products.approved.txt");
+            var products = JsonConvert.DeserializeObject<List<Product>>(json).Skip(1).ToList();
             //var chickenbreasts = products.Where(p => p.Name == "chicken breasts");
             //products = chickenbreasts.Concat(products).ToList();
             products.Single(p => p.Name == "tomato").Synonyms += ",Томаты".ToLower();

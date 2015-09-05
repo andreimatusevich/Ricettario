@@ -1,0 +1,315 @@
+﻿{
+	Id: 20140721,
+	Date: 2014-07-21,
+	Days: 
+	[
+		{
+			Meals: 
+			[
+				{
+					Entries: [],
+					Index: 0,
+					Name: Breakfast
+				},
+				{
+					Entries: [],
+					Index: 1,
+					Name: Lunch
+				},
+				{
+					Entries: 
+					[
+						{
+							RecipeId: 83,
+							Index: 0,
+							Name: Пельмени
+						}
+					],
+					Index: 2,
+					Name: Dinner
+				}
+			],
+			Date: 2014-07-19,
+			Index: 0,
+			Name: Saturday
+		},
+		{
+			Meals: 
+			[
+				{
+					Entries: 
+					[
+						{
+							RecipeId: 80,
+							Index: 0,
+							Name: Омлет
+						},
+						{
+							RecipeId: 69,
+							Index: 0,
+							Name: Компот
+						},
+						{
+							RecipeId: 109,
+							Index: 0,
+							Name: Мюсли
+						}
+					],
+					Index: 0,
+					Name: Breakfast
+				},
+				{
+					Entries: 
+					[
+						{
+							RecipeId: 35,
+							Index: 0,
+							Name: Lamb Burgers
+						}
+					],
+					Index: 1,
+					Name: Lunch
+				},
+				{
+					Entries: 
+					[
+						{
+							RecipeId: 118,
+							Index: 0,
+							Name: Chicken and Zucchini Soup
+						}
+					],
+					Index: 2,
+					Name: Dinner
+				}
+			],
+			Date: 2014-07-20,
+			Index: 1,
+			Name: Sunday
+		},
+		{
+			Meals: 
+			[
+				{
+					Entries: 
+					[
+						{
+							RecipeId: 125,
+							Index: 0,
+							Name: Каша рисовая
+						}
+					],
+					Index: 0,
+					Name: Breakfast
+				},
+				{
+					Entries: 
+					[
+						{
+							RecipeId: 83,
+							Index: 0,
+							Name: Пельмени
+						}
+					],
+					Index: 1,
+					Name: Lunch
+				},
+				{
+					Entries: 
+					[
+						{
+							RecipeId: 118,
+							Index: 0,
+							Name: Chicken and Zucchini Soup
+						}
+					],
+					Index: 2,
+					Name: Dinner
+				}
+			],
+			Date: 2014-07-21,
+			Index: 2,
+			Name: Monday
+		},
+		{
+			Meals: 
+			[
+				{
+					Entries: 
+					[
+						{
+							RecipeId: 108,
+							Index: 0,
+							Name: Налистники с творогом
+						}
+					],
+					Index: 0,
+					Name: Breakfast
+				},
+				{
+					Entries: [],
+					Index: 1,
+					Name: Lunch
+				},
+				{
+					Entries: 
+					[
+						{
+							RecipeId: 33,
+							Index: 0,
+							Name: Homemade Humus with shpinat
+						}
+					],
+					Index: 2,
+					Name: Dinner
+				}
+			],
+			Date: 2014-07-22,
+			Index: 3,
+			Name: Tuesday
+		},
+		{
+			Meals: 
+			[
+				{
+					Entries: 
+					[
+						{
+							RecipeId: 80,
+							Index: 0,
+							Name: Омлет
+						}
+					],
+					Index: 0,
+					Name: Breakfast
+				},
+				{
+					Entries: 
+					[
+						{
+							RecipeId: 33,
+							Index: 0,
+							Name: Homemade Humus with shpinat
+						}
+					],
+					Index: 1,
+					Name: Lunch
+				},
+				{
+					Entries: 
+					[
+						{
+							RecipeId: 51,
+							Index: 0,
+							Name: Tilapia with orange
+						}
+					],
+					Index: 2,
+					Name: Dinner
+				}
+			],
+			Date: 2014-07-23,
+			Index: 4,
+			Name: Wednesday
+		},
+		{
+			Meals: 
+			[
+				{
+					Entries: 
+					[
+						{
+							RecipeId: 65,
+							Index: 0,
+							Name: Каша манная
+						}
+					],
+					Index: 0,
+					Name: Breakfast
+				},
+				{
+					Entries: 
+					[
+						{
+							RecipeId: 51,
+							Index: 0,
+							Name: Tilapia with orange
+						}
+					],
+					Index: 1,
+					Name: Lunch
+				},
+				{
+					Entries: [],
+					Index: 2,
+					Name: Dinner
+				}
+			],
+			Date: 2014-07-24,
+			Index: 5,
+			Name: Thursday
+		},
+		{
+			Meals: 
+			[
+				{
+					Entries: 
+					[
+						{
+							RecipeId: 66,
+							Index: 0,
+							Name: Каша овсянная
+						}
+					],
+					Index: 0,
+					Name: Breakfast
+				},
+				{
+					Entries: [],
+					Index: 1,
+					Name: Lunch
+				},
+				{
+					Entries: [],
+					Index: 2,
+					Name: Dinner
+				}
+			],
+			Date: 2014-07-25,
+			Index: 6,
+			Name: Friday
+		},
+		{
+			Meals: 
+			[
+				{
+					Entries: [],
+					Index: 0,
+					Name: Breakfast
+				},
+				{
+					Entries: [],
+					Index: 1,
+					Name: Lunch
+				},
+				{
+					Entries: [],
+					Index: 2,
+					Name: Dinner
+				}
+			],
+			Date: 2014-07-26,
+			Index: 7,
+			Name: Saturday
+		}
+	],
+	Products: 
+	[
+		173,
+		128,
+		88,
+		89
+	],
+	Index: 0,
+	Name: July 21
+}
