@@ -356,6 +356,7 @@
     <None Include="Properties\PublishProfiles\RicettarioLight.pubxml" />
     <Content Include="Static\shoppingList.html" />
     <Content Include="Static\sidebar.html" />
+    <Content Include="temp.txt" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
