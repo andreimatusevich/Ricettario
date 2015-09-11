@@ -109,7 +109,24 @@ namespace Ricettario.Controllers
             return filtered.ToEnumerable();
         }
     }
+    
+    [RoutePrefix("Ingredient")]
+    public class IngredientController : EntityWithParentController<Recipe, Ingredient>
+    {
+        public IngredientController(IDbConnectionFactory dbFactory)
+            : base(new RecipeAccessor(dbFactory))
+        {
+        }
 
+        protected override IEnumerable<Ingredient> Filter(Ingredient entity, List<Ingredient> list)
+        {
+            var filtered = new FilteredList<Ingredient>(base.Filter(entity, list));
+            filtered.Where(entity.Description, item => item.Description.ToLower().Contains(entity.Description.ToLower()));
+            filtered.Where(entity.ProductId, item => item.ProductId == entity.ProductId);
+            return filtered.ToEnumerable();
+        }
+    }
+    
     [RoutePrefix("Api/ShoppingList")]
     public class ShoppingListController : EntityController<ShoppingList>
     {
@@ -150,8 +167,7 @@ namespace Ricettario.Controllers
             }
         }
     }
-
-
+    
     [RoutePrefix("ShoppingListItem")]
     public class ShoppingListItemController : EntityWithParentController<ShoppingList, ShoppingListItem>
     {

@@ -23,13 +23,13 @@
     <tr>
         <td data-bind="text: item.Id"></td>
         <td data-bind="text: item.Name"></td>
-        <!-- ko if: (item.Reference() != null && item.Reference().toLowerCase().startsWith('http')) -->
-        <td><a data-bind="text: item.Description() || item.Reference().getHostname(), attr: { href: item.Reference(), title: item.Reference() }"></a></td>
+        <!-- ko if: item.Reference != undefined && item.Reference() != null && item.Reference() != '' && item.Reference().toLowerCase().startsWith('http') -->
+        <td><a data-bind="text: (item.Description ? item.Description() : undefined) || item.Reference().getHostname(), attr: { href: item.Reference(), title: item.Reference() }"></a></td>
         <!-- /ko -->
-        <!-- ko if: (item.Reference() != null && !item.Reference().toLowerCase().startsWith('http')) -->
-        <td data-bind="text: item.Reference() || item.Description()"></td>
+        <!-- ko if: item.Reference != undefined && item.Reference() != null && item.Reference() != '' && !item.Reference().toLowerCase().startsWith('http') -->
+        <td data-bind="text: item.Reference() || (item.Description ? item.Description() : undefined)"></td>
         <!-- /ko -->
-        <!-- ko if: item.Reference() == null -->
+        <!-- ko if: item.Reference == undefined || item.Reference() == null || item.Reference() == '' -->
         <td></td>
         <!-- /ko -->
         <td data-bind="text: item.Tags"></td>
