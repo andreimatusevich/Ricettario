@@ -73,6 +73,10 @@
     <Reference Include="FluentAssertions.Core">
       <HintPath>..\packages\FluentAssertions.3.5.0\lib\net45\FluentAssertions.Core.dll</HintPath>
     </Reference>
+    <Reference Include="MoreLinq, Version=1.1.18418.0, Culture=neutral, PublicKeyToken=384d532d7e88985d, processorArchitecture=MSIL">
+      <HintPath>..\packages\morelinq.1.1.1\lib\net35\MoreLinq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -121,6 +125,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CsvTest.cs" />
+    <Compile Include="DatabaseCreation\RecipeJsonTextConverterTests.cs" />
+    <Compile Include="DatabaseCreation\RecipesTests.cs" />
     <Compile Include="DataBaseTest.cs" />
     <Compile Include="FixData.cs" />
     <Compile Include="Import\ImportedProduct.cs" />
@@ -141,7 +147,14 @@
     <Content Include="CsvTest.Products.approved.txt" />
     <Content Include="CsvTest.Recipes.approved.txt" />
     <Content Include="CsvTest.Stores.approved.txt" />
+    <Content Include="DatabaseCreation\Data\google_docs_recepie.txt" />
+    <Content Include="DatabaseCreation\Data\simple_recepie.txt" />
+    <Content Include="DatabaseCreation\RecipeJsonTextConverterTests.GoogleDocs.approved.txt" />
+    <Content Include="DatabaseCreation\RecipeJsonTextConverterTests.Simple.approved.txt" />
     <Content Include="ScheduleTest.Week.approved.txt" />
+    <Content Include="SQLite.Interop.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="SubServicesTest.ParseIngridients.approved.txt" />
     <Content Include="TestData\EnToRu.txt" />
     <Content Include="TestData\RuToEn.txt" />
@@ -159,6 +172,10 @@
       <Project>{9c83f7f0-c9b9-49de-b291-7c11a4dd91d5}</Project>
       <Name>Ricettario.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Ricettario.Shared\Ricettario.Shared.csproj">
+      <Project>{1df1b650-5101-49d4-aeef-1db31d274ee5}</Project>
+      <Name>Ricettario.Shared</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Ricettario\Ricettario.csproj">
       <Project>{b14a6216-6cc4-4c88-8f6f-cf46e36b9b11}</Project>
       <Name>Ricettario</Name>
@@ -167,6 +184,7 @@
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\System.Data.SQLite.Core.1.0.97.0\build\net45\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.97.0\build\net45\System.Data.SQLite.Core.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
