@@ -166,6 +166,8 @@
     <Content Include="DatabaseCreation\Data\google_docs_recepie.txt" />
     <Content Include="DatabaseCreation\Data\simple_recepie.txt" />
     <Content Include="DatabaseCreation\Data\classic_buttermilk_waffles.txt" />
+    <Content Include="DatabaseCreation\Data\generated.txt" />
+    <Content Include="DatabaseCreation\RecipeJsonTextConverterTests.Generated.approved.txt" />
     <Content Include="DatabaseCreation\RecipeJsonTextConverterTests.GoogleDocs.approved.txt" />
     <Content Include="DatabaseCreation\RecipeJsonTextConverterTests.Simple.approved.txt" />
     <Content Include="DatabaseCreation\RecipeJsonTextConverterTests.WithDescription.approved.txt" />

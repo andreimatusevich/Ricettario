@@ -39,22 +39,12 @@ WriteLiteral("\r\n");
 
 
 
-WriteLiteral("\r\n\r\n");
-
-
-            
-            #line 5 "..\..\RecipeTemplate.cshtml"
-Write(Recipe.Name);
-
-            
-            #line default
-            #line hidden
-WriteLiteral("\r\n");
+WriteLiteral("\r\n\r\nName:\r\n");
 
 
             
             #line 6 "..\..\RecipeTemplate.cshtml"
- if (!String.IsNullOrWhiteSpace(Recipe.RecipeYield))
+ if (!String.IsNullOrWhiteSpace(Recipe.Name))
 {
     
             
@@ -62,23 +52,41 @@ WriteLiteral("\r\n");
             #line hidden
             
             #line 8 "..\..\RecipeTemplate.cshtml"
-Write(Recipe.RecipeYield);
+Write("\t" + Recipe.Name + Environment.NewLine);
 
             
             #line default
             #line hidden
             
             #line 8 "..\..\RecipeTemplate.cshtml"
-                         
+                                               
 }
 
             
             #line default
             #line hidden
+WriteLiteral("\r\nYield:\r\n");
+
 
             
-            #line 10 "..\..\RecipeTemplate.cshtml"
-Write(Environment.NewLine);
+            #line 12 "..\..\RecipeTemplate.cshtml"
+ if (!String.IsNullOrWhiteSpace(Recipe.RecipeYield))
+{
+    
+            
+            #line default
+            #line hidden
+            
+            #line 14 "..\..\RecipeTemplate.cshtml"
+Write("\t" + Recipe.RecipeYield + Environment.NewLine);
+
+            
+            #line default
+            #line hidden
+            
+            #line 14 "..\..\RecipeTemplate.cshtml"
+                                                      
+}
 
             
             #line default
@@ -87,7 +95,7 @@ WriteLiteral("\r\nIngredients:\r\n");
 
 
             
-            #line 12 "..\..\RecipeTemplate.cshtml"
+            #line 18 "..\..\RecipeTemplate.cshtml"
  if (Recipe.RecipeIngredients != null)
 {
     foreach (var item in Recipe.RecipeIngredients)
@@ -97,14 +105,14 @@ WriteLiteral("\r\nIngredients:\r\n");
             #line default
             #line hidden
             
-            #line 16 "..\..\RecipeTemplate.cshtml"
+            #line 22 "..\..\RecipeTemplate.cshtml"
     Write("\t" + item + Environment.NewLine);
 
             
             #line default
             #line hidden
             
-            #line 16 "..\..\RecipeTemplate.cshtml"
+            #line 22 "..\..\RecipeTemplate.cshtml"
                                             
     }
 }
@@ -116,7 +124,7 @@ WriteLiteral("\r\nDirections:\r\n");
 
 
             
-            #line 21 "..\..\RecipeTemplate.cshtml"
+            #line 27 "..\..\RecipeTemplate.cshtml"
  if (Recipe.RecipeInstructions != null)
 {
     foreach (var item in Recipe.RecipeInstructions)
@@ -126,14 +134,14 @@ WriteLiteral("\r\nDirections:\r\n");
             #line default
             #line hidden
             
-            #line 25 "..\..\RecipeTemplate.cshtml"
+            #line 31 "..\..\RecipeTemplate.cshtml"
     Write("\t" + item + Environment.NewLine);
 
             
             #line default
             #line hidden
             
-            #line 25 "..\..\RecipeTemplate.cshtml"
+            #line 31 "..\..\RecipeTemplate.cshtml"
                                             
     }
 }
@@ -145,7 +153,7 @@ WriteLiteral("\r\nDescription:\r\n");
 
 
             
-            #line 30 "..\..\RecipeTemplate.cshtml"
+            #line 36 "..\..\RecipeTemplate.cshtml"
  if (!String.IsNullOrWhiteSpace(Recipe.RecipeDescription))
 {
     
@@ -153,14 +161,14 @@ WriteLiteral("\r\nDescription:\r\n");
             #line default
             #line hidden
             
-            #line 32 "..\..\RecipeTemplate.cshtml"
+            #line 38 "..\..\RecipeTemplate.cshtml"
 Write("\t" + Recipe.RecipeDescription + Environment.NewLine);
 
             
             #line default
             #line hidden
             
-            #line 32 "..\..\RecipeTemplate.cshtml"
+            #line 38 "..\..\RecipeTemplate.cshtml"
                                                             
 }
 
@@ -171,7 +179,7 @@ WriteLiteral("\r\nAuthor:\r\n");
 
 
             
-            #line 36 "..\..\RecipeTemplate.cshtml"
+            #line 42 "..\..\RecipeTemplate.cshtml"
  if (!String.IsNullOrWhiteSpace(Recipe.Author))
 {
     
@@ -179,14 +187,14 @@ WriteLiteral("\r\nAuthor:\r\n");
             #line default
             #line hidden
             
-            #line 38 "..\..\RecipeTemplate.cshtml"
+            #line 44 "..\..\RecipeTemplate.cshtml"
 Write("\t" + Recipe.Author + Environment.NewLine);
 
             
             #line default
             #line hidden
             
-            #line 38 "..\..\RecipeTemplate.cshtml"
+            #line 44 "..\..\RecipeTemplate.cshtml"
                                                  
 }
 
@@ -197,7 +205,7 @@ WriteLiteral("\r\nTags:\r\n");
 
 
             
-            #line 42 "..\..\RecipeTemplate.cshtml"
+            #line 48 "..\..\RecipeTemplate.cshtml"
  if (Recipe.Tags != null)
 {
     foreach (var item in Recipe.Tags)
@@ -207,14 +215,14 @@ WriteLiteral("\r\nTags:\r\n");
             #line default
             #line hidden
             
-            #line 46 "..\..\RecipeTemplate.cshtml"
+            #line 52 "..\..\RecipeTemplate.cshtml"
     Write("\t" + item + Environment.NewLine);
 
             
             #line default
             #line hidden
             
-            #line 46 "..\..\RecipeTemplate.cshtml"
+            #line 52 "..\..\RecipeTemplate.cshtml"
                                             
     }
 }

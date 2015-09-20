@@ -24,8 +24,11 @@
   "RecipeYield": "Servings 4"
 }
 -------------------
-Braised Lamb Shanks with White Bean Purée
-Servings 4
+Name:
+	Braised Lamb Shanks with White Bean Purée
+
+Yield:
+	Servings 4
 
 Ingredients:
 	4 large or 8 small Australian lamb shanks

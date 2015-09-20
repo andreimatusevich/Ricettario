@@ -37,6 +37,15 @@ namespace Tests.DatabaseCreation
             TestParse(fileName);
         }
 
+        [Test]
+        [UseReporter(typeof(WinMergeReporter))]
+        public void Generated()
+        {
+            var fileName = @"..\..\DatabaseCreation\Data\generated.txt";
+            TestParse(fileName);
+        }
+
+
         private static void TestParse(string fileName)
         {
             var lines = File.ReadAllLines(fileName);

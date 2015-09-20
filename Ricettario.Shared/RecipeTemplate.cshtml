@@ -2,12 +2,18 @@
 @using System
 @functions { public Ricettario.Shared.Model.Recipe Recipe { get; set; } }
 
-@Recipe.Name
+Name:
+@if (!String.IsNullOrWhiteSpace(Recipe.Name))
+{
+    @("\t" + Recipe.Name + Environment.NewLine)
+}
+
+Yield:
 @if (!String.IsNullOrWhiteSpace(Recipe.RecipeYield))
 {
-    @(Recipe.RecipeYield)
+    @("\t" + Recipe.RecipeYield + Environment.NewLine)
 }
-@(Environment.NewLine)
+
 Ingredients:
 @if (Recipe.RecipeIngredients != null)
 {
