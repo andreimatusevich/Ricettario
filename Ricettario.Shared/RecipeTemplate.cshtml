@@ -1,0 +1,48 @@
+﻿@* Generator : Template TypeVisibility : Internal GeneratePrettyNames : true *@
+@using System
+@functions { public Ricettario.Shared.Model.Recipe Recipe { get; set; } }
+
+@Recipe.Name
+@if (!String.IsNullOrWhiteSpace(Recipe.RecipeYield))
+{
+    @(Recipe.RecipeYield)
+}
+@(Environment.NewLine)
+Ingredients:
+@if (Recipe.RecipeIngredients != null)
+{
+    foreach (var item in Recipe.RecipeIngredients)
+    {
+        @("\t" + item + Environment.NewLine)
+    }
+}
+
+Directions:
+@if (Recipe.RecipeInstructions != null)
+{
+    foreach (var item in Recipe.RecipeInstructions)
+    {
+        @("\t" + item + Environment.NewLine)
+    }
+}
+
+Description:
+@if (!String.IsNullOrWhiteSpace(Recipe.RecipeDescription))
+{
+    @("\t" + Recipe.RecipeDescription + Environment.NewLine)
+}
+
+Author:
+@if (!String.IsNullOrWhiteSpace(Recipe.Author))
+{
+    @("\t" + Recipe.Author + Environment.NewLine)
+}
+
+Tags:
+@if (Recipe.Tags != null)
+{
+    foreach (var item in Recipe.Tags)
+    {
+        @("\t" + item + Environment.NewLine)
+    }
+}

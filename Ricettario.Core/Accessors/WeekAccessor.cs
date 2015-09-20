@@ -51,25 +51,27 @@ namespace Ricettario.Core.Accessors
         private void PrePopulate(WeekSchedule week)
         {
             week.Sunday().Breakfast().Entries.Add(LookupEntry("Омлет"));
-            week.Sunday().Breakfast().Entries.Add(LookupEntry("Компот"));
-            week.Sunday().Breakfast().Entries.Add(LookupEntry("Мюсли"));
+            //week.Sunday().Breakfast().Entries.Add(LookupEntry("Компот"));
+            //week.Sunday().Breakfast().Entries.Add(LookupEntry("Мюсли"));
 
-            week.Monday().Breakfast().Entries.Add(LookupEntry("Каша рисовая"));
+            week.Monday().Breakfast().Entries.Add(LookupEntry("Panna cotta with berries"));
 
+
+            week.Tuesday().Breakfast().Entries.Add(LookupEntry("Каша рисовая"));
             week.Tuesday().Breakfast().Entries.Add(LookupEntry("Блинчики кабачковые"));
 
-            week.Wednesday().Breakfast().Entries.Add(LookupEntry("Морковный сок"));
+            //week.Wednesday().Breakfast().Entries.Add(LookupEntry("Морковный сок"));
             week.Wednesday().Breakfast().Entries.Add(LookupEntry("Творог"));
             week.Wednesday().Breakfast().Entries.Add(LookupEntry("Налистники с творогом"));
-            week.Wednesday().Breakfast().Entries.Add(LookupEntry("Мюсли"));
+            week.Wednesday().Breakfast().Entries.Add(LookupEntry("Сырники"));
+            //week.Wednesday().Breakfast().Entries.Add(LookupEntry("Мюсли"));
 
             week.Thursday().Breakfast().Entries.Add(LookupEntry("Каша овсянная"));
 
-            week.Friday().Breakfast().Entries.Add(LookupEntry("Сырники"));
-            week.Friday().Breakfast().Entries.Add(LookupEntry("Блинчики пухлые"));
-            week.Friday().Breakfast().Entries.Add(LookupEntry("Блины с бананом"));
+            //week.Friday().Breakfast().Entries.Add(LookupEntry("Блинчики пухлые"));
+            //week.Friday().Breakfast().Entries.Add(LookupEntry("Блины с бананом"));
             
-            week.Saturday().Breakfast().Entries.Add(LookupEntry("Свекольный сок"));
+            //week.Saturday().Breakfast().Entries.Add(LookupEntry("Свекольный сок"));
             week.Saturday().Breakfast().Entries.Add(LookupEntry("Каша манная"));
             
         }
